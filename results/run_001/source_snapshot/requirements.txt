@@ -1,0 +1,27 @@
+# Install into the Python used by the notebook:
+# python -m pip install -r requirements.txt
+# Linux reuses a compatible preinstalled CUDA-enabled PyTorch.
+# Actual installed versions are saved in every run's environment.json.
+
+torch>=2.8,<3 ; sys_platform == "linux"
+torch==2.14.0 ; sys_platform == "darwin"
+kernels==0.17.1 ; sys_platform == "darwin"
+transformers==5.17.0
+peft==0.21.0
+bitsandbytes==0.50.2
+accelerate==1.15.0
+huggingface-hub==1.32.0
+safetensors==0.8.0
+tensorboard==2.21.0
+
+tqdm>=4.66,<5
+numpy>=1.26,<3
+matplotlib>=3.8,<4
+psutil>=5.9,<8
+
+# Notebook support and project checks.
+jupyterlab>=4,<5
+ipykernel>=6,<8
+nbformat>=5,<6
+pytest>=8,<10
+ruff>=0.14,<1

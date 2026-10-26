@@ -1,0 +1,64 @@
+{
+  "execution": "One isolated process per arm; concurrent only with two selected CUDA devices",
+  "hardware": {
+    "arm_gpu": {
+      "lora": 0,
+      "qlora": 1
+    },
+    "arm_masks": {
+      "lora": "GPU-4eb6d14b-bb1a-ef2e-40a8-0e5b03caf9cc",
+      "qlora": "GPU-3a01765d-8b60-55ea-a83d-c70f8abb6586"
+    },
+    "batch_defaults": {
+      "evaluation_batch_size": 8,
+      "gradient_accumulation": 4,
+      "microbatch_size": 4
+    },
+    "compute_dtype": "bfloat16",
+    "device": "cuda",
+    "gpus": {
+      "0": {
+        "capability": [
+          8,
+          6
+        ],
+        "index": 0,
+        "name": "NVIDIA A40",
+        "total_memory": 47697690624,
+        "uuid": "GPU-4eb6d14b-bb1a-ef2e-40a8-0e5b03caf9cc"
+      },
+      "1": {
+        "capability": [
+          8,
+          6
+        ],
+        "index": 1,
+        "name": "NVIDIA A40",
+        "total_memory": 47697690624,
+        "uuid": "GPU-3a01765d-8b60-55ea-a83d-c70f8abb6586"
+      }
+    },
+    "host": {
+      "cpu_model": "Intel(R) Xeon(R) Gold 6342 CPU @ 2.80GHz",
+      "machine": "x86_64",
+      "memory_bytes": 540644093952,
+      "system": "Linux"
+    },
+    "matched_gpus": true,
+    "minimum_gpu_memory_bytes": 47697690624,
+    "native_bf16": {
+      "0": true,
+      "1": true
+    },
+    "parallel": true,
+    "selected_gpu_indices": [
+      0,
+      1
+    ],
+    "use_grad_scaler": false,
+    "version": 1
+  },
+  "resume": "Explicit run name; hardware replacement requires compatible session registration",
+  "timing_context": "Concurrent workers share CPU, RAM and storage; these are workload measurements",
+  "version": 1
+}

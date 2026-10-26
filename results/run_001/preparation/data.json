@@ -1,0 +1,37 @@
+{
+  "audit_normalization": "NFKC, casefold, collapse whitespace; audit only",
+  "consumption_policy": "Complete official partitions",
+  "duplicate_audit_counts": {
+    "exact": {
+      "conflicting_group_count": 9,
+      "cross_split_group_count": 37,
+      "duplicate_group_count": 88
+    },
+    "normalized": {
+      "conflicting_group_count": 9,
+      "cross_split_group_count": 37,
+      "duplicate_group_count": 88
+    }
+  },
+  "files": {
+    "duplicate_audit.json": "b13388531109aea668c148acc01af4f10dde4bc350675cb27960d0f6d24614fb",
+    "ontology.json": "fc60f3087c8d386180d31771767c79bc8b59cabe32fe407beef6b71fb2d57925",
+    "test.jsonl": "fa3a7cd9fb981efcb9a60ba04437538d47d5f09c5a166f01a6911e5af282e1bb",
+    "train.jsonl": "74821443d8cb3b29c8041c62559e02e3527861c25cef52e8e007a07a45e6b1d7",
+    "validation.jsonl": "08f452c3e9ff455bf3d31761319f48ddb4b0cc485637f31b512b72284acff7c1"
+  },
+  "novel_input_counts": {
+    "test": 2948,
+    "train": 0,
+    "validation": 2022
+  },
+  "novel_input_policy": "Test normalized utterance absent from both train and validation; dev absent from train",
+  "ontology_source": "Training annotations only; held-out labels checked for membership",
+  "preset": "full",
+  "split_counts": {
+    "test": 2974,
+    "train": 11514,
+    "validation": 2033
+  },
+  "split_policy": "All official partitions and rows retained; no resplitting or deduplication"
+}

@@ -1,0 +1,4790 @@
+{
+  "epoch": 3,
+  "global_step": 2160,
+  "metrics": {
+    "answer_nll_sum": 2651.6144159876458,
+    "answer_token_nll": 0.06406567967304466,
+    "answer_tokens": 41389,
+    "confusion_matrix": [
+      {
+        "count": 16,
+        "prediction": "alarm_query",
+        "target": "alarm_query"
+      },
+      {
+        "count": 1,
+        "prediction": "alarm_set",
+        "target": "alarm_query"
+      },
+      {
+        "count": 1,
+        "prediction": "calendar_set",
+        "target": "alarm_query"
+      },
+      {
+        "count": 1,
+        "prediction": "datetime_query",
+        "target": "alarm_query"
+      },
+      {
+        "count": 13,
+        "prediction": "alarm_remove",
+        "target": "alarm_remove"
+      },
+      {
+        "count": 1,
+        "prediction": "calendar_set",
+        "target": "alarm_remove"
+      },
+      {
+        "count": 27,
+        "prediction": "alarm_set",
+        "target": "alarm_set"
+      },
+      {
+        "count": 3,
+        "prediction": "calendar_set",
+        "target": "alarm_set"
+      },
+      {
+        "count": 1,
+        "prediction": "datetime_query",
+        "target": "alarm_set"
+      },
+      {
+        "count": 8,
+        "prediction": "audio_volume_down",
+        "target": "audio_volume_down"
+      },
+      {
+        "count": 14,
+        "prediction": "audio_volume_mute",
+        "target": "audio_volume_mute"
+      },
+      {
+        "count": 1,
+        "prediction": "iot_hue_lightoff",
+        "target": "audio_volume_mute"
+      },
+      {
+        "count": 11,
+        "prediction": "audio_volume_up",
+        "target": "audio_volume_up"
+      },
+      {
+        "count": 1,
+        "prediction": "play_audiobook",
+        "target": "audio_volume_up"
+      },
+      {
+        "count": 90,
+        "prediction": "calendar_query",
+        "target": "calendar_query"
+      },
+      {
+        "count": 1,
+        "prediction": "calendar_remove",
+        "target": "calendar_query"
+      },
+      {
+        "count": 4,
+        "prediction": "calendar_set",
+        "target": "calendar_query"
+      },
+      {
+        "count": 1,
+        "prediction": "general_quirky",
+        "target": "calendar_query"
+      },
+      {
+        "count": 1,
+        "prediction": "lists_query",
+        "target": "calendar_query"
+      },
+      {
+        "count": 2,
+        "prediction": "news_query",
+        "target": "calendar_query"
+      },
+      {
+        "count": 1,
+        "prediction": "qa_factoid",
+        "target": "calendar_query"
+      },
+      {
+        "count": 1,
+        "prediction": "social_query",
+        "target": "calendar_query"
+      },
+      {
+        "count": 1,
+        "prediction": "transport_query",
+        "target": "calendar_query"
+      },
+      {
+        "count": 47,
+        "prediction": "calendar_remove",
+        "target": "calendar_remove"
+      },
+      {
+        "count": 4,
+        "prediction": "calendar_query",
+        "target": "calendar_set"
+      },
+      {
+        "count": 2,
+        "prediction": "calendar_remove",
+        "target": "calendar_set"
+      },
+      {
+        "count": 122,
+        "prediction": "calendar_set",
+        "target": "calendar_set"
+      },
+      {
+        "count": 1,
+        "prediction": "social_post",
+        "target": "calendar_set"
+      },
+      {
+        "count": 2,
+        "prediction": "weather_query",
+        "target": "calendar_set"
+      },
+      {
+        "count": 2,
+        "prediction": "cooking_recipe",
+        "target": "cooking_query"
+      },
+      {
+        "count": 37,
+        "prediction": "cooking_recipe",
+        "target": "cooking_recipe"
+      },
+      {
+        "count": 1,
+        "prediction": "general_quirky",
+        "target": "cooking_recipe"
+      },
+      {
+        "count": 1,
+        "prediction": "qa_factoid",
+        "target": "cooking_recipe"
+      },
+      {
+        "count": 1,
+        "prediction": "social_post",
+        "target": "cooking_recipe"
+      },
+      {
+        "count": 1,
+        "prediction": "takeaway_order",
+        "target": "cooking_recipe"
+      },
+      {
+        "count": 9,
+        "prediction": "datetime_convert",
+        "target": "datetime_convert"
+      },
+      {
+        "count": 1,
+        "prediction": "alarm_set",
+        "target": "datetime_query"
+      },
+      {
+        "count": 1,
+        "prediction": "calendar_query",
+        "target": "datetime_query"
+      },
+      {
+        "count": 1,
+        "prediction": "calendar_set",
+        "target": "datetime_query"
+      },
+      {
+        "count": 61,
+        "prediction": "datetime_query",
+        "target": "datetime_query"
+      },
+      {
+        "count": 5,
+        "prediction": "email_addcontact",
+        "target": "email_addcontact"
+      },
+      {
+        "count": 1,
+        "prediction": "calendar_query",
+        "target": "email_query"
+      },
+      {
+        "count": 70,
+        "prediction": "email_query",
+        "target": "email_query"
+      },
+      {
+        "count": 1,
+        "prediction": "email_querycontact",
+        "target": "email_query"
+      },
+      {
+        "count": 1,
+        "prediction": "general_quirky",
+        "target": "email_query"
+      },
+      {
+        "count": 1,
+        "prediction": "calendar_remove",
+        "target": "email_querycontact"
+      },
+      {
+        "count": 15,
+        "prediction": "email_querycontact",
+        "target": "email_querycontact"
+      },
+      {
+        "count": 1,
+        "prediction": "calendar_set",
+        "target": "email_sendemail"
+      },
+      {
+        "count": 2,
+        "prediction": "email_addcontact",
+        "target": "email_sendemail"
+      },
+      {
+        "count": 1,
+        "prediction": "email_query",
+        "target": "email_sendemail"
+      },
+      {
+        "count": 59,
+        "prediction": "email_sendemail",
+        "target": "email_sendemail"
+      },
+      {
+        "count": 2,
+        "prediction": "calendar_set",
+        "target": "general_greet"
+      },
+      {
+        "count": 15,
+        "prediction": "general_joke",
+        "target": "general_joke"
+      },
+      {
+        "count": 1,
+        "prediction": "__invalid__",
+        "target": "general_quirky"
+      },
+      {
+        "count": 3,
+        "prediction": "calendar_query",
+        "target": "general_quirky"
+      },
+      {
+        "count": 1,
+        "prediction": "calendar_remove",
+        "target": "general_quirky"
+      },
+      {
+        "count": 4,
+        "prediction": "calendar_set",
+        "target": "general_quirky"
+      },
+      {
+        "count": 1,
+        "prediction": "cooking_query",
+        "target": "general_quirky"
+      },
+      {
+        "count": 2,
+        "prediction": "cooking_recipe",
+        "target": "general_quirky"
+      },
+      {
+        "count": 1,
+        "prediction": "datetime_query",
+        "target": "general_quirky"
+      },
+      {
+        "count": 1,
+        "prediction": "email_sendemail",
+        "target": "general_quirky"
+      },
+      {
+        "count": 1,
+        "prediction": "general_greet",
+        "target": "general_quirky"
+      },
+      {
+        "count": 55,
+        "prediction": "general_quirky",
+        "target": "general_quirky"
+      },
+      {
+        "count": 2,
+        "prediction": "lists_createoradd",
+        "target": "general_quirky"
+      },
+      {
+        "count": 1,
+        "prediction": "lists_query",
+        "target": "general_quirky"
+      },
+      {
+        "count": 8,
+        "prediction": "news_query",
+        "target": "general_quirky"
+      },
+      {
+        "count": 1,
+        "prediction": "play_audiobook",
+        "target": "general_quirky"
+      },
+      {
+        "count": 1,
+        "prediction": "qa_currency",
+        "target": "general_quirky"
+      },
+      {
+        "count": 4,
+        "prediction": "qa_definition",
+        "target": "general_quirky"
+      },
+      {
+        "count": 12,
+        "prediction": "qa_factoid",
+        "target": "general_quirky"
+      },
+      {
+        "count": 1,
+        "prediction": "qa_maths",
+        "target": "general_quirky"
+      },
+      {
+        "count": 1,
+        "prediction": "recommendation_movies",
+        "target": "general_quirky"
+      },
+      {
+        "count": 1,
+        "prediction": "social_post",
+        "target": "general_quirky"
+      },
+      {
+        "count": 1,
+        "prediction": "transport_query",
+        "target": "general_quirky"
+      },
+      {
+        "count": 1,
+        "prediction": "transport_traffic",
+        "target": "general_quirky"
+      },
+      {
+        "count": 1,
+        "prediction": "weather_query",
+        "target": "general_quirky"
+      },
+      {
+        "count": 19,
+        "prediction": "iot_cleaning",
+        "target": "iot_cleaning"
+      },
+      {
+        "count": 14,
+        "prediction": "iot_coffee",
+        "target": "iot_coffee"
+      },
+      {
+        "count": 22,
+        "prediction": "iot_hue_lightchange",
+        "target": "iot_hue_lightchange"
+      },
+      {
+        "count": 1,
+        "prediction": "__invalid__",
+        "target": "iot_hue_lightdim"
+      },
+      {
+        "count": 1,
+        "prediction": "iot_hue_lightchange",
+        "target": "iot_hue_lightdim"
+      },
+      {
+        "count": 14,
+        "prediction": "iot_hue_lightdim",
+        "target": "iot_hue_lightdim"
+      },
+      {
+        "count": 1,
+        "prediction": "iot_hue_lightoff",
+        "target": "iot_hue_lightdim"
+      },
+      {
+        "count": 16,
+        "prediction": "iot_hue_lightoff",
+        "target": "iot_hue_lightoff"
+      },
+      {
+        "count": 1,
+        "prediction": "iot_wemo_off",
+        "target": "iot_hue_lightoff"
+      },
+      {
+        "count": 5,
+        "prediction": "iot_hue_lighton",
+        "target": "iot_hue_lighton"
+      },
+      {
+        "count": 12,
+        "prediction": "iot_hue_lightup",
+        "target": "iot_hue_lightup"
+      },
+      {
+        "count": 5,
+        "prediction": "iot_wemo_off",
+        "target": "iot_wemo_off"
+      },
+      {
+        "count": 7,
+        "prediction": "iot_wemo_on",
+        "target": "iot_wemo_on"
+      },
+      {
+        "count": 1,
+        "prediction": "calendar_set",
+        "target": "lists_createoradd"
+      },
+      {
+        "count": 23,
+        "prediction": "lists_createoradd",
+        "target": "lists_createoradd"
+      },
+      {
+        "count": 1,
+        "prediction": "lists_remove",
+        "target": "lists_createoradd"
+      },
+      {
+        "count": 1,
+        "prediction": "__invalid__",
+        "target": "lists_query"
+      },
+      {
+        "count": 1,
+        "prediction": "calendar_query",
+        "target": "lists_query"
+      },
+      {
+        "count": 1,
+        "prediction": "calendar_set",
+        "target": "lists_query"
+      },
+      {
+        "count": 1,
+        "prediction": "lists_createoradd",
+        "target": "lists_query"
+      },
+      {
+        "count": 46,
+        "prediction": "lists_query",
+        "target": "lists_query"
+      },
+      {
+        "count": 1,
+        "prediction": "calendar_remove",
+        "target": "lists_remove"
+      },
+      {
+        "count": 1,
+        "prediction": "cooking_recipe",
+        "target": "lists_remove"
+      },
+      {
+        "count": 34,
+        "prediction": "lists_remove",
+        "target": "lists_remove"
+      },
+      {
+        "count": 1,
+        "prediction": "weather_query",
+        "target": "lists_remove"
+      },
+      {
+        "count": 1,
+        "prediction": "music_dislikeness",
+        "target": "music_dislikeness"
+      },
+      {
+        "count": 1,
+        "prediction": "play_music",
+        "target": "music_dislikeness"
+      },
+      {
+        "count": 1,
+        "prediction": "lists_query",
+        "target": "music_likeness"
+      },
+      {
+        "count": 15,
+        "prediction": "music_likeness",
+        "target": "music_likeness"
+      },
+      {
+        "count": 2,
+        "prediction": "music_likeness",
+        "target": "music_query"
+      },
+      {
+        "count": 23,
+        "prediction": "music_query",
+        "target": "music_query"
+      },
+      {
+        "count": 1,
+        "prediction": "music_settings",
+        "target": "music_query"
+      },
+      {
+        "count": 1,
+        "prediction": "news_query",
+        "target": "music_query"
+      },
+      {
+        "count": 3,
+        "prediction": "play_music",
+        "target": "music_query"
+      },
+      {
+        "count": 8,
+        "prediction": "music_settings",
+        "target": "music_settings"
+      },
+      {
+        "count": 1,
+        "prediction": "calendar_set",
+        "target": "news_query"
+      },
+      {
+        "count": 75,
+        "prediction": "news_query",
+        "target": "news_query"
+      },
+      {
+        "count": 5,
+        "prediction": "qa_factoid",
+        "target": "news_query"
+      },
+      {
+        "count": 1,
+        "prediction": "social_query",
+        "target": "news_query"
+      },
+      {
+        "count": 1,
+        "prediction": "calendar_remove",
+        "target": "play_audiobook"
+      },
+      {
+        "count": 32,
+        "prediction": "play_audiobook",
+        "target": "play_audiobook"
+      },
+      {
+        "count": 1,
+        "prediction": "play_music",
+        "target": "play_audiobook"
+      },
+      {
+        "count": 1,
+        "prediction": "play_podcasts",
+        "target": "play_audiobook"
+      },
+      {
+        "count": 1,
+        "prediction": "general_quirky",
+        "target": "play_game"
+      },
+      {
+        "count": 1,
+        "prediction": "music_query",
+        "target": "play_game"
+      },
+      {
+        "count": 1,
+        "prediction": "play_audiobook",
+        "target": "play_game"
+      },
+      {
+        "count": 19,
+        "prediction": "play_game",
+        "target": "play_game"
+      },
+      {
+        "count": 1,
+        "prediction": "__invalid__",
+        "target": "play_music"
+      },
+      {
+        "count": 1,
+        "prediction": "music_likeness",
+        "target": "play_music"
+      },
+      {
+        "count": 1,
+        "prediction": "music_query",
+        "target": "play_music"
+      },
+      {
+        "count": 1,
+        "prediction": "music_settings",
+        "target": "play_music"
+      },
+      {
+        "count": 1,
+        "prediction": "news_query",
+        "target": "play_music"
+      },
+      {
+        "count": 112,
+        "prediction": "play_music",
+        "target": "play_music"
+      },
+      {
+        "count": 1,
+        "prediction": "play_podcasts",
+        "target": "play_music"
+      },
+      {
+        "count": 4,
+        "prediction": "play_radio",
+        "target": "play_music"
+      },
+      {
+        "count": 1,
+        "prediction": "qa_factoid",
+        "target": "play_music"
+      },
+      {
+        "count": 2,
+        "prediction": "calendar_set",
+        "target": "play_podcasts"
+      },
+      {
+        "count": 1,
+        "prediction": "general_quirky",
+        "target": "play_podcasts"
+      },
+      {
+        "count": 1,
+        "prediction": "play_audiobook",
+        "target": "play_podcasts"
+      },
+      {
+        "count": 30,
+        "prediction": "play_podcasts",
+        "target": "play_podcasts"
+      },
+      {
+        "count": 2,
+        "prediction": "play_music",
+        "target": "play_radio"
+      },
+      {
+        "count": 1,
+        "prediction": "play_podcasts",
+        "target": "play_radio"
+      },
+      {
+        "count": 43,
+        "prediction": "play_radio",
+        "target": "play_radio"
+      },
+      {
+        "count": 31,
+        "prediction": "qa_currency",
+        "target": "qa_currency"
+      },
+      {
+        "count": 1,
+        "prediction": "qa_stock",
+        "target": "qa_currency"
+      },
+      {
+        "count": 1,
+        "prediction": "calendar_query",
+        "target": "qa_definition"
+      },
+      {
+        "count": 1,
+        "prediction": "cooking_recipe",
+        "target": "qa_definition"
+      },
+      {
+        "count": 2,
+        "prediction": "general_quirky",
+        "target": "qa_definition"
+      },
+      {
+        "count": 50,
+        "prediction": "qa_definition",
+        "target": "qa_definition"
+      },
+      {
+        "count": 1,
+        "prediction": "qa_factoid",
+        "target": "qa_definition"
+      },
+      {
+        "count": 1,
+        "prediction": "calendar_remove",
+        "target": "qa_factoid"
+      },
+      {
+        "count": 1,
+        "prediction": "datetime_query",
+        "target": "qa_factoid"
+      },
+      {
+        "count": 4,
+        "prediction": "general_quirky",
+        "target": "qa_factoid"
+      },
+      {
+        "count": 4,
+        "prediction": "news_query",
+        "target": "qa_factoid"
+      },
+      {
+        "count": 1,
+        "prediction": "qa_currency",
+        "target": "qa_factoid"
+      },
+      {
+        "count": 4,
+        "prediction": "qa_definition",
+        "target": "qa_factoid"
+      },
+      {
+        "count": 71,
+        "prediction": "qa_factoid",
+        "target": "qa_factoid"
+      },
+      {
+        "count": 2,
+        "prediction": "qa_maths",
+        "target": "qa_factoid"
+      },
+      {
+        "count": 1,
+        "prediction": "recommendation_locations",
+        "target": "qa_factoid"
+      },
+      {
+        "count": 1,
+        "prediction": "recommendation_movies",
+        "target": "qa_factoid"
+      },
+      {
+        "count": 1,
+        "prediction": "general_quirky",
+        "target": "qa_maths"
+      },
+      {
+        "count": 2,
+        "prediction": "news_query",
+        "target": "qa_maths"
+      },
+      {
+        "count": 10,
+        "prediction": "qa_maths",
+        "target": "qa_maths"
+      },
+      {
+        "count": 1,
+        "prediction": "general_quirky",
+        "target": "qa_stock"
+      },
+      {
+        "count": 23,
+        "prediction": "qa_stock",
+        "target": "qa_stock"
+      },
+      {
+        "count": 4,
+        "prediction": "calendar_query",
+        "target": "recommendation_events"
+      },
+      {
+        "count": 1,
+        "prediction": "general_quirky",
+        "target": "recommendation_events"
+      },
+      {
+        "count": 1,
+        "prediction": "lists_createoradd",
+        "target": "recommendation_events"
+      },
+      {
+        "count": 5,
+        "prediction": "news_query",
+        "target": "recommendation_events"
+      },
+      {
+        "count": 14,
+        "prediction": "recommendation_events",
+        "target": "recommendation_events"
+      },
+      {
+        "count": 1,
+        "prediction": "transport_query",
+        "target": "recommendation_events"
+      },
+      {
+        "count": 1,
+        "prediction": "cooking_recipe",
+        "target": "recommendation_locations"
+      },
+      {
+        "count": 1,
+        "prediction": "qa_factoid",
+        "target": "recommendation_locations"
+      },
+      {
+        "count": 27,
+        "prediction": "recommendation_locations",
+        "target": "recommendation_locations"
+      },
+      {
+        "count": 2,
+        "prediction": "takeaway_order",
+        "target": "recommendation_locations"
+      },
+      {
+        "count": 1,
+        "prediction": "calendar_set",
+        "target": "recommendation_movies"
+      },
+      {
+        "count": 11,
+        "prediction": "recommendation_movies",
+        "target": "recommendation_movies"
+      },
+      {
+        "count": 1,
+        "prediction": "news_query",
+        "target": "social_post"
+      },
+      {
+        "count": 49,
+        "prediction": "social_post",
+        "target": "social_post"
+      },
+      {
+        "count": 1,
+        "prediction": "calendar_query",
+        "target": "social_query"
+      },
+      {
+        "count": 1,
+        "prediction": "general_quirky",
+        "target": "social_query"
+      },
+      {
+        "count": 16,
+        "prediction": "social_query",
+        "target": "social_query"
+      },
+      {
+        "count": 1,
+        "prediction": "qa_factoid",
+        "target": "takeaway_order"
+      },
+      {
+        "count": 18,
+        "prediction": "takeaway_order",
+        "target": "takeaway_order"
+      },
+      {
+        "count": 1,
+        "prediction": "takeaway_query",
+        "target": "takeaway_order"
+      },
+      {
+        "count": 2,
+        "prediction": "takeaway_order",
+        "target": "takeaway_query"
+      },
+      {
+        "count": 22,
+        "prediction": "takeaway_query",
+        "target": "takeaway_query"
+      },
+      {
+        "count": 1,
+        "prediction": "qa_factoid",
+        "target": "transport_query"
+      },
+      {
+        "count": 34,
+        "prediction": "transport_query",
+        "target": "transport_query"
+      },
+      {
+        "count": 1,
+        "prediction": "transport_ticket",
+        "target": "transport_query"
+      },
+      {
+        "count": 27,
+        "prediction": "transport_taxi",
+        "target": "transport_taxi"
+      },
+      {
+        "count": 1,
+        "prediction": "transport_taxi",
+        "target": "transport_ticket"
+      },
+      {
+        "count": 24,
+        "prediction": "transport_ticket",
+        "target": "transport_ticket"
+      },
+      {
+        "count": 22,
+        "prediction": "transport_traffic",
+        "target": "transport_traffic"
+      },
+      {
+        "count": 1,
+        "prediction": "calendar_set",
+        "target": "weather_query"
+      },
+      {
+        "count": 1,
+        "prediction": "general_quirky",
+        "target": "weather_query"
+      },
+      {
+        "count": 1,
+        "prediction": "qa_maths",
+        "target": "weather_query"
+      },
+      {
+        "count": 123,
+        "prediction": "weather_query",
+        "target": "weather_query"
+      }
+    ],
+    "counts": {
+      "extra_slots": 262,
+      "intent_correct": 1821,
+      "joint_exact_match": 1441,
+      "json_valid": 2033,
+      "missing_slots": 241,
+      "schema_valid": 2028,
+      "slot_fn": 366,
+      "slot_fp": 387,
+      "slot_tp": 1646,
+      "structure_valid": 2033,
+      "wrong_values": 125
+    },
+    "evaluation_batch_size": 32,
+    "exact_match": 0.7088047220855878,
+    "example_count": 2033,
+    "failure_counts": {
+      "extra_slots": 246,
+      "missing_slots": 228,
+      "unknown_intent": 4,
+      "unknown_slot_type": 1,
+      "wrong_intent": 212,
+      "wrong_values": 120
+    },
+    "generation_batches": [
+      {
+        "batch_index": 0,
+        "batch_size": 32,
+        "example_ids": [
+          "11",
+          "17",
+          "24",
+          "26",
+          "30",
+          "42",
+          "53",
+          "58",
+          "67",
+          "68",
+          "74",
+          "90",
+          "99",
+          "107",
+          "109",
+          "112",
+          "113",
+          "115",
+          "127",
+          "138",
+          "147",
+          "148",
+          "167",
+          "173",
+          "188",
+          "217",
+          "229",
+          "230",
+          "232",
+          "237",
+          "242",
+          "251"
+        ],
+        "generated_tokens": 648,
+        "generation_seconds": 3.4948338121175766,
+        "padded_prompt_tokens": 531
+      },
+      {
+        "batch_index": 1,
+        "batch_size": 32,
+        "example_ids": [
+          "271",
+          "295",
+          "298",
+          "311",
+          "312",
+          "318",
+          "331",
+          "345",
+          "346",
+          "353",
+          "365",
+          "368",
+          "375",
+          "387",
+          "388",
+          "392",
+          "406",
+          "415",
+          "431",
+          "434",
+          "439",
+          "444",
+          "465",
+          "476",
+          "480",
+          "490",
+          "510",
+          "511",
+          "516",
+          "517",
+          "523",
+          "532"
+        ],
+        "generated_tokens": 568,
+        "generation_seconds": 2.8576257191598415,
+        "padded_prompt_tokens": 529
+      },
+      {
+        "batch_index": 2,
+        "batch_size": 32,
+        "example_ids": [
+          "534",
+          "536",
+          "538",
+          "541",
+          "552",
+          "562",
+          "582",
+          "595",
+          "601",
+          "610",
+          "616",
+          "617",
+          "626",
+          "638",
+          "657",
+          "658",
+          "676",
+          "678",
+          "682",
+          "689",
+          "691",
+          "697",
+          "707",
+          "708",
+          "710",
+          "711",
+          "718",
+          "737",
+          "741",
+          "756",
+          "762",
+          "763"
+        ],
+        "generated_tokens": 576,
+        "generation_seconds": 3.1799345617182553,
+        "padded_prompt_tokens": 530
+      },
+      {
+        "batch_index": 3,
+        "batch_size": 32,
+        "example_ids": [
+          "776",
+          "778",
+          "803",
+          "806",
+          "807",
+          "817",
+          "835",
+          "851",
+          "885",
+          "895",
+          "896",
+          "906",
+          "921",
+          "925",
+          "937",
+          "943",
+          "966",
+          "975",
+          "984",
+          "1012",
+          "1015",
+          "1016",
+          "1023",
+          "1027",
+          "1038",
+          "1051",
+          "1058",
+          "1085",
+          "1094",
+          "1122",
+          "1125",
+          "1177"
+        ],
+        "generated_tokens": 687,
+        "generation_seconds": 3.7413824549876153,
+        "padded_prompt_tokens": 536
+      },
+      {
+        "batch_index": 4,
+        "batch_size": 32,
+        "example_ids": [
+          "1179",
+          "1189",
+          "1192",
+          "1196",
+          "1197",
+          "1201",
+          "1209",
+          "1210",
+          "1211",
+          "1215",
+          "1216",
+          "1222",
+          "1223",
+          "1224",
+          "1225",
+          "1227",
+          "1234",
+          "1241",
+          "1257",
+          "1259",
+          "1268",
+          "1271",
+          "1272",
+          "1277",
+          "1295",
+          "1312",
+          "1327",
+          "1333",
+          "1334",
+          "1346",
+          "1349",
+          "1357"
+        ],
+        "generated_tokens": 740,
+        "generation_seconds": 3.597148961853236,
+        "padded_prompt_tokens": 533
+      },
+      {
+        "batch_index": 5,
+        "batch_size": 32,
+        "example_ids": [
+          "1365",
+          "1380",
+          "1416",
+          "1430",
+          "1446",
+          "1466",
+          "1468",
+          "1478",
+          "1525",
+          "1544",
+          "1545",
+          "1548",
+          "1557",
+          "1558",
+          "1566",
+          "1569",
+          "1576",
+          "1599",
+          "1615",
+          "1621",
+          "1625",
+          "1637",
+          "1664",
+          "1678",
+          "1680",
+          "1687",
+          "1688",
+          "1696",
+          "1698",
+          "1702",
+          "1726",
+          "1732"
+        ],
+        "generated_tokens": 625,
+        "generation_seconds": 3.3795662079937756,
+        "padded_prompt_tokens": 532
+      },
+      {
+        "batch_index": 6,
+        "batch_size": 32,
+        "example_ids": [
+          "1770",
+          "1771",
+          "1791",
+          "1793",
+          "1805",
+          "1818",
+          "1823",
+          "1827",
+          "1834",
+          "1839",
+          "1858",
+          "1871",
+          "1877",
+          "1888",
+          "1894",
+          "1901",
+          "1902",
+          "1910",
+          "1914",
+          "1925",
+          "1928",
+          "1934",
+          "1943",
+          "1945",
+          "1948",
+          "1953",
+          "1971",
+          "1988",
+          "2003",
+          "2006",
+          "2009",
+          "2040"
+        ],
+        "generated_tokens": 560,
+        "generation_seconds": 2.867732994724065,
+        "padded_prompt_tokens": 531
+      },
+      {
+        "batch_index": 7,
+        "batch_size": 32,
+        "example_ids": [
+          "2042",
+          "2058",
+          "2069",
+          "2073",
+          "2088",
+          "2092",
+          "2095",
+          "2103",
+          "2112",
+          "2115",
+          "2118",
+          "2120",
+          "2122",
+          "2125",
+          "2140",
+          "2144",
+          "2149",
+          "2154",
+          "2157",
+          "2158",
+          "2161",
+          "2179",
+          "2187",
+          "2196",
+          "2200",
+          "2211",
+          "2221",
+          "2227",
+          "2246",
+          "2259",
+          "2272",
+          "2282"
+        ],
+        "generated_tokens": 634,
+        "generation_seconds": 3.9194175298325717,
+        "padded_prompt_tokens": 534
+      },
+      {
+        "batch_index": 8,
+        "batch_size": 32,
+        "example_ids": [
+          "2303",
+          "2312",
+          "2313",
+          "2318",
+          "2321",
+          "2323",
+          "2353",
+          "2360",
+          "2364",
+          "2392",
+          "2417",
+          "2419",
+          "2420",
+          "2421",
+          "2425",
+          "2428",
+          "2431",
+          "2464",
+          "2467",
+          "2470",
+          "2478",
+          "2483",
+          "2495",
+          "2499",
+          "2514",
+          "2515",
+          "2518",
+          "2520",
+          "2526",
+          "2538",
+          "2544",
+          "2553"
+        ],
+        "generated_tokens": 531,
+        "generation_seconds": 2.5035656951367855,
+        "padded_prompt_tokens": 528
+      },
+      {
+        "batch_index": 9,
+        "batch_size": 32,
+        "example_ids": [
+          "2558",
+          "2562",
+          "2563",
+          "2576",
+          "2582",
+          "2583",
+          "2590",
+          "2598",
+          "2599",
+          "2600",
+          "2620",
+          "2621",
+          "2622",
+          "2623",
+          "2625",
+          "2641",
+          "2643",
+          "2649",
+          "2654",
+          "2665",
+          "2668",
+          "2672",
+          "2675",
+          "2687",
+          "2693",
+          "2699",
+          "2701",
+          "2710",
+          "2720",
+          "2740",
+          "2741",
+          "2742"
+        ],
+        "generated_tokens": 643,
+        "generation_seconds": 3.2369437608867884,
+        "padded_prompt_tokens": 531
+      },
+      {
+        "batch_index": 10,
+        "batch_size": 32,
+        "example_ids": [
+          "2749",
+          "2757",
+          "2763",
+          "2769",
+          "2783",
+          "2790",
+          "2797",
+          "2810",
+          "2814",
+          "2821",
+          "2822",
+          "2825",
+          "2834",
+          "2835",
+          "2841",
+          "2844",
+          "2846",
+          "2851",
+          "2863",
+          "2869",
+          "2879",
+          "2886",
+          "2889",
+          "2901",
+          "2919",
+          "2932",
+          "2935",
+          "2936",
+          "2943",
+          "2946",
+          "2949",
+          "2955"
+        ],
+        "generated_tokens": 671,
+        "generation_seconds": 3.0210036151111126,
+        "padded_prompt_tokens": 528
+      },
+      {
+        "batch_index": 11,
+        "batch_size": 32,
+        "example_ids": [
+          "2963",
+          "2971",
+          "2978",
+          "2979",
+          "2991",
+          "2992",
+          "2993",
+          "3004",
+          "3018",
+          "3028",
+          "3041",
+          "3045",
+          "3046",
+          "3056",
+          "3082",
+          "3088",
+          "3094",
+          "3121",
+          "3123",
+          "3134",
+          "3139",
+          "3148",
+          "3149",
+          "3151",
+          "3160",
+          "3166",
+          "3177",
+          "3183",
+          "3194",
+          "3200",
+          "3202",
+          "3203"
+        ],
+        "generated_tokens": 551,
+        "generation_seconds": 2.9045605501160026,
+        "padded_prompt_tokens": 531
+      },
+      {
+        "batch_index": 12,
+        "batch_size": 32,
+        "example_ids": [
+          "3242",
+          "3248",
+          "3261",
+          "3270",
+          "3281",
+          "3285",
+          "3287",
+          "3293",
+          "3296",
+          "3309",
+          "3340",
+          "3377",
+          "3394",
+          "3402",
+          "3404",
+          "3421",
+          "3437",
+          "3439",
+          "3443",
+          "3454",
+          "3463",
+          "3464",
+          "3466",
+          "3471",
+          "3496",
+          "3511",
+          "3528",
+          "3530",
+          "3547",
+          "3551",
+          "3563",
+          "3588"
+        ],
+        "generated_tokens": 633,
+        "generation_seconds": 3.3070418732240796,
+        "padded_prompt_tokens": 529
+      },
+      {
+        "batch_index": 13,
+        "batch_size": 32,
+        "example_ids": [
+          "3589",
+          "3599",
+          "3602",
+          "3609",
+          "3613",
+          "3620",
+          "3632",
+          "3637",
+          "3649",
+          "3651",
+          "3652",
+          "3665",
+          "3676",
+          "3701",
+          "3704",
+          "3705",
+          "3712",
+          "3713",
+          "3720",
+          "3721",
+          "3724",
+          "3744",
+          "3754",
+          "3758",
+          "3768",
+          "3801",
+          "3803",
+          "3804",
+          "3811",
+          "3840",
+          "3843",
+          "3863"
+        ],
+        "generated_tokens": 665,
+        "generation_seconds": 3.557213414926082,
+        "padded_prompt_tokens": 529
+      },
+      {
+        "batch_index": 14,
+        "batch_size": 32,
+        "example_ids": [
+          "3865",
+          "3868",
+          "3875",
+          "3876",
+          "3880",
+          "3895",
+          "3898",
+          "3904",
+          "3926",
+          "3940",
+          "3941",
+          "3954",
+          "3956",
+          "3968",
+          "3970",
+          "3972",
+          "3973",
+          "3997",
+          "4003",
+          "4008",
+          "4012",
+          "4033",
+          "4046",
+          "4065",
+          "4094",
+          "4114",
+          "4117",
+          "4127",
+          "4129",
+          "4131",
+          "4134",
+          "4156"
+        ],
+        "generated_tokens": 598,
+        "generation_seconds": 3.3657461651600897,
+        "padded_prompt_tokens": 535
+      },
+      {
+        "batch_index": 15,
+        "batch_size": 32,
+        "example_ids": [
+          "4161",
+          "4175",
+          "4191",
+          "4198",
+          "4228",
+          "4233",
+          "4243",
+          "4277",
+          "4278",
+          "4287",
+          "4291",
+          "4292",
+          "4301",
+          "4302",
+          "4317",
+          "4318",
+          "4326",
+          "4338",
+          "4339",
+          "4359",
+          "4360",
+          "4387",
+          "4398",
+          "4421",
+          "4422",
+          "4424",
+          "4440",
+          "4481",
+          "4483",
+          "4494",
+          "4495",
+          "4497"
+        ],
+        "generated_tokens": 639,
+        "generation_seconds": 3.387662996072322,
+        "padded_prompt_tokens": 532
+      },
+      {
+        "batch_index": 16,
+        "batch_size": 32,
+        "example_ids": [
+          "4501",
+          "4515",
+          "4519",
+          "4532",
+          "4538",
+          "4545",
+          "4546",
+          "4551",
+          "4558",
+          "4573",
+          "4579",
+          "4582",
+          "4600",
+          "4603",
+          "4604",
+          "4619",
+          "4622",
+          "4623",
+          "4632",
+          "4645",
+          "4664",
+          "4674",
+          "4675",
+          "4681",
+          "4687",
+          "4693",
+          "4694",
+          "4696",
+          "4697",
+          "4705",
+          "4723",
+          "4728"
+        ],
+        "generated_tokens": 627,
+        "generation_seconds": 3.6499857660382986,
+        "padded_prompt_tokens": 537
+      },
+      {
+        "batch_index": 17,
+        "batch_size": 32,
+        "example_ids": [
+          "4729",
+          "4730",
+          "4741",
+          "4745",
+          "4752",
+          "4775",
+          "4778",
+          "4779",
+          "4786",
+          "4791",
+          "4796",
+          "4810",
+          "4814",
+          "4822",
+          "4823",
+          "4827",
+          "4835",
+          "4836",
+          "4840",
+          "4850",
+          "4853",
+          "4867",
+          "4872",
+          "4892",
+          "4899",
+          "4900",
+          "4908",
+          "4911",
+          "4939",
+          "4941",
+          "4942",
+          "4967"
+        ],
+        "generated_tokens": 602,
+        "generation_seconds": 3.0839636689051986,
+        "padded_prompt_tokens": 529
+      },
+      {
+        "batch_index": 18,
+        "batch_size": 32,
+        "example_ids": [
+          "4971",
+          "4979",
+          "5004",
+          "5015",
+          "5021",
+          "5025",
+          "5028",
+          "5034",
+          "5035",
+          "5057",
+          "5060",
+          "5063",
+          "5064",
+          "5069",
+          "5084",
+          "5094",
+          "5099",
+          "5100",
+          "5105",
+          "5107",
+          "5108",
+          "5113",
+          "5126",
+          "5142",
+          "5150",
+          "5154",
+          "5175",
+          "5180",
+          "5181",
+          "5182",
+          "5183",
+          "5184"
+        ],
+        "generated_tokens": 599,
+        "generation_seconds": 2.919220427982509,
+        "padded_prompt_tokens": 530
+      },
+      {
+        "batch_index": 19,
+        "batch_size": 32,
+        "example_ids": [
+          "5186",
+          "5189",
+          "5202",
+          "5216",
+          "5232",
+          "5236",
+          "5242",
+          "5249",
+          "5251",
+          "5267",
+          "5280",
+          "5282",
+          "5290",
+          "5322",
+          "5336",
+          "5342",
+          "5352",
+          "5359",
+          "5362",
+          "5372",
+          "5376",
+          "5382",
+          "5386",
+          "5393",
+          "5404",
+          "5408",
+          "5436",
+          "5449",
+          "5453",
+          "5456",
+          "5461",
+          "5462"
+        ],
+        "generated_tokens": 682,
+        "generation_seconds": 3.186094316188246,
+        "padded_prompt_tokens": 529
+      },
+      {
+        "batch_index": 20,
+        "batch_size": 32,
+        "example_ids": [
+          "5471",
+          "5476",
+          "5478",
+          "5479",
+          "5494",
+          "5516",
+          "5518",
+          "5520",
+          "5526",
+          "5536",
+          "5541",
+          "5546",
+          "5556",
+          "5561",
+          "5565",
+          "5567",
+          "5569",
+          "5581",
+          "5596",
+          "5604",
+          "5609",
+          "5621",
+          "5632",
+          "5636",
+          "5638",
+          "5651",
+          "5653",
+          "5655",
+          "5666",
+          "5667",
+          "5672",
+          "5684"
+        ],
+        "generated_tokens": 614,
+        "generation_seconds": 3.0662142359651625,
+        "padded_prompt_tokens": 543
+      },
+      {
+        "batch_index": 21,
+        "batch_size": 32,
+        "example_ids": [
+          "5690",
+          "5696",
+          "5699",
+          "5726",
+          "5728",
+          "5735",
+          "5741",
+          "5743",
+          "5744",
+          "5746",
+          "5755",
+          "5763",
+          "5770",
+          "5782",
+          "5788",
+          "5792",
+          "5793",
+          "5816",
+          "5824",
+          "5832",
+          "5854",
+          "5862",
+          "5867",
+          "5882",
+          "5884",
+          "5937",
+          "5943",
+          "5957",
+          "5968",
+          "5982",
+          "5989",
+          "5990"
+        ],
+        "generated_tokens": 560,
+        "generation_seconds": 3.321582369040698,
+        "padded_prompt_tokens": 531
+      },
+      {
+        "batch_index": 22,
+        "batch_size": 32,
+        "example_ids": [
+          "6001",
+          "6008",
+          "6009",
+          "6035",
+          "6044",
+          "6052",
+          "6071",
+          "6079",
+          "6089",
+          "6096",
+          "6104",
+          "6105",
+          "6107",
+          "6111",
+          "6115",
+          "6120",
+          "6131",
+          "6132",
+          "6135",
+          "6136",
+          "6140",
+          "6144",
+          "6158",
+          "6164",
+          "6169",
+          "6170",
+          "6176",
+          "6183",
+          "6187",
+          "6188",
+          "6193",
+          "6198"
+        ],
+        "generated_tokens": 643,
+        "generation_seconds": 3.779870198108256,
+        "padded_prompt_tokens": 531
+      },
+      {
+        "batch_index": 23,
+        "batch_size": 32,
+        "example_ids": [
+          "6209",
+          "6236",
+          "6240",
+          "6246",
+          "6249",
+          "6259",
+          "6262",
+          "6265",
+          "6271",
+          "6303",
+          "6314",
+          "6317",
+          "6356",
+          "6361",
+          "6364",
+          "6367",
+          "6381",
+          "6389",
+          "6404",
+          "6414",
+          "6420",
+          "6422",
+          "6425",
+          "6452",
+          "6482",
+          "6483",
+          "6490",
+          "6493",
+          "6499",
+          "6502",
+          "6513",
+          "6520"
+        ],
+        "generated_tokens": 517,
+        "generation_seconds": 2.8978304313495755,
+        "padded_prompt_tokens": 528
+      },
+      {
+        "batch_index": 24,
+        "batch_size": 32,
+        "example_ids": [
+          "6522",
+          "6540",
+          "6548",
+          "6558",
+          "6570",
+          "6571",
+          "6595",
+          "6597",
+          "6599",
+          "6603",
+          "6607",
+          "6613",
+          "6628",
+          "6638",
+          "6640",
+          "6642",
+          "6648",
+          "6655",
+          "6673",
+          "6675",
+          "6677",
+          "6692",
+          "6699",
+          "6723",
+          "6734",
+          "6741",
+          "6751",
+          "6760",
+          "6771",
+          "6775",
+          "6778",
+          "6779"
+        ],
+        "generated_tokens": 521,
+        "generation_seconds": 3.5225446610711515,
+        "padded_prompt_tokens": 527
+      },
+      {
+        "batch_index": 25,
+        "batch_size": 32,
+        "example_ids": [
+          "6792",
+          "6808",
+          "6821",
+          "6823",
+          "6827",
+          "6831",
+          "6841",
+          "6858",
+          "6873",
+          "6875",
+          "6881",
+          "6883",
+          "6898",
+          "6905",
+          "6908",
+          "6912",
+          "6914",
+          "6920",
+          "6925",
+          "6927",
+          "6929",
+          "6932",
+          "6939",
+          "6948",
+          "6952",
+          "6963",
+          "6985",
+          "6990",
+          "6991",
+          "7007",
+          "7016",
+          "7034"
+        ],
+        "generated_tokens": 722,
+        "generation_seconds": 3.9471035776659846,
+        "padded_prompt_tokens": 531
+      },
+      {
+        "batch_index": 26,
+        "batch_size": 32,
+        "example_ids": [
+          "7035",
+          "7043",
+          "7052",
+          "7064",
+          "7065",
+          "7066",
+          "7070",
+          "7086",
+          "7101",
+          "7104",
+          "7108",
+          "7112",
+          "7131",
+          "7134",
+          "7136",
+          "7164",
+          "7169",
+          "7174",
+          "7184",
+          "7201",
+          "7223",
+          "7229",
+          "7239",
+          "7244",
+          "7255",
+          "7260",
+          "7279",
+          "7300",
+          "7305",
+          "7309",
+          "7310",
+          "7312"
+        ],
+        "generated_tokens": 894,
+        "generation_seconds": 4.726263923104852,
+        "padded_prompt_tokens": 536
+      },
+      {
+        "batch_index": 27,
+        "batch_size": 32,
+        "example_ids": [
+          "7317",
+          "7341",
+          "7345",
+          "7351",
+          "7357",
+          "7373",
+          "7374",
+          "7381",
+          "7401",
+          "7402",
+          "7421",
+          "7424",
+          "7445",
+          "7458",
+          "7470",
+          "7474",
+          "7486",
+          "7495",
+          "7505",
+          "7516",
+          "7517",
+          "7523",
+          "7530",
+          "7541",
+          "7555",
+          "7571",
+          "7595",
+          "7617",
+          "7620",
+          "7627",
+          "7631",
+          "7646"
+        ],
+        "generated_tokens": 846,
+        "generation_seconds": 4.764532919973135,
+        "padded_prompt_tokens": 538
+      },
+      {
+        "batch_index": 28,
+        "batch_size": 32,
+        "example_ids": [
+          "7653",
+          "7665",
+          "7675",
+          "7676",
+          "7682",
+          "7684",
+          "7688",
+          "7699",
+          "7703",
+          "7720",
+          "7723",
+          "7727",
+          "7729",
+          "7731",
+          "7732",
+          "7734",
+          "7738",
+          "7747",
+          "7753",
+          "7755",
+          "7766",
+          "7769",
+          "7780",
+          "7782",
+          "7801",
+          "7804",
+          "7830",
+          "7840",
+          "7846",
+          "7852",
+          "7867",
+          "7871"
+        ],
+        "generated_tokens": 800,
+        "generation_seconds": 3.848185376264155,
+        "padded_prompt_tokens": 533
+      },
+      {
+        "batch_index": 29,
+        "batch_size": 32,
+        "example_ids": [
+          "7877",
+          "7880",
+          "7893",
+          "7907",
+          "7920",
+          "7930",
+          "7945",
+          "7947",
+          "7968",
+          "7969",
+          "7977",
+          "7999",
+          "8014",
+          "8039",
+          "8046",
+          "8047",
+          "8057",
+          "8059",
+          "8061",
+          "8063",
+          "8068",
+          "8069",
+          "8072",
+          "8078",
+          "8089",
+          "8101",
+          "8122",
+          "8127",
+          "8132",
+          "8133",
+          "8146",
+          "8152"
+        ],
+        "generated_tokens": 862,
+        "generation_seconds": 4.551470446866006,
+        "padded_prompt_tokens": 535
+      },
+      {
+        "batch_index": 30,
+        "batch_size": 32,
+        "example_ids": [
+          "8160",
+          "8192",
+          "8207",
+          "8208",
+          "8253",
+          "8258",
+          "8263",
+          "8270",
+          "8272",
+          "8282",
+          "8287",
+          "8311",
+          "8315",
+          "8323",
+          "8325",
+          "8329",
+          "8333",
+          "8372",
+          "8373",
+          "8377",
+          "8384",
+          "8385",
+          "8417",
+          "8418",
+          "8425",
+          "8434",
+          "8446",
+          "8447",
+          "8451",
+          "8463",
+          "8479",
+          "8487"
+        ],
+        "generated_tokens": 934,
+        "generation_seconds": 4.72408158890903,
+        "padded_prompt_tokens": 541
+      },
+      {
+        "batch_index": 31,
+        "batch_size": 32,
+        "example_ids": [
+          "8491",
+          "8493",
+          "8510",
+          "8522",
+          "8528",
+          "8543",
+          "8548",
+          "8549",
+          "8578",
+          "8592",
+          "8594",
+          "8602",
+          "8606",
+          "8609",
+          "8612",
+          "8619",
+          "8622",
+          "8626",
+          "8655",
+          "8668",
+          "8677",
+          "8697",
+          "8699",
+          "8707",
+          "8714",
+          "8723",
+          "8729",
+          "8749",
+          "8751",
+          "8752",
+          "8753",
+          "8755"
+        ],
+        "generated_tokens": 805,
+        "generation_seconds": 4.881990883033723,
+        "padded_prompt_tokens": 539
+      },
+      {
+        "batch_index": 32,
+        "batch_size": 32,
+        "example_ids": [
+          "8778",
+          "8783",
+          "8786",
+          "8788",
+          "8800",
+          "8802",
+          "8803",
+          "8808",
+          "8829",
+          "8834",
+          "8842",
+          "8847",
+          "8848",
+          "8859",
+          "8863",
+          "8873",
+          "8890",
+          "8895",
+          "8896",
+          "8899",
+          "8903",
+          "8928",
+          "8933",
+          "8934",
+          "8938",
+          "8941",
+          "8953",
+          "8959",
+          "8984",
+          "9002",
+          "9004",
+          "9008"
+        ],
+        "generated_tokens": 719,
+        "generation_seconds": 4.061089648865163,
+        "padded_prompt_tokens": 540
+      },
+      {
+        "batch_index": 33,
+        "batch_size": 32,
+        "example_ids": [
+          "9013",
+          "9023",
+          "9040",
+          "9049",
+          "9051",
+          "9065",
+          "9067",
+          "9069",
+          "9082",
+          "9097",
+          "9123",
+          "9127",
+          "9136",
+          "9144",
+          "9164",
+          "9171",
+          "9179",
+          "9189",
+          "9190",
+          "9208",
+          "9211",
+          "9214",
+          "9215",
+          "9228",
+          "9249",
+          "9253",
+          "9256",
+          "9280",
+          "9281",
+          "9287",
+          "9299",
+          "9310"
+        ],
+        "generated_tokens": 694,
+        "generation_seconds": 3.259238705970347,
+        "padded_prompt_tokens": 530
+      },
+      {
+        "batch_index": 34,
+        "batch_size": 32,
+        "example_ids": [
+          "9325",
+          "9340",
+          "9343",
+          "9355",
+          "9369",
+          "9371",
+          "9375",
+          "9382",
+          "9383",
+          "9391",
+          "9425",
+          "9428",
+          "9432",
+          "9442",
+          "9447",
+          "9453",
+          "9454",
+          "9459",
+          "9489",
+          "9492",
+          "9500",
+          "9512",
+          "9518",
+          "9521",
+          "9534",
+          "9580",
+          "9589",
+          "9593",
+          "9599",
+          "9606",
+          "9612",
+          "9614"
+        ],
+        "generated_tokens": 685,
+        "generation_seconds": 3.137194149661809,
+        "padded_prompt_tokens": 531
+      },
+      {
+        "batch_index": 35,
+        "batch_size": 32,
+        "example_ids": [
+          "9615",
+          "9633",
+          "9642",
+          "9660",
+          "9673",
+          "9677",
+          "9688",
+          "9692",
+          "9709",
+          "9712",
+          "9725",
+          "9733",
+          "9734",
+          "9736",
+          "9743",
+          "9756",
+          "9765",
+          "9771",
+          "9775",
+          "9778",
+          "9783",
+          "9787",
+          "9798",
+          "9811",
+          "9816",
+          "9817",
+          "9822",
+          "9831",
+          "9834",
+          "9838",
+          "9840",
+          "9849"
+        ],
+        "generated_tokens": 875,
+        "generation_seconds": 3.6133369677700102,
+        "padded_prompt_tokens": 529
+      },
+      {
+        "batch_index": 36,
+        "batch_size": 32,
+        "example_ids": [
+          "9863",
+          "9872",
+          "9874",
+          "9876",
+          "9889",
+          "9892",
+          "9907",
+          "9921",
+          "9926",
+          "9934",
+          "9951",
+          "9965",
+          "9968",
+          "9978",
+          "9982",
+          "9993",
+          "9996",
+          "9999",
+          "10017",
+          "10020",
+          "10022",
+          "10037",
+          "10039",
+          "10041",
+          "10058",
+          "10070",
+          "10086",
+          "10110",
+          "10129",
+          "10135",
+          "10138",
+          "10143"
+        ],
+        "generated_tokens": 670,
+        "generation_seconds": 3.012206104118377,
+        "padded_prompt_tokens": 529
+      },
+      {
+        "batch_index": 37,
+        "batch_size": 32,
+        "example_ids": [
+          "10146",
+          "10152",
+          "10154",
+          "10157",
+          "10162",
+          "10169",
+          "10186",
+          "10195",
+          "10196",
+          "10210",
+          "10218",
+          "10237",
+          "10238",
+          "10242",
+          "10245",
+          "10255",
+          "10267",
+          "10273",
+          "10279",
+          "10290",
+          "10291",
+          "10293",
+          "10295",
+          "10301",
+          "10303",
+          "10324",
+          "10327",
+          "10351",
+          "10361",
+          "10364",
+          "10367",
+          "10374"
+        ],
+        "generated_tokens": 627,
+        "generation_seconds": 3.180425328668207,
+        "padded_prompt_tokens": 528
+      },
+      {
+        "batch_index": 38,
+        "batch_size": 32,
+        "example_ids": [
+          "10388",
+          "10397",
+          "10412",
+          "10415",
+          "10424",
+          "10449",
+          "10450",
+          "10453",
+          "10457",
+          "10458",
+          "10468",
+          "10470",
+          "10475",
+          "10486",
+          "10488",
+          "10496",
+          "10506",
+          "10518",
+          "10520",
+          "10521",
+          "10526",
+          "10529",
+          "10532",
+          "10539",
+          "10545",
+          "10548",
+          "10551",
+          "10554",
+          "10555",
+          "10557",
+          "10589",
+          "10602"
+        ],
+        "generated_tokens": 532,
+        "generation_seconds": 3.350187235046178,
+        "padded_prompt_tokens": 527
+      },
+      {
+        "batch_index": 39,
+        "batch_size": 32,
+        "example_ids": [
+          "10605",
+          "10614",
+          "10616",
+          "10626",
+          "10627",
+          "10629",
+          "10648",
+          "10666",
+          "10672",
+          "10685",
+          "10689",
+          "10697",
+          "10700",
+          "10728",
+          "10730",
+          "10732",
+          "10741",
+          "10746",
+          "10751",
+          "10754",
+          "10758",
+          "10763",
+          "10767",
+          "10775",
+          "10784",
+          "10791",
+          "10797",
+          "10806",
+          "10817",
+          "10830",
+          "10844",
+          "10850"
+        ],
+        "generated_tokens": 460,
+        "generation_seconds": 2.775789950042963,
+        "padded_prompt_tokens": 529
+      },
+      {
+        "batch_index": 40,
+        "batch_size": 32,
+        "example_ids": [
+          "10854",
+          "10860",
+          "10865",
+          "10870",
+          "10883",
+          "10886",
+          "10889",
+          "10896",
+          "10901",
+          "10904",
+          "10916",
+          "10924",
+          "10925",
+          "10928",
+          "10929",
+          "10941",
+          "10952",
+          "10962",
+          "10965",
+          "10967",
+          "10969",
+          "10973",
+          "10988",
+          "11004",
+          "11007",
+          "11014",
+          "11020",
+          "11022",
+          "11041",
+          "11045",
+          "11047",
+          "11061"
+        ],
+        "generated_tokens": 500,
+        "generation_seconds": 3.2630511219613254,
+        "padded_prompt_tokens": 528
+      },
+      {
+        "batch_index": 41,
+        "batch_size": 32,
+        "example_ids": [
+          "11063",
+          "11064",
+          "11065",
+          "11070",
+          "11076",
+          "11077",
+          "11079",
+          "11084",
+          "11086",
+          "11096",
+          "11109",
+          "11119",
+          "11122",
+          "11131",
+          "11160",
+          "11169",
+          "11178",
+          "11181",
+          "11182",
+          "11196",
+          "11200",
+          "11212",
+          "11214",
+          "11245",
+          "11256",
+          "11281",
+          "11283",
+          "11294",
+          "11300",
+          "11305",
+          "11324",
+          "11326"
+        ],
+        "generated_tokens": 521,
+        "generation_seconds": 3.128896384034306,
+        "padded_prompt_tokens": 528
+      },
+      {
+        "batch_index": 42,
+        "batch_size": 32,
+        "example_ids": [
+          "11332",
+          "11333",
+          "11338",
+          "11348",
+          "11358",
+          "11363",
+          "11364",
+          "11370",
+          "11372",
+          "11374",
+          "11377",
+          "11385",
+          "11399",
+          "11406",
+          "11419",
+          "11440",
+          "11450",
+          "11463",
+          "11477",
+          "11487",
+          "11496",
+          "11500",
+          "11503",
+          "11509",
+          "11513",
+          "11530",
+          "11548",
+          "11552",
+          "11553",
+          "11557",
+          "11562",
+          "11583"
+        ],
+        "generated_tokens": 586,
+        "generation_seconds": 2.8661600472405553,
+        "padded_prompt_tokens": 527
+      },
+      {
+        "batch_index": 43,
+        "batch_size": 32,
+        "example_ids": [
+          "11596",
+          "11608",
+          "11611",
+          "11615",
+          "11617",
+          "11621",
+          "11624",
+          "11631",
+          "11654",
+          "11658",
+          "11666",
+          "11675",
+          "11690",
+          "11693",
+          "11699",
+          "11708",
+          "11711",
+          "11712",
+          "11716",
+          "11721",
+          "11729",
+          "11730",
+          "11732",
+          "11740",
+          "11743",
+          "11745",
+          "11762",
+          "11785",
+          "11795",
+          "11800",
+          "11819",
+          "11849"
+        ],
+        "generated_tokens": 742,
+        "generation_seconds": 3.6772940028458834,
+        "padded_prompt_tokens": 531
+      },
+      {
+        "batch_index": 44,
+        "batch_size": 32,
+        "example_ids": [
+          "11851",
+          "11857",
+          "11876",
+          "11883",
+          "11899",
+          "11906",
+          "11928",
+          "11933",
+          "11945",
+          "11948",
+          "11952",
+          "11962",
+          "11980",
+          "11998",
+          "12006",
+          "12022",
+          "12039",
+          "12044",
+          "12045",
+          "12055",
+          "12076",
+          "12095",
+          "12096",
+          "12107",
+          "12108",
+          "12119",
+          "12125",
+          "12134",
+          "12136",
+          "12144",
+          "12149",
+          "12165"
+        ],
+        "generated_tokens": 755,
+        "generation_seconds": 4.182894082274288,
+        "padded_prompt_tokens": 533
+      },
+      {
+        "batch_index": 45,
+        "batch_size": 32,
+        "example_ids": [
+          "12168",
+          "12174",
+          "12177",
+          "12178",
+          "12181",
+          "12185",
+          "12205",
+          "12206",
+          "12217",
+          "12232",
+          "12236",
+          "12247",
+          "12253",
+          "12258",
+          "12260",
+          "12267",
+          "12284",
+          "12298",
+          "12302",
+          "12303",
+          "12307",
+          "12317",
+          "12318",
+          "12322",
+          "12325",
+          "12345",
+          "12352",
+          "12358",
+          "12363",
+          "12368",
+          "12372",
+          "12373"
+        ],
+        "generated_tokens": 765,
+        "generation_seconds": 3.9938770197331905,
+        "padded_prompt_tokens": 533
+      },
+      {
+        "batch_index": 46,
+        "batch_size": 32,
+        "example_ids": [
+          "12380",
+          "12394",
+          "12408",
+          "12414",
+          "12438",
+          "12439",
+          "12441",
+          "12451",
+          "12455",
+          "12461",
+          "12464",
+          "12470",
+          "12478",
+          "12484",
+          "12488",
+          "12504",
+          "12505",
+          "12527",
+          "12533",
+          "12550",
+          "12554",
+          "12565",
+          "12575",
+          "12587",
+          "12593",
+          "12602",
+          "12617",
+          "12625",
+          "12627",
+          "12651",
+          "12654",
+          "12656"
+        ],
+        "generated_tokens": 916,
+        "generation_seconds": 4.465875931084156,
+        "padded_prompt_tokens": 533
+      },
+      {
+        "batch_index": 47,
+        "batch_size": 32,
+        "example_ids": [
+          "12665",
+          "12667",
+          "12669",
+          "12674",
+          "12680",
+          "12692",
+          "12706",
+          "12711",
+          "12712",
+          "12715",
+          "12729",
+          "12740",
+          "12741",
+          "12748",
+          "12764",
+          "12768",
+          "12781",
+          "12783",
+          "12787",
+          "12791",
+          "12810",
+          "12827",
+          "12828",
+          "12834",
+          "12840",
+          "12854",
+          "12872",
+          "12877",
+          "12885",
+          "12886",
+          "12888",
+          "12891"
+        ],
+        "generated_tokens": 747,
+        "generation_seconds": 3.985900735016912,
+        "padded_prompt_tokens": 532
+      },
+      {
+        "batch_index": 48,
+        "batch_size": 32,
+        "example_ids": [
+          "12892",
+          "12895",
+          "12899",
+          "12901",
+          "12904",
+          "12919",
+          "12923",
+          "12944",
+          "12947",
+          "12950",
+          "12952",
+          "12956",
+          "12974",
+          "12977",
+          "12978",
+          "12980",
+          "13011",
+          "13022",
+          "13024",
+          "13029",
+          "13033",
+          "13037",
+          "13038",
+          "13051",
+          "13063",
+          "13071",
+          "13075",
+          "13076",
+          "13084",
+          "13085",
+          "13100",
+          "13106"
+        ],
+        "generated_tokens": 594,
+        "generation_seconds": 3.0538961570709944,
+        "padded_prompt_tokens": 531
+      },
+      {
+        "batch_index": 49,
+        "batch_size": 32,
+        "example_ids": [
+          "13107",
+          "13110",
+          "13113",
+          "13118",
+          "13125",
+          "13139",
+          "13157",
+          "13185",
+          "13198",
+          "13202",
+          "13211",
+          "13224",
+          "13227",
+          "13228",
+          "13230",
+          "13231",
+          "13271",
+          "13275",
+          "13280",
+          "13281",
+          "13284",
+          "13316",
+          "13319",
+          "13338",
+          "13339",
+          "13349",
+          "13353",
+          "13354",
+          "13355",
+          "13367",
+          "13373",
+          "13382"
+        ],
+        "generated_tokens": 502,
+        "generation_seconds": 3.0290400870144367,
+        "padded_prompt_tokens": 543
+      },
+      {
+        "batch_index": 50,
+        "batch_size": 32,
+        "example_ids": [
+          "13384",
+          "13387",
+          "13419",
+          "13455",
+          "13462",
+          "13465",
+          "13469",
+          "13470",
+          "13480",
+          "13481",
+          "13490",
+          "13496",
+          "13499",
+          "13502",
+          "13510",
+          "13515",
+          "13517",
+          "13519",
+          "13522",
+          "13530",
+          "13533",
+          "13540",
+          "13544",
+          "13549",
+          "13563",
+          "13572",
+          "13576",
+          "13583",
+          "13587",
+          "13588",
+          "13615",
+          "13617"
+        ],
+        "generated_tokens": 549,
+        "generation_seconds": 2.9115218338556588,
+        "padded_prompt_tokens": 534
+      },
+      {
+        "batch_index": 51,
+        "batch_size": 32,
+        "example_ids": [
+          "13624",
+          "13643",
+          "13645",
+          "13647",
+          "13651",
+          "13658",
+          "13667",
+          "13682",
+          "13704",
+          "13708",
+          "13710",
+          "13720",
+          "13724",
+          "13737",
+          "13756",
+          "13788",
+          "13795",
+          "13797",
+          "13804",
+          "13806",
+          "13812",
+          "13816",
+          "13836",
+          "13842",
+          "13844",
+          "13846",
+          "13848",
+          "13859",
+          "13861",
+          "13870",
+          "13875",
+          "13892"
+        ],
+        "generated_tokens": 715,
+        "generation_seconds": 3.0304334945976734,
+        "padded_prompt_tokens": 532
+      },
+      {
+        "batch_index": 52,
+        "batch_size": 32,
+        "example_ids": [
+          "13914",
+          "13919",
+          "13924",
+          "13935",
+          "13938",
+          "13957",
+          "13978",
+          "13988",
+          "14007",
+          "14010",
+          "14012",
+          "14014",
+          "14018",
+          "14039",
+          "14062",
+          "14069",
+          "14073",
+          "14078",
+          "14087",
+          "14088",
+          "14125",
+          "14144",
+          "14145",
+          "14152",
+          "14156",
+          "14173",
+          "14175",
+          "14195",
+          "14203",
+          "14205",
+          "14207",
+          "14212"
+        ],
+        "generated_tokens": 643,
+        "generation_seconds": 3.1307549476623535,
+        "padded_prompt_tokens": 540
+      },
+      {
+        "batch_index": 53,
+        "batch_size": 32,
+        "example_ids": [
+          "14218",
+          "14227",
+          "14230",
+          "14263",
+          "14267",
+          "14269",
+          "14273",
+          "14285",
+          "14291",
+          "14301",
+          "14320",
+          "14341",
+          "14343",
+          "14346",
+          "14358",
+          "14361",
+          "14377",
+          "14380",
+          "14384",
+          "14390",
+          "14393",
+          "14397",
+          "14408",
+          "14421",
+          "14430",
+          "14450",
+          "14452",
+          "14458",
+          "14460",
+          "14479",
+          "14492",
+          "14516"
+        ],
+        "generated_tokens": 646,
+        "generation_seconds": 3.0803073379211128,
+        "padded_prompt_tokens": 531
+      },
+      {
+        "batch_index": 54,
+        "batch_size": 32,
+        "example_ids": [
+          "14527",
+          "14541",
+          "14542",
+          "14565",
+          "14574",
+          "14582",
+          "14593",
+          "14596",
+          "14604",
+          "14609",
+          "14617",
+          "14621",
+          "14635",
+          "14645",
+          "14654",
+          "14657",
+          "14669",
+          "14677",
+          "14704",
+          "14708",
+          "14719",
+          "14721",
+          "14727",
+          "14731",
+          "14737",
+          "14744",
+          "14745",
+          "14755",
+          "14764",
+          "14773",
+          "14774",
+          "14775"
+        ],
+        "generated_tokens": 608,
+        "generation_seconds": 3.094911807682365,
+        "padded_prompt_tokens": 545
+      },
+      {
+        "batch_index": 55,
+        "batch_size": 32,
+        "example_ids": [
+          "14796",
+          "14803",
+          "14808",
+          "14819",
+          "14827",
+          "14848",
+          "14849",
+          "14850",
+          "14852",
+          "14861",
+          "14865",
+          "14866",
+          "14868",
+          "14872",
+          "14882",
+          "14888",
+          "14897",
+          "14901",
+          "14906",
+          "14918",
+          "14920",
+          "14924",
+          "14930",
+          "14946",
+          "14950",
+          "14952",
+          "14953",
+          "14961",
+          "14971",
+          "14985",
+          "14987",
+          "14989"
+        ],
+        "generated_tokens": 591,
+        "generation_seconds": 3.1591114988550544,
+        "padded_prompt_tokens": 535
+      },
+      {
+        "batch_index": 56,
+        "batch_size": 32,
+        "example_ids": [
+          "15014",
+          "15015",
+          "15017",
+          "15030",
+          "15033",
+          "15043",
+          "15047",
+          "15057",
+          "15064",
+          "15065",
+          "15090",
+          "15093",
+          "15097",
+          "15100",
+          "15125",
+          "15134",
+          "15145",
+          "15157",
+          "15171",
+          "15174",
+          "15180",
+          "15182",
+          "15193",
+          "15207",
+          "15215",
+          "15219",
+          "15221",
+          "15242",
+          "15245",
+          "15247",
+          "15252",
+          "15258"
+        ],
+        "generated_tokens": 672,
+        "generation_seconds": 3.332441749982536,
+        "padded_prompt_tokens": 536
+      },
+      {
+        "batch_index": 57,
+        "batch_size": 32,
+        "example_ids": [
+          "15265",
+          "15269",
+          "15272",
+          "15294",
+          "15297",
+          "15301",
+          "15319",
+          "15342",
+          "15349",
+          "15370",
+          "15374",
+          "15375",
+          "15379",
+          "15381",
+          "15388",
+          "15396",
+          "15397",
+          "15414",
+          "15421",
+          "15427",
+          "15436",
+          "15455",
+          "15458",
+          "15460",
+          "15462",
+          "15466",
+          "15471",
+          "15475",
+          "15478",
+          "15512",
+          "15514",
+          "15516"
+        ],
+        "generated_tokens": 657,
+        "generation_seconds": 2.980264608282596,
+        "padded_prompt_tokens": 533
+      },
+      {
+        "batch_index": 58,
+        "batch_size": 32,
+        "example_ids": [
+          "15531",
+          "15533",
+          "15538",
+          "15540",
+          "15541",
+          "15545",
+          "15558",
+          "15559",
+          "15562",
+          "15572",
+          "15581",
+          "15583",
+          "15588",
+          "15596",
+          "15609",
+          "15625",
+          "15630",
+          "15632",
+          "15639",
+          "15645",
+          "15695",
+          "15725",
+          "15753",
+          "15761",
+          "15778",
+          "15786",
+          "15795",
+          "15798",
+          "15805",
+          "15812",
+          "15836",
+          "15858"
+        ],
+        "generated_tokens": 670,
+        "generation_seconds": 3.3534096740186214,
+        "padded_prompt_tokens": 533
+      },
+      {
+        "batch_index": 59,
+        "batch_size": 32,
+        "example_ids": [
+          "15861",
+          "15863",
+          "15867",
+          "15868",
+          "15897",
+          "15900",
+          "15903",
+          "15909",
+          "15910",
+          "15921",
+          "15930",
+          "15939",
+          "15973",
+          "15986",
+          "15993",
+          "16007",
+          "16020",
+          "16025",
+          "16026",
+          "16027",
+          "16030",
+          "16037",
+          "16066",
+          "16078",
+          "16081",
+          "16083",
+          "16085",
+          "16090",
+          "16104",
+          "16107",
+          "16132",
+          "16135"
+        ],
+        "generated_tokens": 652,
+        "generation_seconds": 3.335484839975834,
+        "padded_prompt_tokens": 536
+      },
+      {
+        "batch_index": 60,
+        "batch_size": 32,
+        "example_ids": [
+          "16140",
+          "16144",
+          "16160",
+          "16161",
+          "16173",
+          "16176",
+          "16184",
+          "16206",
+          "16214",
+          "16232",
+          "16241",
+          "16244",
+          "16249",
+          "16279",
+          "16286",
+          "16288",
+          "16289",
+          "16290",
+          "16294",
+          "16298",
+          "16303",
+          "16305",
+          "16319",
+          "16322",
+          "16330",
+          "16334",
+          "16372",
+          "16386",
+          "16393",
+          "16394",
+          "16396",
+          "16407"
+        ],
+        "generated_tokens": 502,
+        "generation_seconds": 3.3249786351807415,
+        "padded_prompt_tokens": 534
+      },
+      {
+        "batch_index": 61,
+        "batch_size": 32,
+        "example_ids": [
+          "16421",
+          "16423",
+          "16442",
+          "16445",
+          "16448",
+          "16454",
+          "16462",
+          "16463",
+          "16478",
+          "16479",
+          "16487",
+          "16493",
+          "16512",
+          "16525",
+          "16533",
+          "16543",
+          "16570",
+          "16573",
+          "16574",
+          "16580",
+          "16582",
+          "16586",
+          "16588",
+          "16601",
+          "16611",
+          "16612",
+          "16615",
+          "16641",
+          "16653",
+          "16685",
+          "16699",
+          "16709"
+        ],
+        "generated_tokens": 595,
+        "generation_seconds": 2.929351259022951,
+        "padded_prompt_tokens": 534
+      },
+      {
+        "batch_index": 62,
+        "batch_size": 32,
+        "example_ids": [
+          "16723",
+          "16726",
+          "16744",
+          "16745",
+          "16750",
+          "16768",
+          "16769",
+          "16770",
+          "16774",
+          "16779",
+          "16788",
+          "16795",
+          "16818",
+          "16821",
+          "16825",
+          "16829",
+          "16833",
+          "16840",
+          "16843",
+          "16848",
+          "16850",
+          "16877",
+          "16881",
+          "16885",
+          "16903",
+          "16929",
+          "16945",
+          "16971",
+          "16991",
+          "17006",
+          "17009",
+          "17017"
+        ],
+        "generated_tokens": 521,
+        "generation_seconds": 2.9250376941636205,
+        "padded_prompt_tokens": 536
+      },
+      {
+        "batch_index": 63,
+        "batch_size": 17,
+        "example_ids": [
+          "17018",
+          "17034",
+          "17035",
+          "17037",
+          "17046",
+          "17048",
+          "17074",
+          "17076",
+          "17080",
+          "17082",
+          "17093",
+          "17102",
+          "17121",
+          "17137",
+          "17140",
+          "17153",
+          "17167"
+        ],
+        "generated_tokens": 319,
+        "generation_seconds": 2.334877103101462,
+        "padded_prompt_tokens": 529
+      }
+    ],
+    "generation_seconds": 218.15155524620786,
+    "generation_timing_boundary": "Synchronized model.generate per batch; excludes input transfer/decoding/scoring. Batch times are not per-request latency; use the batch-one benchmark for latency.",
+    "intent_accuracy": 0.8957206099360551,
+    "intent_macro_f1": 0.8649644662973653,
+    "intent_per_class_f1": {
+      "alarm_query": 0.9142857142857143,
+      "alarm_remove": 0.9629629629629629,
+      "alarm_set": 0.9,
+      "audio_volume_down": 1.0,
+      "audio_volume_mute": 0.9655172413793104,
+      "audio_volume_other": 0.0,
+      "audio_volume_up": 0.9565217391304348,
+      "calendar_query": 0.8653846153846154,
+      "calendar_remove": 0.9215686274509803,
+      "calendar_set": 0.8808664259927798,
+      "cooking_query": 0.0,
+      "cooking_recipe": 0.8705882352941177,
+      "datetime_convert": 1.0,
+      "datetime_query": 0.9457364341085271,
+      "email_addcontact": 0.8333333333333334,
+      "email_query": 0.9722222222222222,
+      "email_querycontact": 0.9375,
+      "email_sendemail": 0.959349593495935,
+      "general_greet": 0.0,
+      "general_joke": 1.0,
+      "general_quirky": 0.625,
+      "iot_cleaning": 1.0,
+      "iot_coffee": 1.0,
+      "iot_hue_lightchange": 0.9777777777777777,
+      "iot_hue_lightdim": 0.9032258064516129,
+      "iot_hue_lightoff": 0.9142857142857143,
+      "iot_hue_lighton": 1.0,
+      "iot_hue_lightup": 1.0,
+      "iot_wemo_off": 0.9090909090909091,
+      "iot_wemo_on": 1.0,
+      "lists_createoradd": 0.8846153846153846,
+      "lists_query": 0.9292929292929293,
+      "lists_remove": 0.9444444444444444,
+      "music_dislikeness": 0.6666666666666666,
+      "music_likeness": 0.8823529411764706,
+      "music_query": 0.8363636363636363,
+      "music_settings": 0.8888888888888888,
+      "news_query": 0.8287292817679558,
+      "play_audiobook": 0.9014084507042254,
+      "play_game": 0.926829268292683,
+      "play_music": 0.9256198347107438,
+      "play_podcasts": 0.8955223880597015,
+      "play_radio": 0.9247311827956989,
+      "qa_currency": 0.9538461538461539,
+      "qa_definition": 0.8849557522123894,
+      "qa_factoid": 0.7675675675675676,
+      "qa_maths": 0.7407407407407407,
+      "qa_stock": 0.9583333333333334,
+      "recommendation_events": 0.7,
+      "recommendation_locations": 0.9152542372881356,
+      "recommendation_movies": 0.88,
+      "social_post": 0.9607843137254902,
+      "social_query": 0.8888888888888888,
+      "takeaway_order": 0.8372093023255814,
+      "takeaway_query": 0.9361702127659575,
+      "transport_query": 0.9315068493150684,
+      "transport_taxi": 0.9818181818181818,
+      "transport_ticket": 0.96,
+      "transport_traffic": 0.9777777777777777,
+      "weather_query": 0.9723320158102767
+    },
+    "joint_exact_match": 0.7088047220855878,
+    "json_valid_rate": 1.0,
+    "novel_input_subset": {
+      "answer_nll_sum": 2647.0287033349923,
+      "answer_token_nll": 0.06427322997608276,
+      "answer_tokens": 41184,
+      "confusion_matrix": [
+        {
+          "count": 16,
+          "prediction": "alarm_query",
+          "target": "alarm_query"
+        },
+        {
+          "count": 1,
+          "prediction": "alarm_set",
+          "target": "alarm_query"
+        },
+        {
+          "count": 1,
+          "prediction": "calendar_set",
+          "target": "alarm_query"
+        },
+        {
+          "count": 1,
+          "prediction": "datetime_query",
+          "target": "alarm_query"
+        },
+        {
+          "count": 13,
+          "prediction": "alarm_remove",
+          "target": "alarm_remove"
+        },
+        {
+          "count": 1,
+          "prediction": "calendar_set",
+          "target": "alarm_remove"
+        },
+        {
+          "count": 27,
+          "prediction": "alarm_set",
+          "target": "alarm_set"
+        },
+        {
+          "count": 3,
+          "prediction": "calendar_set",
+          "target": "alarm_set"
+        },
+        {
+          "count": 1,
+          "prediction": "datetime_query",
+          "target": "alarm_set"
+        },
+        {
+          "count": 8,
+          "prediction": "audio_volume_down",
+          "target": "audio_volume_down"
+        },
+        {
+          "count": 14,
+          "prediction": "audio_volume_mute",
+          "target": "audio_volume_mute"
+        },
+        {
+          "count": 1,
+          "prediction": "iot_hue_lightoff",
+          "target": "audio_volume_mute"
+        },
+        {
+          "count": 10,
+          "prediction": "audio_volume_up",
+          "target": "audio_volume_up"
+        },
+        {
+          "count": 1,
+          "prediction": "play_audiobook",
+          "target": "audio_volume_up"
+        },
+        {
+          "count": 90,
+          "prediction": "calendar_query",
+          "target": "calendar_query"
+        },
+        {
+          "count": 1,
+          "prediction": "calendar_remove",
+          "target": "calendar_query"
+        },
+        {
+          "count": 4,
+          "prediction": "calendar_set",
+          "target": "calendar_query"
+        },
+        {
+          "count": 1,
+          "prediction": "general_quirky",
+          "target": "calendar_query"
+        },
+        {
+          "count": 1,
+          "prediction": "lists_query",
+          "target": "calendar_query"
+        },
+        {
+          "count": 2,
+          "prediction": "news_query",
+          "target": "calendar_query"
+        },
+        {
+          "count": 1,
+          "prediction": "qa_factoid",
+          "target": "calendar_query"
+        },
+        {
+          "count": 1,
+          "prediction": "social_query",
+          "target": "calendar_query"
+        },
+        {
+          "count": 1,
+          "prediction": "transport_query",
+          "target": "calendar_query"
+        },
+        {
+          "count": 47,
+          "prediction": "calendar_remove",
+          "target": "calendar_remove"
+        },
+        {
+          "count": 4,
+          "prediction": "calendar_query",
+          "target": "calendar_set"
+        },
+        {
+          "count": 2,
+          "prediction": "calendar_remove",
+          "target": "calendar_set"
+        },
+        {
+          "count": 122,
+          "prediction": "calendar_set",
+          "target": "calendar_set"
+        },
+        {
+          "count": 1,
+          "prediction": "social_post",
+          "target": "calendar_set"
+        },
+        {
+          "count": 2,
+          "prediction": "weather_query",
+          "target": "calendar_set"
+        },
+        {
+          "count": 2,
+          "prediction": "cooking_recipe",
+          "target": "cooking_query"
+        },
+        {
+          "count": 37,
+          "prediction": "cooking_recipe",
+          "target": "cooking_recipe"
+        },
+        {
+          "count": 1,
+          "prediction": "general_quirky",
+          "target": "cooking_recipe"
+        },
+        {
+          "count": 1,
+          "prediction": "qa_factoid",
+          "target": "cooking_recipe"
+        },
+        {
+          "count": 1,
+          "prediction": "social_post",
+          "target": "cooking_recipe"
+        },
+        {
+          "count": 1,
+          "prediction": "takeaway_order",
+          "target": "cooking_recipe"
+        },
+        {
+          "count": 9,
+          "prediction": "datetime_convert",
+          "target": "datetime_convert"
+        },
+        {
+          "count": 1,
+          "prediction": "alarm_set",
+          "target": "datetime_query"
+        },
+        {
+          "count": 1,
+          "prediction": "calendar_query",
+          "target": "datetime_query"
+        },
+        {
+          "count": 1,
+          "prediction": "calendar_set",
+          "target": "datetime_query"
+        },
+        {
+          "count": 60,
+          "prediction": "datetime_query",
+          "target": "datetime_query"
+        },
+        {
+          "count": 5,
+          "prediction": "email_addcontact",
+          "target": "email_addcontact"
+        },
+        {
+          "count": 1,
+          "prediction": "calendar_query",
+          "target": "email_query"
+        },
+        {
+          "count": 70,
+          "prediction": "email_query",
+          "target": "email_query"
+        },
+        {
+          "count": 1,
+          "prediction": "email_querycontact",
+          "target": "email_query"
+        },
+        {
+          "count": 1,
+          "prediction": "general_quirky",
+          "target": "email_query"
+        },
+        {
+          "count": 1,
+          "prediction": "calendar_remove",
+          "target": "email_querycontact"
+        },
+        {
+          "count": 15,
+          "prediction": "email_querycontact",
+          "target": "email_querycontact"
+        },
+        {
+          "count": 1,
+          "prediction": "calendar_set",
+          "target": "email_sendemail"
+        },
+        {
+          "count": 2,
+          "prediction": "email_addcontact",
+          "target": "email_sendemail"
+        },
+        {
+          "count": 1,
+          "prediction": "email_query",
+          "target": "email_sendemail"
+        },
+        {
+          "count": 59,
+          "prediction": "email_sendemail",
+          "target": "email_sendemail"
+        },
+        {
+          "count": 2,
+          "prediction": "calendar_set",
+          "target": "general_greet"
+        },
+        {
+          "count": 15,
+          "prediction": "general_joke",
+          "target": "general_joke"
+        },
+        {
+          "count": 1,
+          "prediction": "__invalid__",
+          "target": "general_quirky"
+        },
+        {
+          "count": 3,
+          "prediction": "calendar_query",
+          "target": "general_quirky"
+        },
+        {
+          "count": 1,
+          "prediction": "calendar_remove",
+          "target": "general_quirky"
+        },
+        {
+          "count": 4,
+          "prediction": "calendar_set",
+          "target": "general_quirky"
+        },
+        {
+          "count": 1,
+          "prediction": "cooking_query",
+          "target": "general_quirky"
+        },
+        {
+          "count": 2,
+          "prediction": "cooking_recipe",
+          "target": "general_quirky"
+        },
+        {
+          "count": 1,
+          "prediction": "datetime_query",
+          "target": "general_quirky"
+        },
+        {
+          "count": 1,
+          "prediction": "email_sendemail",
+          "target": "general_quirky"
+        },
+        {
+          "count": 55,
+          "prediction": "general_quirky",
+          "target": "general_quirky"
+        },
+        {
+          "count": 2,
+          "prediction": "lists_createoradd",
+          "target": "general_quirky"
+        },
+        {
+          "count": 1,
+          "prediction": "lists_query",
+          "target": "general_quirky"
+        },
+        {
+          "count": 8,
+          "prediction": "news_query",
+          "target": "general_quirky"
+        },
+        {
+          "count": 1,
+          "prediction": "play_audiobook",
+          "target": "general_quirky"
+        },
+        {
+          "count": 1,
+          "prediction": "qa_currency",
+          "target": "general_quirky"
+        },
+        {
+          "count": 4,
+          "prediction": "qa_definition",
+          "target": "general_quirky"
+        },
+        {
+          "count": 11,
+          "prediction": "qa_factoid",
+          "target": "general_quirky"
+        },
+        {
+          "count": 1,
+          "prediction": "qa_maths",
+          "target": "general_quirky"
+        },
+        {
+          "count": 1,
+          "prediction": "recommendation_movies",
+          "target": "general_quirky"
+        },
+        {
+          "count": 1,
+          "prediction": "social_post",
+          "target": "general_quirky"
+        },
+        {
+          "count": 1,
+          "prediction": "transport_query",
+          "target": "general_quirky"
+        },
+        {
+          "count": 1,
+          "prediction": "transport_traffic",
+          "target": "general_quirky"
+        },
+        {
+          "count": 1,
+          "prediction": "weather_query",
+          "target": "general_quirky"
+        },
+        {
+          "count": 19,
+          "prediction": "iot_cleaning",
+          "target": "iot_cleaning"
+        },
+        {
+          "count": 14,
+          "prediction": "iot_coffee",
+          "target": "iot_coffee"
+        },
+        {
+          "count": 22,
+          "prediction": "iot_hue_lightchange",
+          "target": "iot_hue_lightchange"
+        },
+        {
+          "count": 1,
+          "prediction": "__invalid__",
+          "target": "iot_hue_lightdim"
+        },
+        {
+          "count": 1,
+          "prediction": "iot_hue_lightchange",
+          "target": "iot_hue_lightdim"
+        },
+        {
+          "count": 14,
+          "prediction": "iot_hue_lightdim",
+          "target": "iot_hue_lightdim"
+        },
+        {
+          "count": 1,
+          "prediction": "iot_hue_lightoff",
+          "target": "iot_hue_lightdim"
+        },
+        {
+          "count": 16,
+          "prediction": "iot_hue_lightoff",
+          "target": "iot_hue_lightoff"
+        },
+        {
+          "count": 1,
+          "prediction": "iot_wemo_off",
+          "target": "iot_hue_lightoff"
+        },
+        {
+          "count": 5,
+          "prediction": "iot_hue_lighton",
+          "target": "iot_hue_lighton"
+        },
+        {
+          "count": 12,
+          "prediction": "iot_hue_lightup",
+          "target": "iot_hue_lightup"
+        },
+        {
+          "count": 5,
+          "prediction": "iot_wemo_off",
+          "target": "iot_wemo_off"
+        },
+        {
+          "count": 7,
+          "prediction": "iot_wemo_on",
+          "target": "iot_wemo_on"
+        },
+        {
+          "count": 1,
+          "prediction": "calendar_set",
+          "target": "lists_createoradd"
+        },
+        {
+          "count": 23,
+          "prediction": "lists_createoradd",
+          "target": "lists_createoradd"
+        },
+        {
+          "count": 1,
+          "prediction": "lists_remove",
+          "target": "lists_createoradd"
+        },
+        {
+          "count": 1,
+          "prediction": "__invalid__",
+          "target": "lists_query"
+        },
+        {
+          "count": 1,
+          "prediction": "calendar_query",
+          "target": "lists_query"
+        },
+        {
+          "count": 1,
+          "prediction": "calendar_set",
+          "target": "lists_query"
+        },
+        {
+          "count": 1,
+          "prediction": "lists_createoradd",
+          "target": "lists_query"
+        },
+        {
+          "count": 46,
+          "prediction": "lists_query",
+          "target": "lists_query"
+        },
+        {
+          "count": 1,
+          "prediction": "calendar_remove",
+          "target": "lists_remove"
+        },
+        {
+          "count": 1,
+          "prediction": "cooking_recipe",
+          "target": "lists_remove"
+        },
+        {
+          "count": 33,
+          "prediction": "lists_remove",
+          "target": "lists_remove"
+        },
+        {
+          "count": 1,
+          "prediction": "weather_query",
+          "target": "lists_remove"
+        },
+        {
+          "count": 1,
+          "prediction": "music_dislikeness",
+          "target": "music_dislikeness"
+        },
+        {
+          "count": 1,
+          "prediction": "play_music",
+          "target": "music_dislikeness"
+        },
+        {
+          "count": 1,
+          "prediction": "lists_query",
+          "target": "music_likeness"
+        },
+        {
+          "count": 15,
+          "prediction": "music_likeness",
+          "target": "music_likeness"
+        },
+        {
+          "count": 2,
+          "prediction": "music_likeness",
+          "target": "music_query"
+        },
+        {
+          "count": 23,
+          "prediction": "music_query",
+          "target": "music_query"
+        },
+        {
+          "count": 1,
+          "prediction": "music_settings",
+          "target": "music_query"
+        },
+        {
+          "count": 1,
+          "prediction": "news_query",
+          "target": "music_query"
+        },
+        {
+          "count": 3,
+          "prediction": "play_music",
+          "target": "music_query"
+        },
+        {
+          "count": 8,
+          "prediction": "music_settings",
+          "target": "music_settings"
+        },
+        {
+          "count": 1,
+          "prediction": "calendar_set",
+          "target": "news_query"
+        },
+        {
+          "count": 75,
+          "prediction": "news_query",
+          "target": "news_query"
+        },
+        {
+          "count": 5,
+          "prediction": "qa_factoid",
+          "target": "news_query"
+        },
+        {
+          "count": 1,
+          "prediction": "social_query",
+          "target": "news_query"
+        },
+        {
+          "count": 1,
+          "prediction": "calendar_remove",
+          "target": "play_audiobook"
+        },
+        {
+          "count": 32,
+          "prediction": "play_audiobook",
+          "target": "play_audiobook"
+        },
+        {
+          "count": 1,
+          "prediction": "play_music",
+          "target": "play_audiobook"
+        },
+        {
+          "count": 1,
+          "prediction": "play_podcasts",
+          "target": "play_audiobook"
+        },
+        {
+          "count": 1,
+          "prediction": "general_quirky",
+          "target": "play_game"
+        },
+        {
+          "count": 1,
+          "prediction": "music_query",
+          "target": "play_game"
+        },
+        {
+          "count": 1,
+          "prediction": "play_audiobook",
+          "target": "play_game"
+        },
+        {
+          "count": 19,
+          "prediction": "play_game",
+          "target": "play_game"
+        },
+        {
+          "count": 1,
+          "prediction": "__invalid__",
+          "target": "play_music"
+        },
+        {
+          "count": 1,
+          "prediction": "music_likeness",
+          "target": "play_music"
+        },
+        {
+          "count": 1,
+          "prediction": "music_query",
+          "target": "play_music"
+        },
+        {
+          "count": 1,
+          "prediction": "music_settings",
+          "target": "play_music"
+        },
+        {
+          "count": 1,
+          "prediction": "news_query",
+          "target": "play_music"
+        },
+        {
+          "count": 111,
+          "prediction": "play_music",
+          "target": "play_music"
+        },
+        {
+          "count": 1,
+          "prediction": "play_podcasts",
+          "target": "play_music"
+        },
+        {
+          "count": 4,
+          "prediction": "play_radio",
+          "target": "play_music"
+        },
+        {
+          "count": 1,
+          "prediction": "qa_factoid",
+          "target": "play_music"
+        },
+        {
+          "count": 2,
+          "prediction": "calendar_set",
+          "target": "play_podcasts"
+        },
+        {
+          "count": 1,
+          "prediction": "general_quirky",
+          "target": "play_podcasts"
+        },
+        {
+          "count": 1,
+          "prediction": "play_audiobook",
+          "target": "play_podcasts"
+        },
+        {
+          "count": 30,
+          "prediction": "play_podcasts",
+          "target": "play_podcasts"
+        },
+        {
+          "count": 2,
+          "prediction": "play_music",
+          "target": "play_radio"
+        },
+        {
+          "count": 1,
+          "prediction": "play_podcasts",
+          "target": "play_radio"
+        },
+        {
+          "count": 43,
+          "prediction": "play_radio",
+          "target": "play_radio"
+        },
+        {
+          "count": 31,
+          "prediction": "qa_currency",
+          "target": "qa_currency"
+        },
+        {
+          "count": 1,
+          "prediction": "qa_stock",
+          "target": "qa_currency"
+        },
+        {
+          "count": 1,
+          "prediction": "calendar_query",
+          "target": "qa_definition"
+        },
+        {
+          "count": 1,
+          "prediction": "cooking_recipe",
+          "target": "qa_definition"
+        },
+        {
+          "count": 2,
+          "prediction": "general_quirky",
+          "target": "qa_definition"
+        },
+        {
+          "count": 50,
+          "prediction": "qa_definition",
+          "target": "qa_definition"
+        },
+        {
+          "count": 1,
+          "prediction": "qa_factoid",
+          "target": "qa_definition"
+        },
+        {
+          "count": 1,
+          "prediction": "calendar_remove",
+          "target": "qa_factoid"
+        },
+        {
+          "count": 1,
+          "prediction": "datetime_query",
+          "target": "qa_factoid"
+        },
+        {
+          "count": 4,
+          "prediction": "general_quirky",
+          "target": "qa_factoid"
+        },
+        {
+          "count": 4,
+          "prediction": "news_query",
+          "target": "qa_factoid"
+        },
+        {
+          "count": 1,
+          "prediction": "qa_currency",
+          "target": "qa_factoid"
+        },
+        {
+          "count": 4,
+          "prediction": "qa_definition",
+          "target": "qa_factoid"
+        },
+        {
+          "count": 70,
+          "prediction": "qa_factoid",
+          "target": "qa_factoid"
+        },
+        {
+          "count": 2,
+          "prediction": "qa_maths",
+          "target": "qa_factoid"
+        },
+        {
+          "count": 1,
+          "prediction": "recommendation_locations",
+          "target": "qa_factoid"
+        },
+        {
+          "count": 1,
+          "prediction": "recommendation_movies",
+          "target": "qa_factoid"
+        },
+        {
+          "count": 1,
+          "prediction": "general_quirky",
+          "target": "qa_maths"
+        },
+        {
+          "count": 2,
+          "prediction": "news_query",
+          "target": "qa_maths"
+        },
+        {
+          "count": 10,
+          "prediction": "qa_maths",
+          "target": "qa_maths"
+        },
+        {
+          "count": 1,
+          "prediction": "general_quirky",
+          "target": "qa_stock"
+        },
+        {
+          "count": 22,
+          "prediction": "qa_stock",
+          "target": "qa_stock"
+        },
+        {
+          "count": 4,
+          "prediction": "calendar_query",
+          "target": "recommendation_events"
+        },
+        {
+          "count": 1,
+          "prediction": "general_quirky",
+          "target": "recommendation_events"
+        },
+        {
+          "count": 1,
+          "prediction": "lists_createoradd",
+          "target": "recommendation_events"
+        },
+        {
+          "count": 5,
+          "prediction": "news_query",
+          "target": "recommendation_events"
+        },
+        {
+          "count": 14,
+          "prediction": "recommendation_events",
+          "target": "recommendation_events"
+        },
+        {
+          "count": 1,
+          "prediction": "transport_query",
+          "target": "recommendation_events"
+        },
+        {
+          "count": 1,
+          "prediction": "cooking_recipe",
+          "target": "recommendation_locations"
+        },
+        {
+          "count": 1,
+          "prediction": "qa_factoid",
+          "target": "recommendation_locations"
+        },
+        {
+          "count": 27,
+          "prediction": "recommendation_locations",
+          "target": "recommendation_locations"
+        },
+        {
+          "count": 2,
+          "prediction": "takeaway_order",
+          "target": "recommendation_locations"
+        },
+        {
+          "count": 1,
+          "prediction": "calendar_set",
+          "target": "recommendation_movies"
+        },
+        {
+          "count": 11,
+          "prediction": "recommendation_movies",
+          "target": "recommendation_movies"
+        },
+        {
+          "count": 1,
+          "prediction": "news_query",
+          "target": "social_post"
+        },
+        {
+          "count": 48,
+          "prediction": "social_post",
+          "target": "social_post"
+        },
+        {
+          "count": 1,
+          "prediction": "calendar_query",
+          "target": "social_query"
+        },
+        {
+          "count": 1,
+          "prediction": "general_quirky",
+          "target": "social_query"
+        },
+        {
+          "count": 16,
+          "prediction": "social_query",
+          "target": "social_query"
+        },
+        {
+          "count": 1,
+          "prediction": "qa_factoid",
+          "target": "takeaway_order"
+        },
+        {
+          "count": 18,
+          "prediction": "takeaway_order",
+          "target": "takeaway_order"
+        },
+        {
+          "count": 1,
+          "prediction": "takeaway_query",
+          "target": "takeaway_order"
+        },
+        {
+          "count": 2,
+          "prediction": "takeaway_order",
+          "target": "takeaway_query"
+        },
+        {
+          "count": 21,
+          "prediction": "takeaway_query",
+          "target": "takeaway_query"
+        },
+        {
+          "count": 1,
+          "prediction": "qa_factoid",
+          "target": "transport_query"
+        },
+        {
+          "count": 34,
+          "prediction": "transport_query",
+          "target": "transport_query"
+        },
+        {
+          "count": 1,
+          "prediction": "transport_ticket",
+          "target": "transport_query"
+        },
+        {
+          "count": 27,
+          "prediction": "transport_taxi",
+          "target": "transport_taxi"
+        },
+        {
+          "count": 1,
+          "prediction": "transport_taxi",
+          "target": "transport_ticket"
+        },
+        {
+          "count": 24,
+          "prediction": "transport_ticket",
+          "target": "transport_ticket"
+        },
+        {
+          "count": 22,
+          "prediction": "transport_traffic",
+          "target": "transport_traffic"
+        },
+        {
+          "count": 1,
+          "prediction": "calendar_set",
+          "target": "weather_query"
+        },
+        {
+          "count": 1,
+          "prediction": "general_quirky",
+          "target": "weather_query"
+        },
+        {
+          "count": 1,
+          "prediction": "qa_maths",
+          "target": "weather_query"
+        },
+        {
+          "count": 122,
+          "prediction": "weather_query",
+          "target": "weather_query"
+        }
+      ],
+      "counts": {
+        "extra_slots": 262,
+        "intent_correct": 1812,
+        "joint_exact_match": 1432,
+        "json_valid": 2022,
+        "missing_slots": 241,
+        "schema_valid": 2017,
+        "slot_fn": 366,
+        "slot_fp": 387,
+        "slot_tp": 1637,
+        "structure_valid": 2022,
+        "wrong_values": 125
+      },
+      "exact_match": 0.7082096933728981,
+      "example_count": 2022,
+      "failure_counts": {
+        "extra_slots": 246,
+        "missing_slots": 228,
+        "unknown_intent": 4,
+        "unknown_slot_type": 1,
+        "wrong_intent": 210,
+        "wrong_values": 120
+      },
+      "intent_accuracy": 0.8961424332344213,
+      "intent_macro_f1": 0.86489765617954,
+      "intent_per_class_f1": {
+        "alarm_query": 0.9142857142857143,
+        "alarm_remove": 0.9629629629629629,
+        "alarm_set": 0.9,
+        "audio_volume_down": 1.0,
+        "audio_volume_mute": 0.9655172413793104,
+        "audio_volume_other": 0.0,
+        "audio_volume_up": 0.9523809523809523,
+        "calendar_query": 0.8653846153846154,
+        "calendar_remove": 0.9215686274509803,
+        "calendar_set": 0.8808664259927798,
+        "cooking_query": 0.0,
+        "cooking_recipe": 0.8705882352941177,
+        "datetime_convert": 1.0,
+        "datetime_query": 0.9448818897637795,
+        "email_addcontact": 0.8333333333333334,
+        "email_query": 0.9722222222222222,
+        "email_querycontact": 0.9375,
+        "email_sendemail": 0.959349593495935,
+        "general_greet": 0.0,
+        "general_joke": 1.0,
+        "general_quirky": 0.632183908045977,
+        "iot_cleaning": 1.0,
+        "iot_coffee": 1.0,
+        "iot_hue_lightchange": 0.9777777777777777,
+        "iot_hue_lightdim": 0.9032258064516129,
+        "iot_hue_lightoff": 0.9142857142857143,
+        "iot_hue_lighton": 1.0,
+        "iot_hue_lightup": 1.0,
+        "iot_wemo_off": 0.9090909090909091,
+        "iot_wemo_on": 1.0,
+        "lists_createoradd": 0.8846153846153846,
+        "lists_query": 0.9292929292929293,
+        "lists_remove": 0.9428571428571428,
+        "music_dislikeness": 0.6666666666666666,
+        "music_likeness": 0.8823529411764706,
+        "music_query": 0.8363636363636363,
+        "music_settings": 0.8888888888888888,
+        "news_query": 0.8287292817679558,
+        "play_audiobook": 0.9014084507042254,
+        "play_game": 0.926829268292683,
+        "play_music": 0.925,
+        "play_podcasts": 0.8955223880597015,
+        "play_radio": 0.9247311827956989,
+        "qa_currency": 0.9538461538461539,
+        "qa_definition": 0.8849557522123894,
+        "qa_factoid": 0.7692307692307693,
+        "qa_maths": 0.7407407407407407,
+        "qa_stock": 0.9565217391304348,
+        "recommendation_events": 0.7,
+        "recommendation_locations": 0.9152542372881356,
+        "recommendation_movies": 0.88,
+        "social_post": 0.96,
+        "social_query": 0.8888888888888888,
+        "takeaway_order": 0.8372093023255814,
+        "takeaway_query": 0.9333333333333333,
+        "transport_query": 0.9315068493150684,
+        "transport_taxi": 0.9818181818181818,
+        "transport_ticket": 0.96,
+        "transport_traffic": 0.9777777777777777,
+        "weather_query": 0.9721115537848606
+      },
+      "joint_exact_match": 0.7082096933728981,
+      "json_valid_rate": 1.0,
+      "schema_valid_rate": 0.9975272007912958,
+      "slot_f1": 0.8130121678668984,
+      "slot_precision": 0.8087944664031621,
+      "slot_recall": 0.8172740888666999,
+      "slot_scoring": "Exact case-sensitive value/type multisets; malformed structures predict no slots",
+      "structure_valid_rate": 1.0,
+      "undefined_reason": null
+    },
+    "phase_memory": {
+      "generation": {
+        "cuda_allocated_bytes": 6446687232,
+        "cuda_reserved_bytes": 12855541760,
+        "elapsed_seconds": 218.6684294063598,
+        "measurement": "maximum_observed_samples",
+        "qualification": "RSS and device memory overlap; do not add them. Sampling may miss short-lived peaks. Swap is system-wide, not attributed to this process.",
+        "rss_bytes": 3003686912,
+        "sample_interval_seconds": 0.1,
+        "samples": 2165,
+        "sampling_errors": [],
+        "system_swap_activity_observed": false,
+        "system_swap_out_bytes_delta": 0
+      },
+      "validation_nll": {
+        "cuda_allocated_bytes": 5730037248,
+        "cuda_reserved_bytes": 12855541760,
+        "elapsed_seconds": 79.14242088794708,
+        "measurement": "maximum_observed_samples",
+        "qualification": "RSS and device memory overlap; do not add them. Sampling may miss short-lived peaks. Swap is system-wide, not attributed to this process.",
+        "rss_bytes": 3003613184,
+        "sample_interval_seconds": 0.1,
+        "samples": 785,
+        "sampling_errors": [],
+        "system_swap_activity_observed": false,
+        "system_swap_out_bytes_delta": 0
+      }
+    },
+    "schema_valid_rate": 0.9975405804230202,
+    "slot_f1": 0.8138442521631644,
+    "slot_precision": 0.809640924741761,
+    "slot_recall": 0.8180914512922465,
+    "slot_scoring": "Exact case-sensitive value/type multisets; malformed structures predict no slots",
+    "split": "validation",
+    "structure_valid_rate": 1.0,
+    "undefined_reason": null
+  },
+  "predictions_sha256": "f39123d444bb00b79aea9713429dc4c95f3054113355ddf2924f3194b477fc09",
+  "validation_seconds": 299.05942084407434
+}

@@ -1,0 +1,13 @@
+system,phase,cuda_allocated_bytes,cuda_reserved_bytes,rss_bytes,samples,elapsed_seconds,system_swap_out_bytes_delta,system_swap_activity_observed,memory_metadata_status,training_seconds,fit_wall_seconds,median_request_seconds,p95_request_seconds
+base,warm_inference,4064040960,4129292288,1866530816,3431,346.5027754427865,0,False,single_interval,,,1.0522630775813013,1.7430716585600752
+quantized_base,warm_inference,2121381888,2604662784,1921851392,5251,530.6901934589259,0,False,single_interval,,,1.6410843799822032,2.5408723213942723
+lora,warm_inference,3710695424,4192206848,1929588736,3030,306.0436582551338,0,False,single_interval,,,0.9664513908792287,2.0158502637641504
+lora,training,7560002560,12855541760,3149119488,,,,,legacy_aggregate_maxima_only,9249.854290399235,,,
+lora,fit,7586387456,12855541760,4447223808,,,,,legacy_aggregate_maxima_only,,11185.990893645212,,
+lora,loading,3628325888,4148166656,4444049408,,,,,legacy_aggregate_maxima_only,,,,
+lora,validation,6519104512,12855541760,3008991232,,,,,legacy_aggregate_maxima_only,,,,
+qlora,warm_inference,2193467904,2680160256,1961549824,4152,419.64607323380187,0,False,single_interval,,,1.3228925315197557,2.7634672251529997
+qlora,training,6124876288,21632122880,3027161088,,,,,legacy_aggregate_maxima_only,11681.646294836886,,,
+qlora,fit,6065603584,21632122880,3027910656,,,,,legacy_aggregate_maxima_only,,14171.725563864224,,
+qlora,loading,1684293632,2170552320,2704711680,,,,,legacy_aggregate_maxima_only,,,,
+qlora,validation,5446306816,21632122880,3027607552,,,,,legacy_aggregate_maxima_only,,,,

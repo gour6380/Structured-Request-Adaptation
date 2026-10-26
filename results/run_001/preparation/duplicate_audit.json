@@ -1,0 +1,3018 @@
+{
+  "exact": {
+    "conflicting_group_count": 9,
+    "cross_split_group_count": 37,
+    "duplicate_group_count": 88,
+    "groups": [
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "6931",
+            "split": "train",
+            "target_hash": "89ebadb19cbe8331cb8c02fee27a3b7a484ee8f1b37f7d2037778673d11fdc95"
+          },
+          {
+            "id": "8050",
+            "split": "train",
+            "target_hash": "89ebadb19cbe8331cb8c02fee27a3b7a484ee8f1b37f7d2037778673d11fdc95"
+          }
+        ],
+        "utterance_hash": "9768f7e65c9fa09e20f79e04b6f80cfc59850380ede43a5f55863f0bc6d9e475"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "7683",
+            "split": "train",
+            "target_hash": "89ebadb19cbe8331cb8c02fee27a3b7a484ee8f1b37f7d2037778673d11fdc95"
+          },
+          {
+            "id": "7948",
+            "split": "train",
+            "target_hash": "89ebadb19cbe8331cb8c02fee27a3b7a484ee8f1b37f7d2037778673d11fdc95"
+          }
+        ],
+        "utterance_hash": "dd7ebc27ad944ece063e175cea7afd49a06b9b350a5183f755a97d4795060535"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "16260",
+            "split": "train",
+            "target_hash": "400d502530022a1ff9e30c7cb9baa70b6068b245ddd4b18c102013d59ca76501"
+          },
+          {
+            "id": "17162",
+            "split": "train",
+            "target_hash": "400d502530022a1ff9e30c7cb9baa70b6068b245ddd4b18c102013d59ca76501"
+          }
+        ],
+        "utterance_hash": "d68ef20497755e14ddb39d9934ec48f3f496f7e2397a1862d44df0c5c198a36a"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "15783",
+            "split": "train",
+            "target_hash": "400d502530022a1ff9e30c7cb9baa70b6068b245ddd4b18c102013d59ca76501"
+          },
+          {
+            "id": "16488",
+            "split": "train",
+            "target_hash": "400d502530022a1ff9e30c7cb9baa70b6068b245ddd4b18c102013d59ca76501"
+          }
+        ],
+        "utterance_hash": "9a688bc61475e60babe59f75beb25d31a64642f2963fc9e94a673887765aa871"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": true,
+        "examples": [
+          {
+            "id": "12007",
+            "split": "train",
+            "target_hash": "d1edc16bd72b72094fc160d3f0ff69ccb8867152567e579fedb0a6e1cba3d3c6"
+          },
+          {
+            "id": "12008",
+            "split": "test",
+            "target_hash": "d1edc16bd72b72094fc160d3f0ff69ccb8867152567e579fedb0a6e1cba3d3c6"
+          }
+        ],
+        "utterance_hash": "ab385e0e75f8f8c3d5b610d744c797fc06d5e744f04a9f56217e482fa3132d5c"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": true,
+        "examples": [
+          {
+            "id": "6728",
+            "split": "train",
+            "target_hash": "be362fcefdf5967bfec398096fb805015b314231589ad27986be777d7d91339d"
+          },
+          {
+            "id": "6729",
+            "split": "test",
+            "target_hash": "be362fcefdf5967bfec398096fb805015b314231589ad27986be777d7d91339d"
+          }
+        ],
+        "utterance_hash": "553475a9ca58ded9bc97f5fe5bd9ae1899d8e6bfcdb6460c62cc3aa8f637e613"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "496",
+            "split": "train",
+            "target_hash": "ae651ab4fec37f2cc2c4b56f6f0cde5a41ff0ad02a838b654b19183491d8639f"
+          },
+          {
+            "id": "4825",
+            "split": "train",
+            "target_hash": "ae651ab4fec37f2cc2c4b56f6f0cde5a41ff0ad02a838b654b19183491d8639f"
+          }
+        ],
+        "utterance_hash": "8a0576bd618a4058717108051644d598ea37d57e3adf48ee96c89f8beb6e782a"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": true,
+        "examples": [
+          {
+            "id": "17118",
+            "split": "train",
+            "target_hash": "400d502530022a1ff9e30c7cb9baa70b6068b245ddd4b18c102013d59ca76501"
+          },
+          {
+            "id": "16002",
+            "split": "test",
+            "target_hash": "400d502530022a1ff9e30c7cb9baa70b6068b245ddd4b18c102013d59ca76501"
+          }
+        ],
+        "utterance_hash": "4c9974ecba3e985b9fd1b0c3d0842e81ac372d03c17bff19e589afabecf2e082"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "7093",
+            "split": "train",
+            "target_hash": "685ec7a535cf52012e7678d167673e255b1df10c6af5b8d5ed8cf32604f33ae5"
+          },
+          {
+            "id": "7200",
+            "split": "train",
+            "target_hash": "685ec7a535cf52012e7678d167673e255b1df10c6af5b8d5ed8cf32604f33ae5"
+          }
+        ],
+        "utterance_hash": "1403aadf6ec1571fe8badb3a121b954f978d950346e952003ae3ef25722769f4"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": true,
+        "examples": [
+          {
+            "id": "11198",
+            "split": "train",
+            "target_hash": "41b3f405e91af06bcc4ee9b7f15e7e1df150eca0c1677de9abb372b0011506b9"
+          },
+          {
+            "id": "10784",
+            "split": "validation",
+            "target_hash": "41b3f405e91af06bcc4ee9b7f15e7e1df150eca0c1677de9abb372b0011506b9"
+          }
+        ],
+        "utterance_hash": "fb084f3de11ad0fc6bce8d46f0473ed39d4338537f4f7ba5190129a01767aa14"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": true,
+        "examples": [
+          {
+            "id": "15782",
+            "split": "train",
+            "target_hash": "400d502530022a1ff9e30c7cb9baa70b6068b245ddd4b18c102013d59ca76501"
+          },
+          {
+            "id": "16757",
+            "split": "train",
+            "target_hash": "400d502530022a1ff9e30c7cb9baa70b6068b245ddd4b18c102013d59ca76501"
+          },
+          {
+            "id": "16712",
+            "split": "test",
+            "target_hash": "400d502530022a1ff9e30c7cb9baa70b6068b245ddd4b18c102013d59ca76501"
+          }
+        ],
+        "utterance_hash": "8e1648dc939af4aae376e78988357bc506b7f69ba84c57f6c2d40c99363249fd"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "15788",
+            "split": "train",
+            "target_hash": "400d502530022a1ff9e30c7cb9baa70b6068b245ddd4b18c102013d59ca76501"
+          },
+          {
+            "id": "16915",
+            "split": "train",
+            "target_hash": "400d502530022a1ff9e30c7cb9baa70b6068b245ddd4b18c102013d59ca76501"
+          }
+        ],
+        "utterance_hash": "c14b0c5b151f0c05f455ccfa83161dd67b8c686da0573bf003c733b681180fd7"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "4474",
+            "split": "train",
+            "target_hash": "8ef50bcaf7298e528189c86eded394b83603efc2e8e4252599baffaa4d77b0ec"
+          },
+          {
+            "id": "4475",
+            "split": "train",
+            "target_hash": "8ef50bcaf7298e528189c86eded394b83603efc2e8e4252599baffaa4d77b0ec"
+          }
+        ],
+        "utterance_hash": "a42e78aed8494ba5c28ffa86e8cb4149f48977087f8d692a2dfd724f21a2f800"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "14297",
+            "split": "train",
+            "target_hash": "de69a8f00815f2e7f34e53b52575ed4608698003ca0e8d8a51ba98d16314f416"
+          },
+          {
+            "id": "14298",
+            "split": "train",
+            "target_hash": "de69a8f00815f2e7f34e53b52575ed4608698003ca0e8d8a51ba98d16314f416"
+          }
+        ],
+        "utterance_hash": "cfa5626170224168bd6b7cc2334a76b9a709c4bcccd3b82cc1228efa9ce9d223"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": true,
+        "examples": [
+          {
+            "id": "8545",
+            "split": "train",
+            "target_hash": "685ec7a535cf52012e7678d167673e255b1df10c6af5b8d5ed8cf32604f33ae5"
+          },
+          {
+            "id": "7878",
+            "split": "test",
+            "target_hash": "685ec7a535cf52012e7678d167673e255b1df10c6af5b8d5ed8cf32604f33ae5"
+          }
+        ],
+        "utterance_hash": "a5a68c972fad9c0dee5e3f80b94d69f53cdc80e78b701fbf5e703c77afcbc367"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": true,
+        "examples": [
+          {
+            "id": "57",
+            "split": "train",
+            "target_hash": "3ee386975629eef02999cf592f67798751b22b667768b7d4b0703db604c65afb"
+          },
+          {
+            "id": "58",
+            "split": "validation",
+            "target_hash": "3ee386975629eef02999cf592f67798751b22b667768b7d4b0703db604c65afb"
+          }
+        ],
+        "utterance_hash": "fdd99f0e8aeb06f0adce0fb480cad4337f2c34a0a938a77584324ae321f39b76"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "10148",
+            "split": "train",
+            "target_hash": "cebd2e642f0cd6c2650cfb008badcc4445e043153b197386bfc8af4f516aa1f1"
+          },
+          {
+            "id": "10149",
+            "split": "train",
+            "target_hash": "cebd2e642f0cd6c2650cfb008badcc4445e043153b197386bfc8af4f516aa1f1"
+          }
+        ],
+        "utterance_hash": "827ddb36dfb6333a218e2fe1697c36b2e84b83a7f5561bb7c2597a9923a2b26f"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "877",
+            "split": "train",
+            "target_hash": "621817ed6793b1026567341670dd3dad19bb72540d2d8dec26f759e245499358"
+          },
+          {
+            "id": "878",
+            "split": "train",
+            "target_hash": "621817ed6793b1026567341670dd3dad19bb72540d2d8dec26f759e245499358"
+          }
+        ],
+        "utterance_hash": "3705b33ef07786067d51b5c7a09a9d4920584db6f39464892bf6b2a022153771"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": true,
+        "examples": [
+          {
+            "id": "14405",
+            "split": "train",
+            "target_hash": "6dc8d5d16aeacf3ae31c72c9761b6b3199f939e272810b95d53a478befd0eafb"
+          },
+          {
+            "id": "14406",
+            "split": "test",
+            "target_hash": "6dc8d5d16aeacf3ae31c72c9761b6b3199f939e272810b95d53a478befd0eafb"
+          }
+        ],
+        "utterance_hash": "76350668594531ba60dea7897ed1de7b71f1da60fb3177fd0c6984462bad7523"
+      },
+      {
+        "conflicting_annotations": true,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "2004",
+            "split": "train",
+            "target_hash": "34b596441da63238b40cb59aacfa372c87111f303e07f012a85ee02e9537c8e8"
+          },
+          {
+            "id": "3594",
+            "split": "train",
+            "target_hash": "a87e168540927c7a730ef0b9fb1b8830be7f262bda84e348a998d9f7e7bd147e"
+          }
+        ],
+        "utterance_hash": "8abaef3707b8e233d0292ef9017f5179b9fa72144ba90d0aedc7364506d2cf61"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "15418",
+            "split": "train",
+            "target_hash": "4a5a8761f48e632dde84da28b9289b17ff8d4681b6bb09487621fd4dbb94439f"
+          },
+          {
+            "id": "15419",
+            "split": "train",
+            "target_hash": "4a5a8761f48e632dde84da28b9289b17ff8d4681b6bb09487621fd4dbb94439f"
+          }
+        ],
+        "utterance_hash": "91a048806fa8d869473f70ce2807392faf3ad953e36b5ec4d6260f17691dd61a"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": true,
+        "examples": [
+          {
+            "id": "13876",
+            "split": "train",
+            "target_hash": "a883b5d370e766d4e5e9a0868b9a26e26429ca9c6acca6d7ebb2ed3b18634c3b"
+          },
+          {
+            "id": "13875",
+            "split": "validation",
+            "target_hash": "a883b5d370e766d4e5e9a0868b9a26e26429ca9c6acca6d7ebb2ed3b18634c3b"
+          }
+        ],
+        "utterance_hash": "f271ee2ea17bf4c86b6ffcb89a4bc7c99862d4c93ee16447a9b3e453b1b8eaad"
+      },
+      {
+        "conflicting_annotations": true,
+        "cross_split": true,
+        "examples": [
+          {
+            "id": "14829",
+            "split": "train",
+            "target_hash": "bcd727bb95eb0509c9e6ec1e1069dbf8536fbde49dc5013651dea227f721f1bd"
+          },
+          {
+            "id": "13580",
+            "split": "test",
+            "target_hash": "fd0f0fc7edc382b7d9c378617df6f86df03ae0877e0ee3b9b6db12c6ba70864f"
+          }
+        ],
+        "utterance_hash": "dc0f7bca9f581ec9778fd2ce5ac3bcbd7631cf00c70bd4a9ac79b219241c282c"
+      },
+      {
+        "conflicting_annotations": true,
+        "cross_split": true,
+        "examples": [
+          {
+            "id": "340",
+            "split": "train",
+            "target_hash": "391f0504ae0a06581230edcb6842de9557e003e42a9ea0973dc23ed0fa099de7"
+          },
+          {
+            "id": "6241",
+            "split": "test",
+            "target_hash": "a06f632f6bf68665d3c8eda239cb2df71e382a2954402e4eb83788a58afde14c"
+          }
+        ],
+        "utterance_hash": "c32475ed2e7e0e3a9d25a83340bd88661a23a889b234557af844b4467f622f4d"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": true,
+        "examples": [
+          {
+            "id": "16623",
+            "split": "train",
+            "target_hash": "241ba0438bfcfb94458635b6defb97cd7b810817d6046720e6a25b160ea15db0"
+          },
+          {
+            "id": "16624",
+            "split": "test",
+            "target_hash": "241ba0438bfcfb94458635b6defb97cd7b810817d6046720e6a25b160ea15db0"
+          }
+        ],
+        "utterance_hash": "b2f63000780014b4973b5a9b7877d022150e917a045254c26ba3dcc282dce649"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "12914",
+            "split": "train",
+            "target_hash": "56a4ab5c7e545bbf662d9878e382b0f55d11074168f426234eca35ebcf172733"
+          },
+          {
+            "id": "12915",
+            "split": "train",
+            "target_hash": "56a4ab5c7e545bbf662d9878e382b0f55d11074168f426234eca35ebcf172733"
+          }
+        ],
+        "utterance_hash": "4efd1dc0859e1713efa685feaeb32e5bdc2555fed1ad60395a5de3aab51087a1"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "12606",
+            "split": "test",
+            "target_hash": "0efb88bf2a5dd951757169ca2a6e17ea6a121342b79117ecd61f8b05e6b66e53"
+          },
+          {
+            "id": "12607",
+            "split": "test",
+            "target_hash": "0efb88bf2a5dd951757169ca2a6e17ea6a121342b79117ecd61f8b05e6b66e53"
+          }
+        ],
+        "utterance_hash": "ec6a403c87940264eb9106c5ffce2f75c08223296c696ea0ee21798f635b948f"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": true,
+        "examples": [
+          {
+            "id": "15349",
+            "split": "validation",
+            "target_hash": "15f30e169f7559201907f7785f81cfb4edbf92d50a40b6c50cc3206825c9581a"
+          },
+          {
+            "id": "15350",
+            "split": "test",
+            "target_hash": "15f30e169f7559201907f7785f81cfb4edbf92d50a40b6c50cc3206825c9581a"
+          }
+        ],
+        "utterance_hash": "326bfd925c2f424329fdf667d00116ea21fa9356b5133a7a9cf06a45c26d728e"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "14127",
+            "split": "train",
+            "target_hash": "34fcf33061ada1d08ce6e805b398b32767a2e6a5e15f5ebe4bc8b15e6869ebe7"
+          },
+          {
+            "id": "14128",
+            "split": "train",
+            "target_hash": "34fcf33061ada1d08ce6e805b398b32767a2e6a5e15f5ebe4bc8b15e6869ebe7"
+          }
+        ],
+        "utterance_hash": "29021ac49cae9dbdd60f860b7111f2d438023d4ebf6871e4d2b680355564ce9f"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "7268",
+            "split": "train",
+            "target_hash": "24558b93bdc1d9c830a4c7139c224e29b21497d31d8dfbafc60273918d1323be"
+          },
+          {
+            "id": "7269",
+            "split": "train",
+            "target_hash": "24558b93bdc1d9c830a4c7139c224e29b21497d31d8dfbafc60273918d1323be"
+          }
+        ],
+        "utterance_hash": "7405942f30c682bb346a7d8473b674fc76253612abbbf7034a04ac8863deb775"
+      },
+      {
+        "conflicting_annotations": true,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "6733",
+            "split": "train",
+            "target_hash": "a879564d4581b9bcb1bb9db077bc034092228b8e69e7eee01547fe829242635d"
+          },
+          {
+            "id": "12120",
+            "split": "train",
+            "target_hash": "45a9f8b04b64871fad20e55eea273151e2b71ac853061c7844ca77eff3b57a80"
+          }
+        ],
+        "utterance_hash": "b645a7fe3c5b6d8bff9013700bbede05c6a94c2cbc2d5a3bfcb9a612644863e4"
+      },
+      {
+        "conflicting_annotations": true,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "3635",
+            "split": "train",
+            "target_hash": "0a3649e7ee7ac18a7c032c7a2b6e98a9f49431be2e9045df7d5f0ec1a7fc2244"
+          },
+          {
+            "id": "7171",
+            "split": "train",
+            "target_hash": "3d13444aa5ca0beb9420962a3ec1e3e74c47bb7521efedbbb709c4cfd480917a"
+          }
+        ],
+        "utterance_hash": "6edcc238d7e1aed7cea41bd0a2323744c065aaf0d7c8f57403ed318643cf7456"
+      },
+      {
+        "conflicting_annotations": true,
+        "cross_split": true,
+        "examples": [
+          {
+            "id": "1957",
+            "split": "train",
+            "target_hash": "b36ca23408f6758be29b2b2f9a8c4c884a9f763afa6f13f7ba185a62d9d1358b"
+          },
+          {
+            "id": "2870",
+            "split": "test",
+            "target_hash": "315d26573a845fdce4015547ea8c0f630c426992adcc96fcddc7a93370ef2bab"
+          }
+        ],
+        "utterance_hash": "26fdf40cd94ff1ae3b5379775c0759bf0e97fdfefc1592799ddce87229119bda"
+      },
+      {
+        "conflicting_annotations": true,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "3048",
+            "split": "train",
+            "target_hash": "8a821977ef3406db52d9895715b2618a87932d5c2e4edb035f275c29a3eb3b3d"
+          },
+          {
+            "id": "12069",
+            "split": "train",
+            "target_hash": "7b0b79299285bd262e4ad0414346d0603871d619ef9a9722ad172e3ad01b8ce2"
+          }
+        ],
+        "utterance_hash": "c168c91133d35f840ec09765bcc93fd8a20976d8e26fa085d80dde8733ec1972"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": true,
+        "examples": [
+          {
+            "id": "9811",
+            "split": "validation",
+            "target_hash": "75b41669b677ab4d93b19303ea2110f046308a72a5cc9cc66d2a70ec7a4eb836"
+          },
+          {
+            "id": "9812",
+            "split": "test",
+            "target_hash": "75b41669b677ab4d93b19303ea2110f046308a72a5cc9cc66d2a70ec7a4eb836"
+          }
+        ],
+        "utterance_hash": "1466fafb2b83619525544222e2fa74e4c35add9b12aad647578573be012dd0a4"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": true,
+        "examples": [
+          {
+            "id": "15408",
+            "split": "train",
+            "target_hash": "d0eab18c5f1aa9f958514b15738a8e75df6df7b0756f1cdac41b301796a07ec9"
+          },
+          {
+            "id": "15409",
+            "split": "test",
+            "target_hash": "d0eab18c5f1aa9f958514b15738a8e75df6df7b0756f1cdac41b301796a07ec9"
+          }
+        ],
+        "utterance_hash": "ac53604bb262230b16f4b3bcc71d3ed46bda0e0a4830fb88e35ff8ab8ab9add0"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "3067",
+            "split": "train",
+            "target_hash": "a529cafa767a2dc8813a590f5b2d0bcc01db0d6bd4f72508d1f909b336e1dcdc"
+          },
+          {
+            "id": "3068",
+            "split": "train",
+            "target_hash": "a529cafa767a2dc8813a590f5b2d0bcc01db0d6bd4f72508d1f909b336e1dcdc"
+          }
+        ],
+        "utterance_hash": "f4325cc170b81fd55fc08b10515276c7f6892f81d0333689e45ea45c0a6dec2a"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": true,
+        "examples": [
+          {
+            "id": "4282",
+            "split": "train",
+            "target_hash": "1c23b88b0bb85bdefa0fd3ebe7d3eb2214afd6f9eb70e3896973a3192b9a735f"
+          },
+          {
+            "id": "392",
+            "split": "validation",
+            "target_hash": "1c23b88b0bb85bdefa0fd3ebe7d3eb2214afd6f9eb70e3896973a3192b9a735f"
+          }
+        ],
+        "utterance_hash": "0da4f3cadec4b4677371b3cb051fe3be708171187285e3ced5a02d991fab6733"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "993",
+            "split": "train",
+            "target_hash": "f505cae86341b7d110508b4c0ff7d9ea771fcb58a3e8ad883cc995c8be2232f5"
+          },
+          {
+            "id": "994",
+            "split": "train",
+            "target_hash": "f505cae86341b7d110508b4c0ff7d9ea771fcb58a3e8ad883cc995c8be2232f5"
+          }
+        ],
+        "utterance_hash": "066e7327955a7bcfa36540c4d23a68365ad946f01949e59993c7d7375c5de34d"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "141",
+            "split": "train",
+            "target_hash": "1c23b88b0bb85bdefa0fd3ebe7d3eb2214afd6f9eb70e3896973a3192b9a735f"
+          },
+          {
+            "id": "3190",
+            "split": "train",
+            "target_hash": "1c23b88b0bb85bdefa0fd3ebe7d3eb2214afd6f9eb70e3896973a3192b9a735f"
+          }
+        ],
+        "utterance_hash": "f8a92feb11c2dddadbf353aecb5578b768d5eb62bc9567852c27c6521cd2e08f"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "9448",
+            "split": "train",
+            "target_hash": "005fd1dde8401a3865e27687f52e038e68c41df5f5fdae105d99233abe19f806"
+          },
+          {
+            "id": "11309",
+            "split": "train",
+            "target_hash": "005fd1dde8401a3865e27687f52e038e68c41df5f5fdae105d99233abe19f806"
+          }
+        ],
+        "utterance_hash": "b540be10bee870d694efeb30ca913f53e6ab8bb6a5788e7bfb16b463c7f17f07"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "10304",
+            "split": "train",
+            "target_hash": "79a7d92ad178bb5df78944f056ae5424d84081c65ffc9adbebafc35da4182491"
+          },
+          {
+            "id": "10306",
+            "split": "train",
+            "target_hash": "79a7d92ad178bb5df78944f056ae5424d84081c65ffc9adbebafc35da4182491"
+          }
+        ],
+        "utterance_hash": "4d7ee988544f4b4741af4e368e16b8aaf8d2213fc7de773577767c96cf4f1848"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": true,
+        "examples": [
+          {
+            "id": "4231",
+            "split": "train",
+            "target_hash": "15336b55931d8d899aff4f2f662709cfac20c0bbec1ea9512aa62966bff9ba90"
+          },
+          {
+            "id": "4232",
+            "split": "test",
+            "target_hash": "15336b55931d8d899aff4f2f662709cfac20c0bbec1ea9512aa62966bff9ba90"
+          }
+        ],
+        "utterance_hash": "f578dc26b13eefda4cd1d60d3566a869cec687f95c29a6489680ec8331cc186d"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "11430",
+            "split": "train",
+            "target_hash": "d8e68a58900d4673e829531114a760036ce6a1355adedda886c41107ffd74b15"
+          },
+          {
+            "id": "11431",
+            "split": "train",
+            "target_hash": "d8e68a58900d4673e829531114a760036ce6a1355adedda886c41107ffd74b15"
+          }
+        ],
+        "utterance_hash": "7c82371c427278d9c4931b8a459f58019c15f6346379dc24ed2246a3f5f261ab"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": true,
+        "examples": [
+          {
+            "id": "5841",
+            "split": "train",
+            "target_hash": "34b596441da63238b40cb59aacfa372c87111f303e07f012a85ee02e9537c8e8"
+          },
+          {
+            "id": "3",
+            "split": "test",
+            "target_hash": "34b596441da63238b40cb59aacfa372c87111f303e07f012a85ee02e9537c8e8"
+          }
+        ],
+        "utterance_hash": "7024344971a6e8bb9eb9f63cf5748433b37425045796372ad2e7be683241a907"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": true,
+        "examples": [
+          {
+            "id": "4566",
+            "split": "train",
+            "target_hash": "4e73099ebb6c9da94cd0c6a01d785595038ffbb0fd9a3f9cc16ee35c3ab70d54"
+          },
+          {
+            "id": "4567",
+            "split": "test",
+            "target_hash": "4e73099ebb6c9da94cd0c6a01d785595038ffbb0fd9a3f9cc16ee35c3ab70d54"
+          }
+        ],
+        "utterance_hash": "fd4b28c628edcddd586bdc16d384dc2f4c737e97fab902818e353e5b74563386"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "7091",
+            "split": "train",
+            "target_hash": "685ec7a535cf52012e7678d167673e255b1df10c6af5b8d5ed8cf32604f33ae5"
+          },
+          {
+            "id": "8854",
+            "split": "train",
+            "target_hash": "685ec7a535cf52012e7678d167673e255b1df10c6af5b8d5ed8cf32604f33ae5"
+          }
+        ],
+        "utterance_hash": "415a3198a89672cee81a2e9e7ad0bab1122de892755fe2ec78595dcc0a25e5df"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": true,
+        "examples": [
+          {
+            "id": "10443",
+            "split": "train",
+            "target_hash": "c830f43500adfe22cc0eeea122f0cc6fff05e7c5e144c2d01325796e44277dee"
+          },
+          {
+            "id": "10442",
+            "split": "test",
+            "target_hash": "c830f43500adfe22cc0eeea122f0cc6fff05e7c5e144c2d01325796e44277dee"
+          }
+        ],
+        "utterance_hash": "fa504b065dc60fcd1b2abc4db967890d70d13106684511f106092f5c6d40ff28"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": true,
+        "examples": [
+          {
+            "id": "15422",
+            "split": "train",
+            "target_hash": "8ddbab8d4fd3044bb16070886994a0acaf7987b0d9a47bbc03e386aa9f1572a2"
+          },
+          {
+            "id": "15421",
+            "split": "validation",
+            "target_hash": "8ddbab8d4fd3044bb16070886994a0acaf7987b0d9a47bbc03e386aa9f1572a2"
+          }
+        ],
+        "utterance_hash": "4f6eba2507c31782893a0f71add60c4234e8139ac1fb7ccd4fb12d2dfcc7c587"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": true,
+        "examples": [
+          {
+            "id": "14125",
+            "split": "validation",
+            "target_hash": "34fcf33061ada1d08ce6e805b398b32767a2e6a5e15f5ebe4bc8b15e6869ebe7"
+          },
+          {
+            "id": "14126",
+            "split": "test",
+            "target_hash": "34fcf33061ada1d08ce6e805b398b32767a2e6a5e15f5ebe4bc8b15e6869ebe7"
+          }
+        ],
+        "utterance_hash": "2948af8206d66f728f3da667b00cf73e6bdd6e3447039b40f9477f5acedfe46a"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": true,
+        "examples": [
+          {
+            "id": "6569",
+            "split": "train",
+            "target_hash": "9748162d80e4ca09d4fa0710a2f3b1b37ea5c2bb85d7907491c85e0cd7ebce3c"
+          },
+          {
+            "id": "6570",
+            "split": "validation",
+            "target_hash": "9748162d80e4ca09d4fa0710a2f3b1b37ea5c2bb85d7907491c85e0cd7ebce3c"
+          }
+        ],
+        "utterance_hash": "573700faa4e15b6febf95c93d6298dbc1a043f1cb5695239d96ad8fee26b7433"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": true,
+        "examples": [
+          {
+            "id": "3154",
+            "split": "train",
+            "target_hash": "b3db182ae0be58fd477c57a88dcc39ad2c86ca5cff41df3f8585064984a94748"
+          },
+          {
+            "id": "4171",
+            "split": "test",
+            "target_hash": "b3db182ae0be58fd477c57a88dcc39ad2c86ca5cff41df3f8585064984a94748"
+          }
+        ],
+        "utterance_hash": "bea2844884fd590785b7496bb0a5b6e532d96e9349b3e96f1488f2dae1b4b222"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "15440",
+            "split": "train",
+            "target_hash": "dc0f28a2b2dc61623f8b111588ebd486866e6a7d6418eacc000676d030c8f519"
+          },
+          {
+            "id": "15441",
+            "split": "train",
+            "target_hash": "dc0f28a2b2dc61623f8b111588ebd486866e6a7d6418eacc000676d030c8f519"
+          }
+        ],
+        "utterance_hash": "0007d024a2c3d8474712c62a14da048caad26641b9d1b663c95402c2756c89ed"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "15592",
+            "split": "test",
+            "target_hash": "9e3aded6f8782b9b85320bf8e7b2813d6781b55c073f009a693792d2948dc865"
+          },
+          {
+            "id": "15593",
+            "split": "test",
+            "target_hash": "9e3aded6f8782b9b85320bf8e7b2813d6781b55c073f009a693792d2948dc865"
+          }
+        ],
+        "utterance_hash": "15fd098c94328b8afe71d973b168f6fd950c1b0402459f31671af8fac1b35285"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": true,
+        "examples": [
+          {
+            "id": "15646",
+            "split": "train",
+            "target_hash": "dc61c1d95daa71b4e03a395f2802122345a967ab16e449c7854b6d17c0b0f5e2"
+          },
+          {
+            "id": "15647",
+            "split": "test",
+            "target_hash": "dc61c1d95daa71b4e03a395f2802122345a967ab16e449c7854b6d17c0b0f5e2"
+          }
+        ],
+        "utterance_hash": "da470abac0f35aa0b4247c375d2e062bae77eae47a2fd1d01432afce828af3e2"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": true,
+        "examples": [
+          {
+            "id": "2487",
+            "split": "train",
+            "target_hash": "9c35a1f441e169adc80cac438eff368f4abb093569d6bb12451d0c844654bf4c"
+          },
+          {
+            "id": "188",
+            "split": "validation",
+            "target_hash": "9c35a1f441e169adc80cac438eff368f4abb093569d6bb12451d0c844654bf4c"
+          }
+        ],
+        "utterance_hash": "3dedb8d4e93090557b954cc6f3819e37c3f7b1ebd5d8e61b05d31d26aa00d363"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "13570",
+            "split": "train",
+            "target_hash": "bb978229093879f257daecbd3df0b971992b29d85951264330e1ca0ea82ae43b"
+          },
+          {
+            "id": "13571",
+            "split": "train",
+            "target_hash": "bb978229093879f257daecbd3df0b971992b29d85951264330e1ca0ea82ae43b"
+          }
+        ],
+        "utterance_hash": "f9f0c6fb637ef4363d5b674b435b3e730bd4aa4dd938873153eaee3ff035f857"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "3058",
+            "split": "train",
+            "target_hash": "95b81bf72bf408e657e99b1357854c5cd32a4a12f47b1ba5f44841eaee0abfb6"
+          },
+          {
+            "id": "3059",
+            "split": "train",
+            "target_hash": "95b81bf72bf408e657e99b1357854c5cd32a4a12f47b1ba5f44841eaee0abfb6"
+          }
+        ],
+        "utterance_hash": "5073692d33d63c8048cee6212759abd24391ee446e4f9ed3c517ab72db21e118"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "3607",
+            "split": "train",
+            "target_hash": "bd7fbf9da133f2d734a0ce707592511bc7fcda2f06d25a6ce9f939084fc00965"
+          },
+          {
+            "id": "3608",
+            "split": "train",
+            "target_hash": "bd7fbf9da133f2d734a0ce707592511bc7fcda2f06d25a6ce9f939084fc00965"
+          }
+        ],
+        "utterance_hash": "31269b173d0fea41e964ed7274ab62dc67fb03273ae59ca74af62c301a0b2574"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "3289",
+            "split": "train",
+            "target_hash": "7ea6dd21b6b765b6f1c661d09bcfa9505d65e38b6daf58353a023b9926dde016"
+          },
+          {
+            "id": "4581",
+            "split": "train",
+            "target_hash": "7ea6dd21b6b765b6f1c661d09bcfa9505d65e38b6daf58353a023b9926dde016"
+          }
+        ],
+        "utterance_hash": "b8c1184038db85d2f8aee37f432a672cdb118c42c338ac8fcf6f75e38697de71"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "1688",
+            "split": "validation",
+            "target_hash": "1fd362b02bc56fd53a9cdcebaff881cf0888113a45c4643a1615e57d6bd65b60"
+          },
+          {
+            "id": "4623",
+            "split": "validation",
+            "target_hash": "1fd362b02bc56fd53a9cdcebaff881cf0888113a45c4643a1615e57d6bd65b60"
+          }
+        ],
+        "utterance_hash": "ebc7cb86f182e90accffa44f51b4f7e3ae59e4b69cbbdf3147f9a576746e5621"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "12540",
+            "split": "train",
+            "target_hash": "df91ace60d4931a265a09b3167ec16a1c93e97441f3d9351f8d20023cb2b5690"
+          },
+          {
+            "id": "12541",
+            "split": "train",
+            "target_hash": "df91ace60d4931a265a09b3167ec16a1c93e97441f3d9351f8d20023cb2b5690"
+          }
+        ],
+        "utterance_hash": "d1b9fae61875b53d6f9487fad2adb39d143dc99ca8ee5195c58550149211db32"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "3372",
+            "split": "train",
+            "target_hash": "3587ea2abfed96f18d7233cc44e1cac05b652c609f218ab1afcc3681ee92f7f4"
+          },
+          {
+            "id": "3957",
+            "split": "train",
+            "target_hash": "3587ea2abfed96f18d7233cc44e1cac05b652c609f218ab1afcc3681ee92f7f4"
+          }
+        ],
+        "utterance_hash": "9977a4cb2d1bf301958b810f8c41341bf40403c3ee1465b750305a2d33220c13"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "494",
+            "split": "test",
+            "target_hash": "18c75d5ac6ff7bd54e967ae2746c6a68104db39a2f58fee8b132254cc65b45ad"
+          },
+          {
+            "id": "1372",
+            "split": "test",
+            "target_hash": "18c75d5ac6ff7bd54e967ae2746c6a68104db39a2f58fee8b132254cc65b45ad"
+          }
+        ],
+        "utterance_hash": "0a376e3c18e9a2877fd7a4ca3c19ab9fdbbc324311e107777f5a2948a924b2bf"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "492",
+            "split": "train",
+            "target_hash": "852603847a752e6c55a3d84d71cea909f16f23a08b39e4b0a934fc054da127dd"
+          },
+          {
+            "id": "493",
+            "split": "train",
+            "target_hash": "852603847a752e6c55a3d84d71cea909f16f23a08b39e4b0a934fc054da127dd"
+          }
+        ],
+        "utterance_hash": "4a092d429c20998334fb5d8a8c21bf5acda3c379c801e19c94f4f65c2a54d427"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": true,
+        "examples": [
+          {
+            "id": "1456",
+            "split": "train",
+            "target_hash": "3decd91ce4ef3dd0cb0e0a2c7ee54a119c418a3fe36e6d90781a99b0ab37d57c"
+          },
+          {
+            "id": "5290",
+            "split": "validation",
+            "target_hash": "3decd91ce4ef3dd0cb0e0a2c7ee54a119c418a3fe36e6d90781a99b0ab37d57c"
+          }
+        ],
+        "utterance_hash": "da3623b0c075d8781448ccfd5886bae62708f62bf9f705023701b316adcfb904"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": true,
+        "examples": [
+          {
+            "id": "7771",
+            "split": "train",
+            "target_hash": "18ba3c53d8592235c4e75ba6e44b3d07084d77a0b8c15f7d83f5ec40e51796ab"
+          },
+          {
+            "id": "8044",
+            "split": "test",
+            "target_hash": "18ba3c53d8592235c4e75ba6e44b3d07084d77a0b8c15f7d83f5ec40e51796ab"
+          }
+        ],
+        "utterance_hash": "5e7fe2c9d0641075255d1c1e4f13fcbfe2fbfe77d12165064d4b736dfbb4cc66"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "9916",
+            "split": "train",
+            "target_hash": "69514b63ba7f84abe1994451bf99eb2b68cbf62b61471df1b6a4abb20c6de2e5"
+          },
+          {
+            "id": "9917",
+            "split": "train",
+            "target_hash": "69514b63ba7f84abe1994451bf99eb2b68cbf62b61471df1b6a4abb20c6de2e5"
+          }
+        ],
+        "utterance_hash": "c2b7090cc8ed898d0ea1440680de1c8de9ca8560a79c8764ca00d172d8045bfa"
+      },
+      {
+        "conflicting_annotations": true,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "10492",
+            "split": "train",
+            "target_hash": "3083870824cf6c40ad29d3657a544682298be0a4729816f0f0c40f3273c49b98"
+          },
+          {
+            "id": "10752",
+            "split": "train",
+            "target_hash": "08ca322e9297c6574673f4f33570e120c071ca0dd374dcf2f01a05c48e3bfe6e"
+          }
+        ],
+        "utterance_hash": "7dc83c948800c2c69682b07a55ea62cf1577958490120225fcdb95450fb3c7d7"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "10439",
+            "split": "train",
+            "target_hash": "08ca322e9297c6574673f4f33570e120c071ca0dd374dcf2f01a05c48e3bfe6e"
+          },
+          {
+            "id": "11051",
+            "split": "train",
+            "target_hash": "08ca322e9297c6574673f4f33570e120c071ca0dd374dcf2f01a05c48e3bfe6e"
+          }
+        ],
+        "utterance_hash": "6206779f4616a13362b9bc34cd461c0866e186dc1b0cae131e784f5141a412ba"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "116",
+            "split": "train",
+            "target_hash": "f1fd78b2688b916eb43e2899e71bc6e5961163138d3ede9d90d3688ffc3aa99b"
+          },
+          {
+            "id": "136",
+            "split": "train",
+            "target_hash": "f1fd78b2688b916eb43e2899e71bc6e5961163138d3ede9d90d3688ffc3aa99b"
+          }
+        ],
+        "utterance_hash": "e851ebf0479dbd55a363db597394c74c6d81193b3723f3c67be2453940150961"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "13740",
+            "split": "test",
+            "target_hash": "45ff08b917a3fc336e9ade90712a2acf41569440044895da5b0bb86556c38d37"
+          },
+          {
+            "id": "13741",
+            "split": "test",
+            "target_hash": "45ff08b917a3fc336e9ade90712a2acf41569440044895da5b0bb86556c38d37"
+          }
+        ],
+        "utterance_hash": "b59224539709104bf4d725900cf23943687d8ca9cbbf730fc321dc01f5e04896"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "3651",
+            "split": "validation",
+            "target_hash": "a2eace1872edaf65be93bf7aeb6e75c27468d0192c00637e8e2b021e61a74ce0"
+          },
+          {
+            "id": "3652",
+            "split": "validation",
+            "target_hash": "a2eace1872edaf65be93bf7aeb6e75c27468d0192c00637e8e2b021e61a74ce0"
+          }
+        ],
+        "utterance_hash": "10801092724c9e1e2a8cfc288776429d41a6f50ad82bd5b4c964bbea3ac5596a"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": true,
+        "examples": [
+          {
+            "id": "3033",
+            "split": "train",
+            "target_hash": "3decd91ce4ef3dd0cb0e0a2c7ee54a119c418a3fe36e6d90781a99b0ab37d57c"
+          },
+          {
+            "id": "4377",
+            "split": "test",
+            "target_hash": "3decd91ce4ef3dd0cb0e0a2c7ee54a119c418a3fe36e6d90781a99b0ab37d57c"
+          }
+        ],
+        "utterance_hash": "7112ee1fb87e64d1f7ce852d0abe18b303ad26b1ac126c020545ae8dc1793f9c"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": true,
+        "examples": [
+          {
+            "id": "465",
+            "split": "validation",
+            "target_hash": "bace32b8990f44a5599bad9cd325ecda1f0a988a703de8472bcc9d2b0f3fa9a3"
+          },
+          {
+            "id": "128",
+            "split": "test",
+            "target_hash": "bace32b8990f44a5599bad9cd325ecda1f0a988a703de8472bcc9d2b0f3fa9a3"
+          }
+        ],
+        "utterance_hash": "8523c8d2451532786b3eb9a40063f4da8f00fd3db6e130101951d7aca0ddf399"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "2183",
+            "split": "train",
+            "target_hash": "0d09ebac3b9cfcdc54a12a16d6d6bf032a8990f5fa348af97e3bdf5f4aa4c9ab"
+          },
+          {
+            "id": "2409",
+            "split": "train",
+            "target_hash": "0d09ebac3b9cfcdc54a12a16d6d6bf032a8990f5fa348af97e3bdf5f4aa4c9ab"
+          }
+        ],
+        "utterance_hash": "9ecd68d67a6321ae11b7b9924b3240c952cbd9e38883879ef893d1cd9ebc4074"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": true,
+        "examples": [
+          {
+            "id": "14202",
+            "split": "train",
+            "target_hash": "92d2cff284585dc59cbc0d048d5573cf0c97cef40295aa41eba83b9d0adbdb31"
+          },
+          {
+            "id": "14203",
+            "split": "validation",
+            "target_hash": "92d2cff284585dc59cbc0d048d5573cf0c97cef40295aa41eba83b9d0adbdb31"
+          }
+        ],
+        "utterance_hash": "f508878bc2fa9897ef3a86a426bca155d0190396b4ef06674b56fab93b1e2f2e"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": true,
+        "examples": [
+          {
+            "id": "13737",
+            "split": "validation",
+            "target_hash": "147f6e6f7e549888cf3f791d5d4b15a0eab1d851061c9bf4aa844610db4abbb9"
+          },
+          {
+            "id": "13738",
+            "split": "test",
+            "target_hash": "147f6e6f7e549888cf3f791d5d4b15a0eab1d851061c9bf4aa844610db4abbb9"
+          }
+        ],
+        "utterance_hash": "13b51d9f4732d99fd7d44bb24737b785d36864d172ff39593a4f14d9b8f45b8e"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "6566",
+            "split": "train",
+            "target_hash": "9bf15dfa2a574642d17fb120bb8a5f758c7660eb4aaddd7ab3cd5cbbf24da56d"
+          },
+          {
+            "id": "6644",
+            "split": "train",
+            "target_hash": "9bf15dfa2a574642d17fb120bb8a5f758c7660eb4aaddd7ab3cd5cbbf24da56d"
+          }
+        ],
+        "utterance_hash": "82d115383b3b13c85134e2bb67fe3bc263ee1c0f80f23dd747732267bf5f2d97"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "9919",
+            "split": "train",
+            "target_hash": "d8e4a4d7449f59a89b12b23c6aa7bfd144259acf1dcc3ac5c4706d3b5d9b0aca"
+          },
+          {
+            "id": "9920",
+            "split": "train",
+            "target_hash": "d8e4a4d7449f59a89b12b23c6aa7bfd144259acf1dcc3ac5c4706d3b5d9b0aca"
+          }
+        ],
+        "utterance_hash": "8fcfc81ad34f1d1cc46757fb3c46a796a0d080befa062a3aa3a7535b7899034b"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": true,
+        "examples": [
+          {
+            "id": "5123",
+            "split": "train",
+            "target_hash": "010ebd2714e447d486d3b73009ca5ba255580128c2d5fa934daa02af1098e7c9"
+          },
+          {
+            "id": "1513",
+            "split": "test",
+            "target_hash": "010ebd2714e447d486d3b73009ca5ba255580128c2d5fa934daa02af1098e7c9"
+          }
+        ],
+        "utterance_hash": "df9e47de7a34805ee31c90b6334b0a6512a4b671e11b2bb463c3f50ad40f32a1"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "270",
+            "split": "train",
+            "target_hash": "bace32b8990f44a5599bad9cd325ecda1f0a988a703de8472bcc9d2b0f3fa9a3"
+          },
+          {
+            "id": "519",
+            "split": "train",
+            "target_hash": "bace32b8990f44a5599bad9cd325ecda1f0a988a703de8472bcc9d2b0f3fa9a3"
+          }
+        ],
+        "utterance_hash": "85b9504db2f90a7efafe6784d0af89d6cf5b156fc53e7a62c5772f3a058cb8e2"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "1854",
+            "split": "train",
+            "target_hash": "bace32b8990f44a5599bad9cd325ecda1f0a988a703de8472bcc9d2b0f3fa9a3"
+          },
+          {
+            "id": "4220",
+            "split": "train",
+            "target_hash": "bace32b8990f44a5599bad9cd325ecda1f0a988a703de8472bcc9d2b0f3fa9a3"
+          }
+        ],
+        "utterance_hash": "c3ff75e4521b3e0fa45bff3efc6143e31ddf479f84e0d6b986226b2640c28dab"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "5778",
+            "split": "train",
+            "target_hash": "3decd91ce4ef3dd0cb0e0a2c7ee54a119c418a3fe36e6d90781a99b0ab37d57c"
+          },
+          {
+            "id": "6474",
+            "split": "train",
+            "target_hash": "3decd91ce4ef3dd0cb0e0a2c7ee54a119c418a3fe36e6d90781a99b0ab37d57c"
+          }
+        ],
+        "utterance_hash": "a8044d2b192b30ca6efc4f607183f7d060a5aaf4b792b6c2ecf486c0cd758953"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": true,
+        "examples": [
+          {
+            "id": "1588",
+            "split": "train",
+            "target_hash": "82d55b66131355192d71dec6243f0634c0209b18da0b4d124f63ed5a6e71b47a"
+          },
+          {
+            "id": "2322",
+            "split": "test",
+            "target_hash": "82d55b66131355192d71dec6243f0634c0209b18da0b4d124f63ed5a6e71b47a"
+          }
+        ],
+        "utterance_hash": "eea72075703a3133c554641862238941efc3595ce774652e04c33b39ea9a8d77"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": true,
+        "examples": [
+          {
+            "id": "5639",
+            "split": "train",
+            "target_hash": "22e79680fe096ef760840f26920996aa681cbaf20b8332e32a84cccecd459bfb"
+          },
+          {
+            "id": "2943",
+            "split": "validation",
+            "target_hash": "22e79680fe096ef760840f26920996aa681cbaf20b8332e32a84cccecd459bfb"
+          }
+        ],
+        "utterance_hash": "b3676e9004c6c50b4244babc75e4ea853d8362005a2caf66eb57cd5c4f10e3db"
+      },
+      {
+        "conflicting_annotations": true,
+        "cross_split": true,
+        "examples": [
+          {
+            "id": "45",
+            "split": "train",
+            "target_hash": "b36ca23408f6758be29b2b2f9a8c4c884a9f763afa6f13f7ba185a62d9d1358b"
+          },
+          {
+            "id": "6425",
+            "split": "validation",
+            "target_hash": "9bf15dfa2a574642d17fb120bb8a5f758c7660eb4aaddd7ab3cd5cbbf24da56d"
+          }
+        ],
+        "utterance_hash": "61be3ffb385bbb60b4792418fbc31dafe6b2a6c70f4da5f5bc4861e694cd10ed"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "14054",
+            "split": "train",
+            "target_hash": "f568980bb29e021ef98dae307a187cf46001b14f2fee5a21d9d2a81aea0e6812"
+          },
+          {
+            "id": "14055",
+            "split": "train",
+            "target_hash": "f568980bb29e021ef98dae307a187cf46001b14f2fee5a21d9d2a81aea0e6812"
+          }
+        ],
+        "utterance_hash": "e21fda9b49897976adbef354c0ed3a79197d3615526494249ed375c1935991fa"
+      }
+    ]
+  },
+  "normalized": {
+    "conflicting_group_count": 9,
+    "cross_split_group_count": 37,
+    "duplicate_group_count": 88,
+    "groups": [
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "6931",
+            "split": "train",
+            "target_hash": "89ebadb19cbe8331cb8c02fee27a3b7a484ee8f1b37f7d2037778673d11fdc95"
+          },
+          {
+            "id": "8050",
+            "split": "train",
+            "target_hash": "89ebadb19cbe8331cb8c02fee27a3b7a484ee8f1b37f7d2037778673d11fdc95"
+          }
+        ],
+        "utterance_hash": "9768f7e65c9fa09e20f79e04b6f80cfc59850380ede43a5f55863f0bc6d9e475"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "7683",
+            "split": "train",
+            "target_hash": "89ebadb19cbe8331cb8c02fee27a3b7a484ee8f1b37f7d2037778673d11fdc95"
+          },
+          {
+            "id": "7948",
+            "split": "train",
+            "target_hash": "89ebadb19cbe8331cb8c02fee27a3b7a484ee8f1b37f7d2037778673d11fdc95"
+          }
+        ],
+        "utterance_hash": "dd7ebc27ad944ece063e175cea7afd49a06b9b350a5183f755a97d4795060535"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "16260",
+            "split": "train",
+            "target_hash": "400d502530022a1ff9e30c7cb9baa70b6068b245ddd4b18c102013d59ca76501"
+          },
+          {
+            "id": "17162",
+            "split": "train",
+            "target_hash": "400d502530022a1ff9e30c7cb9baa70b6068b245ddd4b18c102013d59ca76501"
+          }
+        ],
+        "utterance_hash": "d68ef20497755e14ddb39d9934ec48f3f496f7e2397a1862d44df0c5c198a36a"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "15783",
+            "split": "train",
+            "target_hash": "400d502530022a1ff9e30c7cb9baa70b6068b245ddd4b18c102013d59ca76501"
+          },
+          {
+            "id": "16488",
+            "split": "train",
+            "target_hash": "400d502530022a1ff9e30c7cb9baa70b6068b245ddd4b18c102013d59ca76501"
+          }
+        ],
+        "utterance_hash": "9a688bc61475e60babe59f75beb25d31a64642f2963fc9e94a673887765aa871"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": true,
+        "examples": [
+          {
+            "id": "12007",
+            "split": "train",
+            "target_hash": "d1edc16bd72b72094fc160d3f0ff69ccb8867152567e579fedb0a6e1cba3d3c6"
+          },
+          {
+            "id": "12008",
+            "split": "test",
+            "target_hash": "d1edc16bd72b72094fc160d3f0ff69ccb8867152567e579fedb0a6e1cba3d3c6"
+          }
+        ],
+        "utterance_hash": "ab385e0e75f8f8c3d5b610d744c797fc06d5e744f04a9f56217e482fa3132d5c"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": true,
+        "examples": [
+          {
+            "id": "6728",
+            "split": "train",
+            "target_hash": "be362fcefdf5967bfec398096fb805015b314231589ad27986be777d7d91339d"
+          },
+          {
+            "id": "6729",
+            "split": "test",
+            "target_hash": "be362fcefdf5967bfec398096fb805015b314231589ad27986be777d7d91339d"
+          }
+        ],
+        "utterance_hash": "553475a9ca58ded9bc97f5fe5bd9ae1899d8e6bfcdb6460c62cc3aa8f637e613"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "496",
+            "split": "train",
+            "target_hash": "ae651ab4fec37f2cc2c4b56f6f0cde5a41ff0ad02a838b654b19183491d8639f"
+          },
+          {
+            "id": "4825",
+            "split": "train",
+            "target_hash": "ae651ab4fec37f2cc2c4b56f6f0cde5a41ff0ad02a838b654b19183491d8639f"
+          }
+        ],
+        "utterance_hash": "8a0576bd618a4058717108051644d598ea37d57e3adf48ee96c89f8beb6e782a"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": true,
+        "examples": [
+          {
+            "id": "17118",
+            "split": "train",
+            "target_hash": "400d502530022a1ff9e30c7cb9baa70b6068b245ddd4b18c102013d59ca76501"
+          },
+          {
+            "id": "16002",
+            "split": "test",
+            "target_hash": "400d502530022a1ff9e30c7cb9baa70b6068b245ddd4b18c102013d59ca76501"
+          }
+        ],
+        "utterance_hash": "4c9974ecba3e985b9fd1b0c3d0842e81ac372d03c17bff19e589afabecf2e082"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "7093",
+            "split": "train",
+            "target_hash": "685ec7a535cf52012e7678d167673e255b1df10c6af5b8d5ed8cf32604f33ae5"
+          },
+          {
+            "id": "7200",
+            "split": "train",
+            "target_hash": "685ec7a535cf52012e7678d167673e255b1df10c6af5b8d5ed8cf32604f33ae5"
+          }
+        ],
+        "utterance_hash": "1403aadf6ec1571fe8badb3a121b954f978d950346e952003ae3ef25722769f4"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": true,
+        "examples": [
+          {
+            "id": "11198",
+            "split": "train",
+            "target_hash": "41b3f405e91af06bcc4ee9b7f15e7e1df150eca0c1677de9abb372b0011506b9"
+          },
+          {
+            "id": "10784",
+            "split": "validation",
+            "target_hash": "41b3f405e91af06bcc4ee9b7f15e7e1df150eca0c1677de9abb372b0011506b9"
+          }
+        ],
+        "utterance_hash": "fb084f3de11ad0fc6bce8d46f0473ed39d4338537f4f7ba5190129a01767aa14"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": true,
+        "examples": [
+          {
+            "id": "15782",
+            "split": "train",
+            "target_hash": "400d502530022a1ff9e30c7cb9baa70b6068b245ddd4b18c102013d59ca76501"
+          },
+          {
+            "id": "16757",
+            "split": "train",
+            "target_hash": "400d502530022a1ff9e30c7cb9baa70b6068b245ddd4b18c102013d59ca76501"
+          },
+          {
+            "id": "16712",
+            "split": "test",
+            "target_hash": "400d502530022a1ff9e30c7cb9baa70b6068b245ddd4b18c102013d59ca76501"
+          }
+        ],
+        "utterance_hash": "8e1648dc939af4aae376e78988357bc506b7f69ba84c57f6c2d40c99363249fd"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "15788",
+            "split": "train",
+            "target_hash": "400d502530022a1ff9e30c7cb9baa70b6068b245ddd4b18c102013d59ca76501"
+          },
+          {
+            "id": "16915",
+            "split": "train",
+            "target_hash": "400d502530022a1ff9e30c7cb9baa70b6068b245ddd4b18c102013d59ca76501"
+          }
+        ],
+        "utterance_hash": "c14b0c5b151f0c05f455ccfa83161dd67b8c686da0573bf003c733b681180fd7"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "4474",
+            "split": "train",
+            "target_hash": "8ef50bcaf7298e528189c86eded394b83603efc2e8e4252599baffaa4d77b0ec"
+          },
+          {
+            "id": "4475",
+            "split": "train",
+            "target_hash": "8ef50bcaf7298e528189c86eded394b83603efc2e8e4252599baffaa4d77b0ec"
+          }
+        ],
+        "utterance_hash": "a42e78aed8494ba5c28ffa86e8cb4149f48977087f8d692a2dfd724f21a2f800"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "14297",
+            "split": "train",
+            "target_hash": "de69a8f00815f2e7f34e53b52575ed4608698003ca0e8d8a51ba98d16314f416"
+          },
+          {
+            "id": "14298",
+            "split": "train",
+            "target_hash": "de69a8f00815f2e7f34e53b52575ed4608698003ca0e8d8a51ba98d16314f416"
+          }
+        ],
+        "utterance_hash": "cfa5626170224168bd6b7cc2334a76b9a709c4bcccd3b82cc1228efa9ce9d223"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": true,
+        "examples": [
+          {
+            "id": "8545",
+            "split": "train",
+            "target_hash": "685ec7a535cf52012e7678d167673e255b1df10c6af5b8d5ed8cf32604f33ae5"
+          },
+          {
+            "id": "7878",
+            "split": "test",
+            "target_hash": "685ec7a535cf52012e7678d167673e255b1df10c6af5b8d5ed8cf32604f33ae5"
+          }
+        ],
+        "utterance_hash": "a5a68c972fad9c0dee5e3f80b94d69f53cdc80e78b701fbf5e703c77afcbc367"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": true,
+        "examples": [
+          {
+            "id": "57",
+            "split": "train",
+            "target_hash": "3ee386975629eef02999cf592f67798751b22b667768b7d4b0703db604c65afb"
+          },
+          {
+            "id": "58",
+            "split": "validation",
+            "target_hash": "3ee386975629eef02999cf592f67798751b22b667768b7d4b0703db604c65afb"
+          }
+        ],
+        "utterance_hash": "fdd99f0e8aeb06f0adce0fb480cad4337f2c34a0a938a77584324ae321f39b76"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "10148",
+            "split": "train",
+            "target_hash": "cebd2e642f0cd6c2650cfb008badcc4445e043153b197386bfc8af4f516aa1f1"
+          },
+          {
+            "id": "10149",
+            "split": "train",
+            "target_hash": "cebd2e642f0cd6c2650cfb008badcc4445e043153b197386bfc8af4f516aa1f1"
+          }
+        ],
+        "utterance_hash": "827ddb36dfb6333a218e2fe1697c36b2e84b83a7f5561bb7c2597a9923a2b26f"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "877",
+            "split": "train",
+            "target_hash": "621817ed6793b1026567341670dd3dad19bb72540d2d8dec26f759e245499358"
+          },
+          {
+            "id": "878",
+            "split": "train",
+            "target_hash": "621817ed6793b1026567341670dd3dad19bb72540d2d8dec26f759e245499358"
+          }
+        ],
+        "utterance_hash": "3705b33ef07786067d51b5c7a09a9d4920584db6f39464892bf6b2a022153771"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": true,
+        "examples": [
+          {
+            "id": "14405",
+            "split": "train",
+            "target_hash": "6dc8d5d16aeacf3ae31c72c9761b6b3199f939e272810b95d53a478befd0eafb"
+          },
+          {
+            "id": "14406",
+            "split": "test",
+            "target_hash": "6dc8d5d16aeacf3ae31c72c9761b6b3199f939e272810b95d53a478befd0eafb"
+          }
+        ],
+        "utterance_hash": "76350668594531ba60dea7897ed1de7b71f1da60fb3177fd0c6984462bad7523"
+      },
+      {
+        "conflicting_annotations": true,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "2004",
+            "split": "train",
+            "target_hash": "34b596441da63238b40cb59aacfa372c87111f303e07f012a85ee02e9537c8e8"
+          },
+          {
+            "id": "3594",
+            "split": "train",
+            "target_hash": "a87e168540927c7a730ef0b9fb1b8830be7f262bda84e348a998d9f7e7bd147e"
+          }
+        ],
+        "utterance_hash": "8abaef3707b8e233d0292ef9017f5179b9fa72144ba90d0aedc7364506d2cf61"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "15418",
+            "split": "train",
+            "target_hash": "4a5a8761f48e632dde84da28b9289b17ff8d4681b6bb09487621fd4dbb94439f"
+          },
+          {
+            "id": "15419",
+            "split": "train",
+            "target_hash": "4a5a8761f48e632dde84da28b9289b17ff8d4681b6bb09487621fd4dbb94439f"
+          }
+        ],
+        "utterance_hash": "91a048806fa8d869473f70ce2807392faf3ad953e36b5ec4d6260f17691dd61a"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": true,
+        "examples": [
+          {
+            "id": "13876",
+            "split": "train",
+            "target_hash": "a883b5d370e766d4e5e9a0868b9a26e26429ca9c6acca6d7ebb2ed3b18634c3b"
+          },
+          {
+            "id": "13875",
+            "split": "validation",
+            "target_hash": "a883b5d370e766d4e5e9a0868b9a26e26429ca9c6acca6d7ebb2ed3b18634c3b"
+          }
+        ],
+        "utterance_hash": "f271ee2ea17bf4c86b6ffcb89a4bc7c99862d4c93ee16447a9b3e453b1b8eaad"
+      },
+      {
+        "conflicting_annotations": true,
+        "cross_split": true,
+        "examples": [
+          {
+            "id": "14829",
+            "split": "train",
+            "target_hash": "bcd727bb95eb0509c9e6ec1e1069dbf8536fbde49dc5013651dea227f721f1bd"
+          },
+          {
+            "id": "13580",
+            "split": "test",
+            "target_hash": "fd0f0fc7edc382b7d9c378617df6f86df03ae0877e0ee3b9b6db12c6ba70864f"
+          }
+        ],
+        "utterance_hash": "dc0f7bca9f581ec9778fd2ce5ac3bcbd7631cf00c70bd4a9ac79b219241c282c"
+      },
+      {
+        "conflicting_annotations": true,
+        "cross_split": true,
+        "examples": [
+          {
+            "id": "340",
+            "split": "train",
+            "target_hash": "391f0504ae0a06581230edcb6842de9557e003e42a9ea0973dc23ed0fa099de7"
+          },
+          {
+            "id": "6241",
+            "split": "test",
+            "target_hash": "a06f632f6bf68665d3c8eda239cb2df71e382a2954402e4eb83788a58afde14c"
+          }
+        ],
+        "utterance_hash": "c32475ed2e7e0e3a9d25a83340bd88661a23a889b234557af844b4467f622f4d"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": true,
+        "examples": [
+          {
+            "id": "16623",
+            "split": "train",
+            "target_hash": "241ba0438bfcfb94458635b6defb97cd7b810817d6046720e6a25b160ea15db0"
+          },
+          {
+            "id": "16624",
+            "split": "test",
+            "target_hash": "241ba0438bfcfb94458635b6defb97cd7b810817d6046720e6a25b160ea15db0"
+          }
+        ],
+        "utterance_hash": "b2f63000780014b4973b5a9b7877d022150e917a045254c26ba3dcc282dce649"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "12914",
+            "split": "train",
+            "target_hash": "56a4ab5c7e545bbf662d9878e382b0f55d11074168f426234eca35ebcf172733"
+          },
+          {
+            "id": "12915",
+            "split": "train",
+            "target_hash": "56a4ab5c7e545bbf662d9878e382b0f55d11074168f426234eca35ebcf172733"
+          }
+        ],
+        "utterance_hash": "4efd1dc0859e1713efa685feaeb32e5bdc2555fed1ad60395a5de3aab51087a1"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "12606",
+            "split": "test",
+            "target_hash": "0efb88bf2a5dd951757169ca2a6e17ea6a121342b79117ecd61f8b05e6b66e53"
+          },
+          {
+            "id": "12607",
+            "split": "test",
+            "target_hash": "0efb88bf2a5dd951757169ca2a6e17ea6a121342b79117ecd61f8b05e6b66e53"
+          }
+        ],
+        "utterance_hash": "ec6a403c87940264eb9106c5ffce2f75c08223296c696ea0ee21798f635b948f"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": true,
+        "examples": [
+          {
+            "id": "15349",
+            "split": "validation",
+            "target_hash": "15f30e169f7559201907f7785f81cfb4edbf92d50a40b6c50cc3206825c9581a"
+          },
+          {
+            "id": "15350",
+            "split": "test",
+            "target_hash": "15f30e169f7559201907f7785f81cfb4edbf92d50a40b6c50cc3206825c9581a"
+          }
+        ],
+        "utterance_hash": "326bfd925c2f424329fdf667d00116ea21fa9356b5133a7a9cf06a45c26d728e"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "14127",
+            "split": "train",
+            "target_hash": "34fcf33061ada1d08ce6e805b398b32767a2e6a5e15f5ebe4bc8b15e6869ebe7"
+          },
+          {
+            "id": "14128",
+            "split": "train",
+            "target_hash": "34fcf33061ada1d08ce6e805b398b32767a2e6a5e15f5ebe4bc8b15e6869ebe7"
+          }
+        ],
+        "utterance_hash": "29021ac49cae9dbdd60f860b7111f2d438023d4ebf6871e4d2b680355564ce9f"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "7268",
+            "split": "train",
+            "target_hash": "24558b93bdc1d9c830a4c7139c224e29b21497d31d8dfbafc60273918d1323be"
+          },
+          {
+            "id": "7269",
+            "split": "train",
+            "target_hash": "24558b93bdc1d9c830a4c7139c224e29b21497d31d8dfbafc60273918d1323be"
+          }
+        ],
+        "utterance_hash": "7405942f30c682bb346a7d8473b674fc76253612abbbf7034a04ac8863deb775"
+      },
+      {
+        "conflicting_annotations": true,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "6733",
+            "split": "train",
+            "target_hash": "a879564d4581b9bcb1bb9db077bc034092228b8e69e7eee01547fe829242635d"
+          },
+          {
+            "id": "12120",
+            "split": "train",
+            "target_hash": "45a9f8b04b64871fad20e55eea273151e2b71ac853061c7844ca77eff3b57a80"
+          }
+        ],
+        "utterance_hash": "b645a7fe3c5b6d8bff9013700bbede05c6a94c2cbc2d5a3bfcb9a612644863e4"
+      },
+      {
+        "conflicting_annotations": true,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "3635",
+            "split": "train",
+            "target_hash": "0a3649e7ee7ac18a7c032c7a2b6e98a9f49431be2e9045df7d5f0ec1a7fc2244"
+          },
+          {
+            "id": "7171",
+            "split": "train",
+            "target_hash": "3d13444aa5ca0beb9420962a3ec1e3e74c47bb7521efedbbb709c4cfd480917a"
+          }
+        ],
+        "utterance_hash": "6edcc238d7e1aed7cea41bd0a2323744c065aaf0d7c8f57403ed318643cf7456"
+      },
+      {
+        "conflicting_annotations": true,
+        "cross_split": true,
+        "examples": [
+          {
+            "id": "1957",
+            "split": "train",
+            "target_hash": "b36ca23408f6758be29b2b2f9a8c4c884a9f763afa6f13f7ba185a62d9d1358b"
+          },
+          {
+            "id": "2870",
+            "split": "test",
+            "target_hash": "315d26573a845fdce4015547ea8c0f630c426992adcc96fcddc7a93370ef2bab"
+          }
+        ],
+        "utterance_hash": "26fdf40cd94ff1ae3b5379775c0759bf0e97fdfefc1592799ddce87229119bda"
+      },
+      {
+        "conflicting_annotations": true,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "3048",
+            "split": "train",
+            "target_hash": "8a821977ef3406db52d9895715b2618a87932d5c2e4edb035f275c29a3eb3b3d"
+          },
+          {
+            "id": "12069",
+            "split": "train",
+            "target_hash": "7b0b79299285bd262e4ad0414346d0603871d619ef9a9722ad172e3ad01b8ce2"
+          }
+        ],
+        "utterance_hash": "c168c91133d35f840ec09765bcc93fd8a20976d8e26fa085d80dde8733ec1972"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": true,
+        "examples": [
+          {
+            "id": "9811",
+            "split": "validation",
+            "target_hash": "75b41669b677ab4d93b19303ea2110f046308a72a5cc9cc66d2a70ec7a4eb836"
+          },
+          {
+            "id": "9812",
+            "split": "test",
+            "target_hash": "75b41669b677ab4d93b19303ea2110f046308a72a5cc9cc66d2a70ec7a4eb836"
+          }
+        ],
+        "utterance_hash": "1466fafb2b83619525544222e2fa74e4c35add9b12aad647578573be012dd0a4"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": true,
+        "examples": [
+          {
+            "id": "15408",
+            "split": "train",
+            "target_hash": "d0eab18c5f1aa9f958514b15738a8e75df6df7b0756f1cdac41b301796a07ec9"
+          },
+          {
+            "id": "15409",
+            "split": "test",
+            "target_hash": "d0eab18c5f1aa9f958514b15738a8e75df6df7b0756f1cdac41b301796a07ec9"
+          }
+        ],
+        "utterance_hash": "ac53604bb262230b16f4b3bcc71d3ed46bda0e0a4830fb88e35ff8ab8ab9add0"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "3067",
+            "split": "train",
+            "target_hash": "a529cafa767a2dc8813a590f5b2d0bcc01db0d6bd4f72508d1f909b336e1dcdc"
+          },
+          {
+            "id": "3068",
+            "split": "train",
+            "target_hash": "a529cafa767a2dc8813a590f5b2d0bcc01db0d6bd4f72508d1f909b336e1dcdc"
+          }
+        ],
+        "utterance_hash": "f4325cc170b81fd55fc08b10515276c7f6892f81d0333689e45ea45c0a6dec2a"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": true,
+        "examples": [
+          {
+            "id": "4282",
+            "split": "train",
+            "target_hash": "1c23b88b0bb85bdefa0fd3ebe7d3eb2214afd6f9eb70e3896973a3192b9a735f"
+          },
+          {
+            "id": "392",
+            "split": "validation",
+            "target_hash": "1c23b88b0bb85bdefa0fd3ebe7d3eb2214afd6f9eb70e3896973a3192b9a735f"
+          }
+        ],
+        "utterance_hash": "0da4f3cadec4b4677371b3cb051fe3be708171187285e3ced5a02d991fab6733"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "993",
+            "split": "train",
+            "target_hash": "f505cae86341b7d110508b4c0ff7d9ea771fcb58a3e8ad883cc995c8be2232f5"
+          },
+          {
+            "id": "994",
+            "split": "train",
+            "target_hash": "f505cae86341b7d110508b4c0ff7d9ea771fcb58a3e8ad883cc995c8be2232f5"
+          }
+        ],
+        "utterance_hash": "066e7327955a7bcfa36540c4d23a68365ad946f01949e59993c7d7375c5de34d"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "141",
+            "split": "train",
+            "target_hash": "1c23b88b0bb85bdefa0fd3ebe7d3eb2214afd6f9eb70e3896973a3192b9a735f"
+          },
+          {
+            "id": "3190",
+            "split": "train",
+            "target_hash": "1c23b88b0bb85bdefa0fd3ebe7d3eb2214afd6f9eb70e3896973a3192b9a735f"
+          }
+        ],
+        "utterance_hash": "f8a92feb11c2dddadbf353aecb5578b768d5eb62bc9567852c27c6521cd2e08f"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "9448",
+            "split": "train",
+            "target_hash": "005fd1dde8401a3865e27687f52e038e68c41df5f5fdae105d99233abe19f806"
+          },
+          {
+            "id": "11309",
+            "split": "train",
+            "target_hash": "005fd1dde8401a3865e27687f52e038e68c41df5f5fdae105d99233abe19f806"
+          }
+        ],
+        "utterance_hash": "b540be10bee870d694efeb30ca913f53e6ab8bb6a5788e7bfb16b463c7f17f07"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "10304",
+            "split": "train",
+            "target_hash": "79a7d92ad178bb5df78944f056ae5424d84081c65ffc9adbebafc35da4182491"
+          },
+          {
+            "id": "10306",
+            "split": "train",
+            "target_hash": "79a7d92ad178bb5df78944f056ae5424d84081c65ffc9adbebafc35da4182491"
+          }
+        ],
+        "utterance_hash": "4d7ee988544f4b4741af4e368e16b8aaf8d2213fc7de773577767c96cf4f1848"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": true,
+        "examples": [
+          {
+            "id": "4231",
+            "split": "train",
+            "target_hash": "15336b55931d8d899aff4f2f662709cfac20c0bbec1ea9512aa62966bff9ba90"
+          },
+          {
+            "id": "4232",
+            "split": "test",
+            "target_hash": "15336b55931d8d899aff4f2f662709cfac20c0bbec1ea9512aa62966bff9ba90"
+          }
+        ],
+        "utterance_hash": "f578dc26b13eefda4cd1d60d3566a869cec687f95c29a6489680ec8331cc186d"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "11430",
+            "split": "train",
+            "target_hash": "d8e68a58900d4673e829531114a760036ce6a1355adedda886c41107ffd74b15"
+          },
+          {
+            "id": "11431",
+            "split": "train",
+            "target_hash": "d8e68a58900d4673e829531114a760036ce6a1355adedda886c41107ffd74b15"
+          }
+        ],
+        "utterance_hash": "7c82371c427278d9c4931b8a459f58019c15f6346379dc24ed2246a3f5f261ab"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": true,
+        "examples": [
+          {
+            "id": "5841",
+            "split": "train",
+            "target_hash": "34b596441da63238b40cb59aacfa372c87111f303e07f012a85ee02e9537c8e8"
+          },
+          {
+            "id": "3",
+            "split": "test",
+            "target_hash": "34b596441da63238b40cb59aacfa372c87111f303e07f012a85ee02e9537c8e8"
+          }
+        ],
+        "utterance_hash": "7024344971a6e8bb9eb9f63cf5748433b37425045796372ad2e7be683241a907"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": true,
+        "examples": [
+          {
+            "id": "4566",
+            "split": "train",
+            "target_hash": "4e73099ebb6c9da94cd0c6a01d785595038ffbb0fd9a3f9cc16ee35c3ab70d54"
+          },
+          {
+            "id": "4567",
+            "split": "test",
+            "target_hash": "4e73099ebb6c9da94cd0c6a01d785595038ffbb0fd9a3f9cc16ee35c3ab70d54"
+          }
+        ],
+        "utterance_hash": "fd4b28c628edcddd586bdc16d384dc2f4c737e97fab902818e353e5b74563386"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "7091",
+            "split": "train",
+            "target_hash": "685ec7a535cf52012e7678d167673e255b1df10c6af5b8d5ed8cf32604f33ae5"
+          },
+          {
+            "id": "8854",
+            "split": "train",
+            "target_hash": "685ec7a535cf52012e7678d167673e255b1df10c6af5b8d5ed8cf32604f33ae5"
+          }
+        ],
+        "utterance_hash": "415a3198a89672cee81a2e9e7ad0bab1122de892755fe2ec78595dcc0a25e5df"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": true,
+        "examples": [
+          {
+            "id": "10443",
+            "split": "train",
+            "target_hash": "c830f43500adfe22cc0eeea122f0cc6fff05e7c5e144c2d01325796e44277dee"
+          },
+          {
+            "id": "10442",
+            "split": "test",
+            "target_hash": "c830f43500adfe22cc0eeea122f0cc6fff05e7c5e144c2d01325796e44277dee"
+          }
+        ],
+        "utterance_hash": "fa504b065dc60fcd1b2abc4db967890d70d13106684511f106092f5c6d40ff28"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": true,
+        "examples": [
+          {
+            "id": "15422",
+            "split": "train",
+            "target_hash": "8ddbab8d4fd3044bb16070886994a0acaf7987b0d9a47bbc03e386aa9f1572a2"
+          },
+          {
+            "id": "15421",
+            "split": "validation",
+            "target_hash": "8ddbab8d4fd3044bb16070886994a0acaf7987b0d9a47bbc03e386aa9f1572a2"
+          }
+        ],
+        "utterance_hash": "4f6eba2507c31782893a0f71add60c4234e8139ac1fb7ccd4fb12d2dfcc7c587"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": true,
+        "examples": [
+          {
+            "id": "14125",
+            "split": "validation",
+            "target_hash": "34fcf33061ada1d08ce6e805b398b32767a2e6a5e15f5ebe4bc8b15e6869ebe7"
+          },
+          {
+            "id": "14126",
+            "split": "test",
+            "target_hash": "34fcf33061ada1d08ce6e805b398b32767a2e6a5e15f5ebe4bc8b15e6869ebe7"
+          }
+        ],
+        "utterance_hash": "2948af8206d66f728f3da667b00cf73e6bdd6e3447039b40f9477f5acedfe46a"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": true,
+        "examples": [
+          {
+            "id": "6569",
+            "split": "train",
+            "target_hash": "9748162d80e4ca09d4fa0710a2f3b1b37ea5c2bb85d7907491c85e0cd7ebce3c"
+          },
+          {
+            "id": "6570",
+            "split": "validation",
+            "target_hash": "9748162d80e4ca09d4fa0710a2f3b1b37ea5c2bb85d7907491c85e0cd7ebce3c"
+          }
+        ],
+        "utterance_hash": "573700faa4e15b6febf95c93d6298dbc1a043f1cb5695239d96ad8fee26b7433"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": true,
+        "examples": [
+          {
+            "id": "3154",
+            "split": "train",
+            "target_hash": "b3db182ae0be58fd477c57a88dcc39ad2c86ca5cff41df3f8585064984a94748"
+          },
+          {
+            "id": "4171",
+            "split": "test",
+            "target_hash": "b3db182ae0be58fd477c57a88dcc39ad2c86ca5cff41df3f8585064984a94748"
+          }
+        ],
+        "utterance_hash": "bea2844884fd590785b7496bb0a5b6e532d96e9349b3e96f1488f2dae1b4b222"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "15440",
+            "split": "train",
+            "target_hash": "dc0f28a2b2dc61623f8b111588ebd486866e6a7d6418eacc000676d030c8f519"
+          },
+          {
+            "id": "15441",
+            "split": "train",
+            "target_hash": "dc0f28a2b2dc61623f8b111588ebd486866e6a7d6418eacc000676d030c8f519"
+          }
+        ],
+        "utterance_hash": "0007d024a2c3d8474712c62a14da048caad26641b9d1b663c95402c2756c89ed"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "15592",
+            "split": "test",
+            "target_hash": "9e3aded6f8782b9b85320bf8e7b2813d6781b55c073f009a693792d2948dc865"
+          },
+          {
+            "id": "15593",
+            "split": "test",
+            "target_hash": "9e3aded6f8782b9b85320bf8e7b2813d6781b55c073f009a693792d2948dc865"
+          }
+        ],
+        "utterance_hash": "15fd098c94328b8afe71d973b168f6fd950c1b0402459f31671af8fac1b35285"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": true,
+        "examples": [
+          {
+            "id": "15646",
+            "split": "train",
+            "target_hash": "dc61c1d95daa71b4e03a395f2802122345a967ab16e449c7854b6d17c0b0f5e2"
+          },
+          {
+            "id": "15647",
+            "split": "test",
+            "target_hash": "dc61c1d95daa71b4e03a395f2802122345a967ab16e449c7854b6d17c0b0f5e2"
+          }
+        ],
+        "utterance_hash": "da470abac0f35aa0b4247c375d2e062bae77eae47a2fd1d01432afce828af3e2"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": true,
+        "examples": [
+          {
+            "id": "2487",
+            "split": "train",
+            "target_hash": "9c35a1f441e169adc80cac438eff368f4abb093569d6bb12451d0c844654bf4c"
+          },
+          {
+            "id": "188",
+            "split": "validation",
+            "target_hash": "9c35a1f441e169adc80cac438eff368f4abb093569d6bb12451d0c844654bf4c"
+          }
+        ],
+        "utterance_hash": "3dedb8d4e93090557b954cc6f3819e37c3f7b1ebd5d8e61b05d31d26aa00d363"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "13570",
+            "split": "train",
+            "target_hash": "bb978229093879f257daecbd3df0b971992b29d85951264330e1ca0ea82ae43b"
+          },
+          {
+            "id": "13571",
+            "split": "train",
+            "target_hash": "bb978229093879f257daecbd3df0b971992b29d85951264330e1ca0ea82ae43b"
+          }
+        ],
+        "utterance_hash": "f9f0c6fb637ef4363d5b674b435b3e730bd4aa4dd938873153eaee3ff035f857"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "3058",
+            "split": "train",
+            "target_hash": "95b81bf72bf408e657e99b1357854c5cd32a4a12f47b1ba5f44841eaee0abfb6"
+          },
+          {
+            "id": "3059",
+            "split": "train",
+            "target_hash": "95b81bf72bf408e657e99b1357854c5cd32a4a12f47b1ba5f44841eaee0abfb6"
+          }
+        ],
+        "utterance_hash": "5073692d33d63c8048cee6212759abd24391ee446e4f9ed3c517ab72db21e118"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "3607",
+            "split": "train",
+            "target_hash": "bd7fbf9da133f2d734a0ce707592511bc7fcda2f06d25a6ce9f939084fc00965"
+          },
+          {
+            "id": "3608",
+            "split": "train",
+            "target_hash": "bd7fbf9da133f2d734a0ce707592511bc7fcda2f06d25a6ce9f939084fc00965"
+          }
+        ],
+        "utterance_hash": "31269b173d0fea41e964ed7274ab62dc67fb03273ae59ca74af62c301a0b2574"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "3289",
+            "split": "train",
+            "target_hash": "7ea6dd21b6b765b6f1c661d09bcfa9505d65e38b6daf58353a023b9926dde016"
+          },
+          {
+            "id": "4581",
+            "split": "train",
+            "target_hash": "7ea6dd21b6b765b6f1c661d09bcfa9505d65e38b6daf58353a023b9926dde016"
+          }
+        ],
+        "utterance_hash": "b8c1184038db85d2f8aee37f432a672cdb118c42c338ac8fcf6f75e38697de71"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "1688",
+            "split": "validation",
+            "target_hash": "1fd362b02bc56fd53a9cdcebaff881cf0888113a45c4643a1615e57d6bd65b60"
+          },
+          {
+            "id": "4623",
+            "split": "validation",
+            "target_hash": "1fd362b02bc56fd53a9cdcebaff881cf0888113a45c4643a1615e57d6bd65b60"
+          }
+        ],
+        "utterance_hash": "ebc7cb86f182e90accffa44f51b4f7e3ae59e4b69cbbdf3147f9a576746e5621"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "12540",
+            "split": "train",
+            "target_hash": "df91ace60d4931a265a09b3167ec16a1c93e97441f3d9351f8d20023cb2b5690"
+          },
+          {
+            "id": "12541",
+            "split": "train",
+            "target_hash": "df91ace60d4931a265a09b3167ec16a1c93e97441f3d9351f8d20023cb2b5690"
+          }
+        ],
+        "utterance_hash": "d1b9fae61875b53d6f9487fad2adb39d143dc99ca8ee5195c58550149211db32"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "3372",
+            "split": "train",
+            "target_hash": "3587ea2abfed96f18d7233cc44e1cac05b652c609f218ab1afcc3681ee92f7f4"
+          },
+          {
+            "id": "3957",
+            "split": "train",
+            "target_hash": "3587ea2abfed96f18d7233cc44e1cac05b652c609f218ab1afcc3681ee92f7f4"
+          }
+        ],
+        "utterance_hash": "9977a4cb2d1bf301958b810f8c41341bf40403c3ee1465b750305a2d33220c13"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "494",
+            "split": "test",
+            "target_hash": "18c75d5ac6ff7bd54e967ae2746c6a68104db39a2f58fee8b132254cc65b45ad"
+          },
+          {
+            "id": "1372",
+            "split": "test",
+            "target_hash": "18c75d5ac6ff7bd54e967ae2746c6a68104db39a2f58fee8b132254cc65b45ad"
+          }
+        ],
+        "utterance_hash": "0a376e3c18e9a2877fd7a4ca3c19ab9fdbbc324311e107777f5a2948a924b2bf"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "492",
+            "split": "train",
+            "target_hash": "852603847a752e6c55a3d84d71cea909f16f23a08b39e4b0a934fc054da127dd"
+          },
+          {
+            "id": "493",
+            "split": "train",
+            "target_hash": "852603847a752e6c55a3d84d71cea909f16f23a08b39e4b0a934fc054da127dd"
+          }
+        ],
+        "utterance_hash": "4a092d429c20998334fb5d8a8c21bf5acda3c379c801e19c94f4f65c2a54d427"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": true,
+        "examples": [
+          {
+            "id": "1456",
+            "split": "train",
+            "target_hash": "3decd91ce4ef3dd0cb0e0a2c7ee54a119c418a3fe36e6d90781a99b0ab37d57c"
+          },
+          {
+            "id": "5290",
+            "split": "validation",
+            "target_hash": "3decd91ce4ef3dd0cb0e0a2c7ee54a119c418a3fe36e6d90781a99b0ab37d57c"
+          }
+        ],
+        "utterance_hash": "da3623b0c075d8781448ccfd5886bae62708f62bf9f705023701b316adcfb904"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": true,
+        "examples": [
+          {
+            "id": "7771",
+            "split": "train",
+            "target_hash": "18ba3c53d8592235c4e75ba6e44b3d07084d77a0b8c15f7d83f5ec40e51796ab"
+          },
+          {
+            "id": "8044",
+            "split": "test",
+            "target_hash": "18ba3c53d8592235c4e75ba6e44b3d07084d77a0b8c15f7d83f5ec40e51796ab"
+          }
+        ],
+        "utterance_hash": "5e7fe2c9d0641075255d1c1e4f13fcbfe2fbfe77d12165064d4b736dfbb4cc66"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "9916",
+            "split": "train",
+            "target_hash": "69514b63ba7f84abe1994451bf99eb2b68cbf62b61471df1b6a4abb20c6de2e5"
+          },
+          {
+            "id": "9917",
+            "split": "train",
+            "target_hash": "69514b63ba7f84abe1994451bf99eb2b68cbf62b61471df1b6a4abb20c6de2e5"
+          }
+        ],
+        "utterance_hash": "c2b7090cc8ed898d0ea1440680de1c8de9ca8560a79c8764ca00d172d8045bfa"
+      },
+      {
+        "conflicting_annotations": true,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "10492",
+            "split": "train",
+            "target_hash": "3083870824cf6c40ad29d3657a544682298be0a4729816f0f0c40f3273c49b98"
+          },
+          {
+            "id": "10752",
+            "split": "train",
+            "target_hash": "08ca322e9297c6574673f4f33570e120c071ca0dd374dcf2f01a05c48e3bfe6e"
+          }
+        ],
+        "utterance_hash": "7dc83c948800c2c69682b07a55ea62cf1577958490120225fcdb95450fb3c7d7"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "10439",
+            "split": "train",
+            "target_hash": "08ca322e9297c6574673f4f33570e120c071ca0dd374dcf2f01a05c48e3bfe6e"
+          },
+          {
+            "id": "11051",
+            "split": "train",
+            "target_hash": "08ca322e9297c6574673f4f33570e120c071ca0dd374dcf2f01a05c48e3bfe6e"
+          }
+        ],
+        "utterance_hash": "6206779f4616a13362b9bc34cd461c0866e186dc1b0cae131e784f5141a412ba"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "116",
+            "split": "train",
+            "target_hash": "f1fd78b2688b916eb43e2899e71bc6e5961163138d3ede9d90d3688ffc3aa99b"
+          },
+          {
+            "id": "136",
+            "split": "train",
+            "target_hash": "f1fd78b2688b916eb43e2899e71bc6e5961163138d3ede9d90d3688ffc3aa99b"
+          }
+        ],
+        "utterance_hash": "e851ebf0479dbd55a363db597394c74c6d81193b3723f3c67be2453940150961"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "13740",
+            "split": "test",
+            "target_hash": "45ff08b917a3fc336e9ade90712a2acf41569440044895da5b0bb86556c38d37"
+          },
+          {
+            "id": "13741",
+            "split": "test",
+            "target_hash": "45ff08b917a3fc336e9ade90712a2acf41569440044895da5b0bb86556c38d37"
+          }
+        ],
+        "utterance_hash": "b59224539709104bf4d725900cf23943687d8ca9cbbf730fc321dc01f5e04896"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "3651",
+            "split": "validation",
+            "target_hash": "a2eace1872edaf65be93bf7aeb6e75c27468d0192c00637e8e2b021e61a74ce0"
+          },
+          {
+            "id": "3652",
+            "split": "validation",
+            "target_hash": "a2eace1872edaf65be93bf7aeb6e75c27468d0192c00637e8e2b021e61a74ce0"
+          }
+        ],
+        "utterance_hash": "10801092724c9e1e2a8cfc288776429d41a6f50ad82bd5b4c964bbea3ac5596a"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": true,
+        "examples": [
+          {
+            "id": "3033",
+            "split": "train",
+            "target_hash": "3decd91ce4ef3dd0cb0e0a2c7ee54a119c418a3fe36e6d90781a99b0ab37d57c"
+          },
+          {
+            "id": "4377",
+            "split": "test",
+            "target_hash": "3decd91ce4ef3dd0cb0e0a2c7ee54a119c418a3fe36e6d90781a99b0ab37d57c"
+          }
+        ],
+        "utterance_hash": "7112ee1fb87e64d1f7ce852d0abe18b303ad26b1ac126c020545ae8dc1793f9c"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": true,
+        "examples": [
+          {
+            "id": "465",
+            "split": "validation",
+            "target_hash": "bace32b8990f44a5599bad9cd325ecda1f0a988a703de8472bcc9d2b0f3fa9a3"
+          },
+          {
+            "id": "128",
+            "split": "test",
+            "target_hash": "bace32b8990f44a5599bad9cd325ecda1f0a988a703de8472bcc9d2b0f3fa9a3"
+          }
+        ],
+        "utterance_hash": "8523c8d2451532786b3eb9a40063f4da8f00fd3db6e130101951d7aca0ddf399"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "2183",
+            "split": "train",
+            "target_hash": "0d09ebac3b9cfcdc54a12a16d6d6bf032a8990f5fa348af97e3bdf5f4aa4c9ab"
+          },
+          {
+            "id": "2409",
+            "split": "train",
+            "target_hash": "0d09ebac3b9cfcdc54a12a16d6d6bf032a8990f5fa348af97e3bdf5f4aa4c9ab"
+          }
+        ],
+        "utterance_hash": "9ecd68d67a6321ae11b7b9924b3240c952cbd9e38883879ef893d1cd9ebc4074"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": true,
+        "examples": [
+          {
+            "id": "14202",
+            "split": "train",
+            "target_hash": "92d2cff284585dc59cbc0d048d5573cf0c97cef40295aa41eba83b9d0adbdb31"
+          },
+          {
+            "id": "14203",
+            "split": "validation",
+            "target_hash": "92d2cff284585dc59cbc0d048d5573cf0c97cef40295aa41eba83b9d0adbdb31"
+          }
+        ],
+        "utterance_hash": "f508878bc2fa9897ef3a86a426bca155d0190396b4ef06674b56fab93b1e2f2e"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": true,
+        "examples": [
+          {
+            "id": "13737",
+            "split": "validation",
+            "target_hash": "147f6e6f7e549888cf3f791d5d4b15a0eab1d851061c9bf4aa844610db4abbb9"
+          },
+          {
+            "id": "13738",
+            "split": "test",
+            "target_hash": "147f6e6f7e549888cf3f791d5d4b15a0eab1d851061c9bf4aa844610db4abbb9"
+          }
+        ],
+        "utterance_hash": "13b51d9f4732d99fd7d44bb24737b785d36864d172ff39593a4f14d9b8f45b8e"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "6566",
+            "split": "train",
+            "target_hash": "9bf15dfa2a574642d17fb120bb8a5f758c7660eb4aaddd7ab3cd5cbbf24da56d"
+          },
+          {
+            "id": "6644",
+            "split": "train",
+            "target_hash": "9bf15dfa2a574642d17fb120bb8a5f758c7660eb4aaddd7ab3cd5cbbf24da56d"
+          }
+        ],
+        "utterance_hash": "82d115383b3b13c85134e2bb67fe3bc263ee1c0f80f23dd747732267bf5f2d97"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "9919",
+            "split": "train",
+            "target_hash": "d8e4a4d7449f59a89b12b23c6aa7bfd144259acf1dcc3ac5c4706d3b5d9b0aca"
+          },
+          {
+            "id": "9920",
+            "split": "train",
+            "target_hash": "d8e4a4d7449f59a89b12b23c6aa7bfd144259acf1dcc3ac5c4706d3b5d9b0aca"
+          }
+        ],
+        "utterance_hash": "8fcfc81ad34f1d1cc46757fb3c46a796a0d080befa062a3aa3a7535b7899034b"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": true,
+        "examples": [
+          {
+            "id": "5123",
+            "split": "train",
+            "target_hash": "010ebd2714e447d486d3b73009ca5ba255580128c2d5fa934daa02af1098e7c9"
+          },
+          {
+            "id": "1513",
+            "split": "test",
+            "target_hash": "010ebd2714e447d486d3b73009ca5ba255580128c2d5fa934daa02af1098e7c9"
+          }
+        ],
+        "utterance_hash": "df9e47de7a34805ee31c90b6334b0a6512a4b671e11b2bb463c3f50ad40f32a1"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "270",
+            "split": "train",
+            "target_hash": "bace32b8990f44a5599bad9cd325ecda1f0a988a703de8472bcc9d2b0f3fa9a3"
+          },
+          {
+            "id": "519",
+            "split": "train",
+            "target_hash": "bace32b8990f44a5599bad9cd325ecda1f0a988a703de8472bcc9d2b0f3fa9a3"
+          }
+        ],
+        "utterance_hash": "85b9504db2f90a7efafe6784d0af89d6cf5b156fc53e7a62c5772f3a058cb8e2"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "1854",
+            "split": "train",
+            "target_hash": "bace32b8990f44a5599bad9cd325ecda1f0a988a703de8472bcc9d2b0f3fa9a3"
+          },
+          {
+            "id": "4220",
+            "split": "train",
+            "target_hash": "bace32b8990f44a5599bad9cd325ecda1f0a988a703de8472bcc9d2b0f3fa9a3"
+          }
+        ],
+        "utterance_hash": "c3ff75e4521b3e0fa45bff3efc6143e31ddf479f84e0d6b986226b2640c28dab"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "5778",
+            "split": "train",
+            "target_hash": "3decd91ce4ef3dd0cb0e0a2c7ee54a119c418a3fe36e6d90781a99b0ab37d57c"
+          },
+          {
+            "id": "6474",
+            "split": "train",
+            "target_hash": "3decd91ce4ef3dd0cb0e0a2c7ee54a119c418a3fe36e6d90781a99b0ab37d57c"
+          }
+        ],
+        "utterance_hash": "a8044d2b192b30ca6efc4f607183f7d060a5aaf4b792b6c2ecf486c0cd758953"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": true,
+        "examples": [
+          {
+            "id": "1588",
+            "split": "train",
+            "target_hash": "82d55b66131355192d71dec6243f0634c0209b18da0b4d124f63ed5a6e71b47a"
+          },
+          {
+            "id": "2322",
+            "split": "test",
+            "target_hash": "82d55b66131355192d71dec6243f0634c0209b18da0b4d124f63ed5a6e71b47a"
+          }
+        ],
+        "utterance_hash": "eea72075703a3133c554641862238941efc3595ce774652e04c33b39ea9a8d77"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": true,
+        "examples": [
+          {
+            "id": "5639",
+            "split": "train",
+            "target_hash": "22e79680fe096ef760840f26920996aa681cbaf20b8332e32a84cccecd459bfb"
+          },
+          {
+            "id": "2943",
+            "split": "validation",
+            "target_hash": "22e79680fe096ef760840f26920996aa681cbaf20b8332e32a84cccecd459bfb"
+          }
+        ],
+        "utterance_hash": "b3676e9004c6c50b4244babc75e4ea853d8362005a2caf66eb57cd5c4f10e3db"
+      },
+      {
+        "conflicting_annotations": true,
+        "cross_split": true,
+        "examples": [
+          {
+            "id": "45",
+            "split": "train",
+            "target_hash": "b36ca23408f6758be29b2b2f9a8c4c884a9f763afa6f13f7ba185a62d9d1358b"
+          },
+          {
+            "id": "6425",
+            "split": "validation",
+            "target_hash": "9bf15dfa2a574642d17fb120bb8a5f758c7660eb4aaddd7ab3cd5cbbf24da56d"
+          }
+        ],
+        "utterance_hash": "61be3ffb385bbb60b4792418fbc31dafe6b2a6c70f4da5f5bc4861e694cd10ed"
+      },
+      {
+        "conflicting_annotations": false,
+        "cross_split": false,
+        "examples": [
+          {
+            "id": "14054",
+            "split": "train",
+            "target_hash": "f568980bb29e021ef98dae307a187cf46001b14f2fee5a21d9d2a81aea0e6812"
+          },
+          {
+            "id": "14055",
+            "split": "train",
+            "target_hash": "f568980bb29e021ef98dae307a187cf46001b14f2fee5a21d9d2a81aea0e6812"
+          }
+        ],
+        "utterance_hash": "e21fda9b49897976adbef354c0ed3a79197d3615526494249ed375c1935991fa"
+      }
+    ]
+  }
+}

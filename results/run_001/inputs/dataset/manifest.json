@@ -1,0 +1,17 @@
+{
+  "cache_manifest_sha256": "9485324593e608204eb03ae187428c0102b7f799a47a2ba8b21892e5ee627963",
+  "checksum_policy": "SHA256 recorded at first HTTPS acquisition; no upstream checksum claimed",
+  "dataset": "MASSIVE",
+  "files": {
+    "LICENSE": "c2e6ea015269147de02117ebdd91f30ef09831251f5345fa8365273b1db1d435",
+    "archive.tar.gz": "4cba5faa11c71437928e17cb1b9b3d8b8e727e7ea363a3a9a8045e19c0491577",
+    "en-US.jsonl": "c70f75c6a543a26e249ec383df67733ad9b1066f6c0406c2e04a3f03356e407e"
+  },
+  "license": "CC-BY-4.0",
+  "license_source": "https://github.com/alexa/massive/blob/main/NOTICE.md",
+  "locale": "en-US",
+  "project_relative_path": "data/massive-1.1/en-US",
+  "source_url": "https://amazon-massive-nlu-dataset.s3.amazonaws.com/amazon-massive-dataset-1.1.tar.gz",
+  "storage": "project_shared",
+  "version": "1.1"
+}

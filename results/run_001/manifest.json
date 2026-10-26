@@ -1,0 +1,1205 @@
+{
+  "artifacts": {
+    "backend_binding.json": {
+      "bytes": 1616,
+      "sha256": "c62bb3735b7030de2de4cbc55c61ea98b19c125cd23a50d9083a1f09d9f9c017"
+    },
+    "benchmarks/base/requests.jsonl": {
+      "bytes": 447282,
+      "sha256": "bd86e5b7a9c77f14451474dca2b2fc7b4b36b55dc3fa25858dc73215783dad4a"
+    },
+    "benchmarks/base/summary.json": {
+      "bytes": 80616,
+      "sha256": "de314b421a8b6061fde7f32d93385a8f7cffed3b1206cdf4a7a47006adb95fa6"
+    },
+    "benchmarks/lora/requests.jsonl": {
+      "bytes": 363925,
+      "sha256": "1e9d68b255823150c3b7f40674c4af069f653da509628e2e17f660af4edd9738"
+    },
+    "benchmarks/lora/summary.json": {
+      "bytes": 62197,
+      "sha256": "34a977bfa8b01a76b06fae99b74fa6acf65c9235e1bc44c96ca80ac9b5e34598"
+    },
+    "benchmarks/qlora/requests.jsonl": {
+      "bytes": 363203,
+      "sha256": "9e56f15ca2af41c5e25d5b388715d4013aa8604e4be0643d5a9f5878d1f2c329"
+    },
+    "benchmarks/qlora/summary.json": {
+      "bytes": 62240,
+      "sha256": "43513e07426f59bd0263b35659159af3ccfaf7e3712df1c82a094fc5d888db63"
+    },
+    "benchmarks/quantized_base/requests.jsonl": {
+      "bytes": 436153,
+      "sha256": "19aaea382dc795704f9a742a6589e3bade9331ee56792f11fd7accdeae3bf7ba"
+    },
+    "benchmarks/quantized_base/summary.json": {
+      "bytes": 58105,
+      "sha256": "16908d3c5dcba7e1a51ceaefeed192b5bea710a083d0e67246288eac37417df1"
+    },
+    "benchmarks/requests.json": {
+      "bytes": 1489,
+      "sha256": "0805fcec8ce815b56f8cf5f74b01f043f0c078e2cb0be017603288a3459ab5c3"
+    },
+    "evaluations/base/test/metrics.json": {
+      "bytes": 152931,
+      "sha256": "626567c41f654483d3ec2f7317a017923329e431f5b7a226dd435e85c4f3cb42"
+    },
+    "evaluations/base/test/predictions.jsonl": {
+      "bytes": 4379793,
+      "sha256": "e33d051c95fec0137a1d4004b61b46c29bb0f76dd7cc0a9c1e13c13183d12b0d"
+    },
+    "evaluations/base/validation/metrics.json": {
+      "bytes": 122026,
+      "sha256": "ba5205e529a7daf44c26de8d71a7b26f58b5fcbd322c05ad6fb8e3a581cd9b1b"
+    },
+    "evaluations/base/validation/predictions.jsonl": {
+      "bytes": 3000006,
+      "sha256": "83b165774f8473fe7a822542a9642b02cc14f65b475748020caebdadec51b1ce"
+    },
+    "evaluations/frozen_protocol.json": {
+      "bytes": 5554,
+      "sha256": "ca37fa8d0b6ca338ff281e3dc78781459f393749a958ec7120ef3d0e33bfa718"
+    },
+    "evaluations/lora/test/metrics.json": {
+      "bytes": 126511,
+      "sha256": "223a2d8c0dc95d477a2503d7827f11084e1d98587eea0756a40c4a6a48a28bb0"
+    },
+    "evaluations/lora/test/predictions.jsonl": {
+      "bytes": 3526904,
+      "sha256": "4656bddbe8691992f35531eb0d02b4255cd64f5ef1a5e0ef10d661b02c1808b3"
+    },
+    "evaluations/qlora/test/metrics.json": {
+      "bytes": 129708,
+      "sha256": "289977befa6585aab74879fc1218cfc46bb20153e1c652aaa001471878d18147"
+    },
+    "evaluations/qlora/test/predictions.jsonl": {
+      "bytes": 3531084,
+      "sha256": "bfcd850732e4b0fd5754a82ce1f32b57d9ce6a08becd85f071da61d455a99980"
+    },
+    "evaluations/quantized_base/test/metrics.json": {
+      "bytes": 100235,
+      "sha256": "ed0128b9b5e7434bb5228f845cf93d565804e2b3db51d21896cdf0eae5e1ddd4"
+    },
+    "evaluations/quantized_base/test/predictions.jsonl": {
+      "bytes": 4291021,
+      "sha256": "e60056918aefcce67e9337e5ab911d0bfe1a46ad5dedec16dbbd3df83c874b98"
+    },
+    "evaluations/quantized_base/validation/metrics.json": {
+      "bytes": 74145,
+      "sha256": "2cafadf955b6b3d463537a428f4e77ff8ea75f1ef0d66c80595f3b9ec42058dd"
+    },
+    "evaluations/quantized_base/validation/predictions.jsonl": {
+      "bytes": 2929225,
+      "sha256": "27e5a34ee3790f6afa991eb00feec1694d6b943469aa380f287270d17a8811f8"
+    },
+    "figures/disagreements.png": {
+      "bytes": 60407,
+      "sha256": "8c089160d552a684b5c6f2d30abf79e9dc54d1044e47cab618cbd84bd003a836"
+    },
+    "figures/losses.png": {
+      "bytes": 148241,
+      "sha256": "6b66b0be23396496411b276a961951d6ed200c1f9a28d8109763df3e32d89be2"
+    },
+    "figures/memory_runtime.png": {
+      "bytes": 132376,
+      "sha256": "ce264d229111041898e02846cf7e14a88fbd44133b31366937527ec83116ab0d"
+    },
+    "figures/task_metrics.png": {
+      "bytes": 93548,
+      "sha256": "437f4900a495c2d6ac699fc3da85d8b7bb13196c1048af0a9bc01a44002b2b2e"
+    },
+    "figures/validation.png": {
+      "bytes": 89186,
+      "sha256": "988cf52fa85c00625f570ce691b6a6e43171708e38c313b9aa098c3e65bad1af"
+    },
+    "initial_adapter/README.md": {
+      "bytes": 5296,
+      "sha256": "77e0898915b6fa70a436f7a17d037ea9a7d1f936319924e7ed83148aace4ed5e"
+    },
+    "initial_adapter/adapter_config.json": {
+      "bytes": 1227,
+      "sha256": "cb0416fac86309daf6b47054db8d049831176655475d710822edd26112c6a313"
+    },
+    "initial_adapter/adapter_model.safetensors": {
+      "bytes": 73911112,
+      "sha256": "66fa10ca124146f99460173a3312afde62d9deabb9f1243fb00842f85124a64b"
+    },
+    "inputs/base_model/LICENSE": {
+      "bytes": 11343,
+      "sha256": "832dd9e00a68dd83b3c3fb9f5588dad7dcf337a0db50f7d9483f310cd292e92e"
+    },
+    "inputs/base_model/config.json": {
+      "bytes": 660,
+      "sha256": "98d2ff8cc47488d08a2b0b3acf4eb99ef210779b42bd48605f6b8e36acdbf670"
+    },
+    "inputs/base_model/generation_config.json": {
+      "bytes": 242,
+      "sha256": "e558847a8b4402616f1273797b015104dc266fe4b520056fca88823ba8f8ebe6"
+    },
+    "inputs/base_model/merges.txt": {
+      "bytes": 1671839,
+      "sha256": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3"
+    },
+    "inputs/base_model/model.safetensors": {
+      "bytes": 3087467144,
+      "sha256": "dd924a11b4c220f385b51ffa522daea7c9f3d850e31b162bb5661df483c6d3ee"
+    },
+    "inputs/base_model/tokenizer.json": {
+      "bytes": 7031645,
+      "sha256": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539"
+    },
+    "inputs/base_model/tokenizer_config.json": {
+      "bytes": 7305,
+      "sha256": "5b5d4f65d0acd3b2d56a35b56d374a36cbc1c8fa5cf3b3febbbfabf22f359583"
+    },
+    "inputs/base_model/vocab.json": {
+      "bytes": 2776833,
+      "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+    },
+    "inputs/dataset/manifest.json": {
+      "bytes": 828,
+      "sha256": "212bc79d5bf66e4ae9dbb077ffdbacf4b87d21bbaa2d484d5808999b784258b8"
+    },
+    "inputs/model_snapshot.json": {
+      "bytes": 182,
+      "sha256": "2c28e2e0de73680ab124fc55b6c98d28950163e6deae9ce2b63eae9adefb4edf"
+    },
+    "inputs/quantization.json": {
+      "bytes": 39976,
+      "sha256": "2d2a96762b5e5422627d9bb4781fb6dd53e4e091cf971e59fe89e985ddabbbc5"
+    },
+    "inputs/quantized_base/config.json": {
+      "bytes": 1873,
+      "sha256": "eb8b30eab5f7ed4a80cab0f8eb16a6155ee4d5a17650b352b90c7306482170f0"
+    },
+    "inputs/quantized_base/generation_config.json": {
+      "bytes": 242,
+      "sha256": "e694a23c4adabaa1177508c9407bee789ff55f3d5908dfe6755d93a6af55f71d"
+    },
+    "inputs/quantized_base/model.safetensors": {
+      "bytes": 1143327694,
+      "sha256": "4be8a58f9cdd190ac6014bee8e42968fa5520296509cad8e85a77cbd217ce653"
+    },
+    "inputs/tokenizer/chat_template.jinja": {
+      "bytes": 2507,
+      "sha256": "cd8e9439f0570856fd70470bf8889ebd8b5d1107207f67a5efb46e342330527f"
+    },
+    "inputs/tokenizer/tokenizer.json": {
+      "bytes": 11421892,
+      "sha256": "3fd169731d2cbde95e10bf356d66d5997fd885dd8dbb6fb4684da3f23b2585d8"
+    },
+    "inputs/tokenizer/tokenizer_config.json": {
+      "bytes": 692,
+      "sha256": "1cc816812993bff176eb4f7495433b736f06fba9b6e7b05cac7b4a1780650c95"
+    },
+    "preparation/architecture.json": {
+      "bytes": 42792,
+      "sha256": "b744f3e065e7d149b5ebb47cec409c75937b26cd0258e1dbb765a6ccd7fa869d"
+    },
+    "preparation/architecture.txt": {
+      "bytes": 28237,
+      "sha256": "5a2040c50f60a8e3f40b36e4a6edbd063e78010126ff00ed9519505d15d29471"
+    },
+    "preparation/data.json": {
+      "bytes": 1393,
+      "sha256": "13d566eb9045a383ce886e553a5fbbdbd34e7e6c66e4cca668bb761084f2bfc4"
+    },
+    "preparation/duplicate_audit.json": {
+      "bytes": 100038,
+      "sha256": "b13388531109aea668c148acc01af4f10dde4bc350675cb27960d0f6d24614fb"
+    },
+    "preparation/ontology.json": {
+      "bytes": 2411,
+      "sha256": "fc60f3087c8d386180d31771767c79bc8b59cabe32fe407beef6b71fb2d57925"
+    },
+    "preparation/preflight.json": {
+      "bytes": 213227,
+      "sha256": "f816cbfad3b790514def86f438e22ac3023d9c963b1a29a6c891f56e6bca4f32"
+    },
+    "preparation/preflight/lora/README.md": {
+      "bytes": 5296,
+      "sha256": "77e0898915b6fa70a436f7a17d037ea9a7d1f936319924e7ed83148aace4ed5e"
+    },
+    "preparation/preflight/lora/adapter_config.json": {
+      "bytes": 1227,
+      "sha256": "cb0416fac86309daf6b47054db8d049831176655475d710822edd26112c6a313"
+    },
+    "preparation/preflight/lora/adapter_model.safetensors": {
+      "bytes": 73911112,
+      "sha256": "491d9a6ed74d5c0f5a5292de1c5dc0cdf4b57c01feb9e75e9823aba1bbda4dc9"
+    },
+    "preparation/preflight/qlora/README.md": {
+      "bytes": 5304,
+      "sha256": "0ee22398b79f25d6b4e3d92d3803c11932324057fc3e210e99c093a005b1ca17"
+    },
+    "preparation/preflight/qlora/adapter_config.json": {
+      "bytes": 1231,
+      "sha256": "608ad512c8c0c383460aaa59d99750d9458ae1b0288f264b82dfb1aa7c638e57"
+    },
+    "preparation/preflight/qlora/adapter_model.safetensors": {
+      "bytes": 73911112,
+      "sha256": "db619bc6f0d75ee7318c22b678e601a1a66930b9b3f916f90046df22736215a1"
+    },
+    "preparation/preflight_lora.json": {
+      "bytes": 92992,
+      "sha256": "80b0458e414696baa928ef65b48ab96f7b07b8126ed35a00296254b7694834ed"
+    },
+    "preparation/preflight_qlora.json": {
+      "bytes": 92992,
+      "sha256": "7279e6f548f0479ce693ce7027bdedfbf590529147bfd4f1abfcd86ce7d246fc"
+    },
+    "preparation/system_prompt.txt": {
+      "bytes": 2187,
+      "sha256": "9cfe76850ba900ad788665e4ae4fc54a1603fc8e0c2d221c0d6d94b96424ff96"
+    },
+    "preparation/test.jsonl": {
+      "bytes": 860561,
+      "sha256": "fa3a7cd9fb981efcb9a60ba04437538d47d5f09c5a166f01a6911e5af282e1bb"
+    },
+    "preparation/tokenization.json": {
+      "bytes": 2392,
+      "sha256": "56e0cab9a2fdefef4b109d4c501bcfe2302f6ce2f59e87b6c2561c368f4e8c50"
+    },
+    "preparation/tokenized_test.jsonl": {
+      "bytes": 28574643,
+      "sha256": "aa6e369ee305677968e9060fa4bacadba48fd07edae05368a8ed42b58df56b8b"
+    },
+    "preparation/tokenized_train.jsonl": {
+      "bytes": 110751997,
+      "sha256": "4edb21ad2b3ad9d9f28ad005805c00f6c2eb3f700db7d0fbedbc153cefde4a30"
+    },
+    "preparation/tokenized_validation.jsonl": {
+      "bytes": 19550564,
+      "sha256": "134225d635010c2920616e86d7a6eb9272bfcd1bc29ce111819de6ad2d2d39d0"
+    },
+    "preparation/train.jsonl": {
+      "bytes": 3389445,
+      "sha256": "74821443d8cb3b29c8041c62559e02e3527861c25cef52e8e007a07a45e6b1d7"
+    },
+    "preparation/validation.jsonl": {
+      "bytes": 596135,
+      "sha256": "08f452c3e9ff455bf3d31761319f48ddb4b0cc485637f31b512b72284acff7c1"
+    },
+    "reports/disagreements.json": {
+      "bytes": 19242,
+      "sha256": "ee0ae911a1d53a434bd0e4f3bab3c58f400664a698089f1bf8fe2edd24e70ab0"
+    },
+    "reports/error_examples.json": {
+      "bytes": 105017,
+      "sha256": "d02830ffad94935edfd139d677d099b8dd8a8e0b2d2b3d39b5b53b91b0a49ed1"
+    },
+    "reports/execution.md": {
+      "bytes": 770,
+      "sha256": "2e925b5ec71e03ee54e3049301a9df57e80d689ea10f2157991ecbf098928b39"
+    },
+    "reports/paired_comparison.json": {
+      "bytes": 1696,
+      "sha256": "c8f218f14e89d622e024f0a63eb939fa23152c5e437dc44a07c300b4380f89f0"
+    },
+    "reports/results.md": {
+      "bytes": 17122,
+      "sha256": "8bc0668b1777980280ca05c429e3f05124b09022110881af7d8709d4f2fde095"
+    },
+    "source_snapshot/README.md": {
+      "bytes": 13664,
+      "sha256": "8fe246bdb4b2fd6a04c1c61529d086a36df4ca845fea053bc41ba3ec40100bc8"
+    },
+    "source_snapshot/notebooks/lora_qlora.ipynb": {
+      "bytes": 33319,
+      "sha256": "c9b368a9bedc5b694472bdc9d7d432ca40656dafbc9b6e84a78d31fd114ee43c"
+    },
+    "source_snapshot/requirements.txt": {
+      "bytes": 668,
+      "sha256": "af678764f9b9b3a189fb1f6a7945ca0bf7259cee3bc747d86a6c81fc68b6558e"
+    },
+    "source_snapshot/src/__init__.py": {
+      "bytes": 83,
+      "sha256": "332efd0f8dc7213eec744c4ee33c3d121ce229636824cbc70a1eccf9c7c592c7"
+    },
+    "source_snapshot/src/checkpoints.py": {
+      "bytes": 8946,
+      "sha256": "a5c2032189935ddba19aac67ef5fa601581b879f0c9ed9515ee4440e6bd04c14"
+    },
+    "source_snapshot/src/config.py": {
+      "bytes": 7871,
+      "sha256": "f834e61d81a48bc89a10fa0042b87a596374fa4bb5d4e40e7128b065129bb401"
+    },
+    "source_snapshot/src/data.py": {
+      "bytes": 31553,
+      "sha256": "d8800741b93e304a9c224ed564fe0bf4807fb1909d903024b88fe670886482dc"
+    },
+    "source_snapshot/src/evaluate.py": {
+      "bytes": 32393,
+      "sha256": "9bb55ef991568fec9de53555a9e985e410b104e3c09f70033512d0bb8d09318d"
+    },
+    "source_snapshot/src/execution.py": {
+      "bytes": 35881,
+      "sha256": "0347978854d6891dcfcf29e4430e774590c21b9034afd0a1393ac3f7948c2192"
+    },
+    "source_snapshot/src/hardware.py": {
+      "bytes": 9898,
+      "sha256": "e2e58b2bae5d6d1103e87bab99b81e95ece5c3cd4cb39d2ae44c87cc8395f42e"
+    },
+    "source_snapshot/src/io.py": {
+      "bytes": 2080,
+      "sha256": "c0d34fb5805e0c25f407c292a74a36e5779ce7e91089a74f9f08ee2665885472"
+    },
+    "source_snapshot/src/launcher.py": {
+      "bytes": 16867,
+      "sha256": "e95b914a0ae5c547f3a9530e35787e38f78e4fdda4731dba6dee2165b80a3b27"
+    },
+    "source_snapshot/src/losses.py": {
+      "bytes": 5838,
+      "sha256": "55c71ed1d3e7497f86f083fadf8eb0861c526607544ad23c1e85d122227af30a"
+    },
+    "source_snapshot/src/metrics.py": {
+      "bytes": 9814,
+      "sha256": "b339eb4a3f56c8ccfd2c2b9e2318d1ab08ee340a383832cea940699094243367"
+    },
+    "source_snapshot/src/models.py": {
+      "bytes": 34586,
+      "sha256": "7f873d05ad72d71c31da0fa6cae6382b1e9e5b0ce2dbe9f0189d92700033a034"
+    },
+    "source_snapshot/src/pilot.py": {
+      "bytes": 16345,
+      "sha256": "1f25a1cd0afbbaf8fe7a02e55c3b5b7ef803132670955be7fa83b0d144760ea7"
+    },
+    "source_snapshot/src/plots.py": {
+      "bytes": 36041,
+      "sha256": "4a767935d17237ba672b4d5dd88718f02c8535aa8aea5bbd1d4fd26f7d671819"
+    },
+    "source_snapshot/src/runs.py": {
+      "bytes": 12591,
+      "sha256": "5727096112be884523618b5bd1c81306802284b8a7ac1486728773a446fdda80"
+    },
+    "source_snapshot/src/runtime.py": {
+      "bytes": 9110,
+      "sha256": "686dec4c12d2930d6cecbee18344621205da2853e993eca0aa37a52d754b9f43"
+    },
+    "source_snapshot/src/telemetry.py": {
+      "bytes": 16447,
+      "sha256": "49b03b44ebdb3c7d4d47682bdf0cc4de98bf5642a9c51ae49a440d4c90faad85"
+    },
+    "source_snapshot/src/train.py": {
+      "bytes": 27891,
+      "sha256": "d55329e283a094543e2ade91506df8eb7db132a7310dd82d6b99d9f24461943b"
+    },
+    "tensorboard/lora/events.out.tfevents.1790751451.b522ba926ed5.3412.0": {
+      "bytes": 1807926,
+      "sha256": "2176cc0c8f1dd219f48ccb3cc6ece544956f71bd4d1b2e44021ca6a876469927"
+    },
+    "tensorboard/qlora/events.out.tfevents.1790751446.b522ba926ed5.3413.0": {
+      "bytes": 1807926,
+      "sha256": "4e4093e0f662f898b7adbbca4c02f2bb9b333d5b4c33d60b6cfd460fa06ee967"
+    },
+    "trials/lora/architecture.txt": {
+      "bytes": 5593,
+      "sha256": "0ff838bbb2af2115a5deb7e9c8d0412b2c6f3718222edd57b1136daa40a18ad8"
+    },
+    "trials/lora/arm_baseline.json": {
+      "bytes": 158690,
+      "sha256": "fecdc9c98a0fbee54be47d3e1d9bede896a7168d2e8e8f9da8ffea46b5b79dc6"
+    },
+    "trials/lora/arm_benchmark.json": {
+      "bytes": 164362,
+      "sha256": "5a21d690bd7e1c0e7f5caee17a720712982268290b06415d0717c95f51e1a836"
+    },
+    "trials/lora/arm_pilot.json": {
+      "bytes": 13584,
+      "sha256": "698cf9b0bbd54a38e411127f78372963e2fd0eb8cbb9b8f5f8152890e52c323d"
+    },
+    "trials/lora/arm_test.json": {
+      "bytes": 364538,
+      "sha256": "873c2c5201477f407613b7dc9c516338448ac95568cca7f9c2ec6a81a68df152"
+    },
+    "trials/lora/arm_training.json": {
+      "bytes": 796553,
+      "sha256": "d70b6840d0b08cd42e238133e1cb99969c5f399069fabf0670855f89fc1cd0f0"
+    },
+    "trials/lora/checkpoints/commits/index_00000001.json": {
+      "bytes": 270,
+      "sha256": "89a34648020787158a613c4211787f5e4065860dc926d392e3f8e40871b7a9b0"
+    },
+    "trials/lora/checkpoints/commits/index_00000002.json": {
+      "bytes": 436,
+      "sha256": "6866adccacc7f5fa2ebad5a8cfa2355974b47aef1b58c087b29c63f4a1e1de2d"
+    },
+    "trials/lora/checkpoints/commits/index_00000003.json": {
+      "bytes": 437,
+      "sha256": "aedb8e490ae087a24689fda3d044d90a79a8f5c65f821a02c3288af7fbf4a948"
+    },
+    "trials/lora/checkpoints/commits/index_00000004.json": {
+      "bytes": 437,
+      "sha256": "d5b3e0e25930e5705eca5e236af36a6c9ef14f5ed21effe28b666112a4ba6d83"
+    },
+    "trials/lora/checkpoints/commits/index_00000005.json": {
+      "bytes": 437,
+      "sha256": "3ab06b98eb7b51af6fd5be7543bc471f7d392f48e9812c6c8096de9bfe9dbc85"
+    },
+    "trials/lora/checkpoints/commits/index_00000006.json": {
+      "bytes": 437,
+      "sha256": "4fc1ec7fc1105fa0e8f8759cebd24f7e74f7fd5a21ee229af2dfe0fb76a2c48c"
+    },
+    "trials/lora/checkpoints/commits/index_00000007.json": {
+      "bytes": 437,
+      "sha256": "b1bd755b60c615a28e387ef5970168bc4e13ec7bf535e6830e043debb8a7c961"
+    },
+    "trials/lora/checkpoints/commits/index_00000008.json": {
+      "bytes": 437,
+      "sha256": "940d3fa32a2b5788ecad9265d9f407e4dc6a5371676b49808e9ca7ba0e5e0252"
+    },
+    "trials/lora/checkpoints/commits/index_00000009.json": {
+      "bytes": 437,
+      "sha256": "9022bd3b91784aa2a21f440911f51b7ca299db2fdaffef6a7670a72304fc4886"
+    },
+    "trials/lora/checkpoints/commits/index_00000010.json": {
+      "bytes": 437,
+      "sha256": "0766ff5bc11b504f380ef6ea4dcbaf09c183e27e17270f0daa3b9e6af96ff201"
+    },
+    "trials/lora/checkpoints/commits/index_00000011.json": {
+      "bytes": 437,
+      "sha256": "260b52dacc3fa147f546bfd629f16bb9a0954b07b5cb55effb4eee8848dedf72"
+    },
+    "trials/lora/checkpoints/commits/index_00000012.json": {
+      "bytes": 437,
+      "sha256": "9ff7d28565e7ba7c62aec3db4069fe3c731c76cf1621be48ce192000e878b1bd"
+    },
+    "trials/lora/checkpoints/commits/index_00000013.json": {
+      "bytes": 437,
+      "sha256": "78870008c9b750b7c5125790d1d50ec5c584b91adccda71f44ffa40a781a5f5e"
+    },
+    "trials/lora/checkpoints/commits/index_00000014.json": {
+      "bytes": 437,
+      "sha256": "21c71da97dd5e3d3a3be1c0baaf7672bb30c2ac79170fc4d206403f21696d872"
+    },
+    "trials/lora/checkpoints/commits/index_00000015.json": {
+      "bytes": 475,
+      "sha256": "99ddb8ed193c975330718421172ed5f9b244871f1a38cc6533256e98e77287f6"
+    },
+    "trials/lora/checkpoints/commits/index_00000016.json": {
+      "bytes": 466,
+      "sha256": "a90e8a9ad617cc978bf3c1cd067a889ec3f918368d07bbe03e47efb2d07876af"
+    },
+    "trials/lora/checkpoints/commits/index_00000017.json": {
+      "bytes": 632,
+      "sha256": "446b51ab7757696a9bd1621038ac9aedecca683fd1f7a906f87b1e30229b69bc"
+    },
+    "trials/lora/checkpoints/commits/index_00000018.json": {
+      "bytes": 632,
+      "sha256": "4dea9d01e0466489cc788a0eb3f321b9db4ef31c907d69327add0be9500fcae1"
+    },
+    "trials/lora/checkpoints/commits/index_00000019.json": {
+      "bytes": 632,
+      "sha256": "94cdcccd15fd8ba87e65f6612db657bf5e6904418636e600fa79e91000240e64"
+    },
+    "trials/lora/checkpoints/commits/index_00000020.json": {
+      "bytes": 632,
+      "sha256": "f2191f77abc98431c48091e85a65389084bf637328a7a943b48000c99fe5cf9a"
+    },
+    "trials/lora/checkpoints/commits/index_00000021.json": {
+      "bytes": 633,
+      "sha256": "89e0539448f327579099cf36cab71a632c333efe82f408f7d7abbdcf204ef4a7"
+    },
+    "trials/lora/checkpoints/commits/index_00000022.json": {
+      "bytes": 634,
+      "sha256": "4f85cd194bca1ac122f0e2f741e74a1a1078cb41fff8d34e4b138506a0cf21c7"
+    },
+    "trials/lora/checkpoints/commits/index_00000023.json": {
+      "bytes": 634,
+      "sha256": "e86dc9e3b2b26136a5f13a5a6f25ae9600c64f98ad2da00d21adb32fcd893d9f"
+    },
+    "trials/lora/checkpoints/commits/index_00000024.json": {
+      "bytes": 634,
+      "sha256": "52c419a516db2bc1090890f69907e2f355427a8c950a769b26bf503e4a9d2216"
+    },
+    "trials/lora/checkpoints/commits/index_00000025.json": {
+      "bytes": 634,
+      "sha256": "8b7d10e3e9931f1be5db918aaeb0f412abe23d8fdbc24ac094aec11eb31bac94"
+    },
+    "trials/lora/checkpoints/commits/index_00000026.json": {
+      "bytes": 634,
+      "sha256": "766150cfac9fc87c49d5aa7e28f76dc7aa17e26726461c5cbde35876b4272e9e"
+    },
+    "trials/lora/checkpoints/commits/index_00000027.json": {
+      "bytes": 634,
+      "sha256": "89ce4b188991fa9ce4da24a9cfa6d41c5ecb34914560e2d14220d508ea678a36"
+    },
+    "trials/lora/checkpoints/commits/index_00000028.json": {
+      "bytes": 634,
+      "sha256": "664791bc22611d069ed428cd20f9596913e4a251c791d3cb9315ebf231229f07"
+    },
+    "trials/lora/checkpoints/commits/index_00000029.json": {
+      "bytes": 634,
+      "sha256": "9a909d95660d71c7b9db7cca72253be41e0842ccf22a34064534fad9462c0182"
+    },
+    "trials/lora/checkpoints/commits/index_00000030.json": {
+      "bytes": 477,
+      "sha256": "1c5aebcc8144365c549224a52edc1e0ba765cfacac3dfe20874e3c4d3033543c"
+    },
+    "trials/lora/checkpoints/commits/index_00000031.json": {
+      "bytes": 468,
+      "sha256": "5291677524ad2387e4e71b36b9cb7bc3ee18bd26ee794b5f450ec76dcc7d61e6"
+    },
+    "trials/lora/checkpoints/commits/index_00000032.json": {
+      "bytes": 635,
+      "sha256": "bade233cb4bc0cadf30bad9a529a64a7717b41982f08121e95eea47425a1fccb"
+    },
+    "trials/lora/checkpoints/commits/index_00000033.json": {
+      "bytes": 635,
+      "sha256": "8f46b0310b6d41a03ef5ffda081f8f5c2e1d4303b778782b8a607c91865ba32e"
+    },
+    "trials/lora/checkpoints/commits/index_00000034.json": {
+      "bytes": 635,
+      "sha256": "a2b3421e1f2192f72c2bb7ee70d81cc6414b1c3d15976a4953103ff69026cbf6"
+    },
+    "trials/lora/checkpoints/commits/index_00000035.json": {
+      "bytes": 635,
+      "sha256": "eab165694f851e22cf22eb0b73c616ffadf030aeb7d746b8308dd9c7dfbbf438"
+    },
+    "trials/lora/checkpoints/commits/index_00000036.json": {
+      "bytes": 635,
+      "sha256": "c54f6ace61fee3e612636955a89400d42e5858af3381743cd418980d8662c1d4"
+    },
+    "trials/lora/checkpoints/commits/index_00000037.json": {
+      "bytes": 635,
+      "sha256": "3e3d07bd1c5353e3482d8e84d4af1f31c08d449004ca21999f7122669bdcfa98"
+    },
+    "trials/lora/checkpoints/commits/index_00000038.json": {
+      "bytes": 635,
+      "sha256": "370bdcb0a4681fde7a10dd8f25b0ee02104e60f5ad406af0f90cdf1c38dc8317"
+    },
+    "trials/lora/checkpoints/commits/index_00000039.json": {
+      "bytes": 635,
+      "sha256": "0cb45bd883cdb3233ca76d93f85e2ec28c2c6fa5e38d59037678b5ade866bba3"
+    },
+    "trials/lora/checkpoints/commits/index_00000040.json": {
+      "bytes": 635,
+      "sha256": "513122bf2271199800e439959749561e1596189b8c901cb32c8a1349651725c8"
+    },
+    "trials/lora/checkpoints/commits/index_00000041.json": {
+      "bytes": 635,
+      "sha256": "d7597f610fa5365f765e8a885dbd12402922a34d07c6eccdaccc9eccf704ee55"
+    },
+    "trials/lora/checkpoints/commits/index_00000042.json": {
+      "bytes": 635,
+      "sha256": "824898f4455692f2f1e276429691cfc0c686db5341a8c7f534fdb617dc150636"
+    },
+    "trials/lora/checkpoints/commits/index_00000043.json": {
+      "bytes": 635,
+      "sha256": "2d0b6539f07ecf7549ab19c579703e0e64c3687e520a7a161576f92769db84b7"
+    },
+    "trials/lora/checkpoints/commits/index_00000044.json": {
+      "bytes": 635,
+      "sha256": "814df0acc15d2be924ed52057bcc4f0a6b9903b9e1b954bd8c1d8c1832f061e8"
+    },
+    "trials/lora/checkpoints/commits/index_00000045.json": {
+      "bytes": 635,
+      "sha256": "b70bd83dade4b34a0c5b0b76f02d31232254c7e93d5596f5801a61f4faf8fd5d"
+    },
+    "trials/lora/checkpoints/commits/index_00000046.json": {
+      "bytes": 477,
+      "sha256": "45de55164d5037ebb0a4e35fead2de39a49df41c4672be82d6eddf7b371cba58"
+    },
+    "trials/lora/checkpoints/commits/index_00000047.json": {
+      "bytes": 468,
+      "sha256": "22734f3249fa34d71e224ed616ba953829791e3ef8181356c8586a5a1eeaf765"
+    },
+    "trials/lora/checkpoints/commits/index_00000048.json": {
+      "bytes": 635,
+      "sha256": "d631d8fbd7380a3ff3fa7e946e10c08aedbf95455488c558c9463222b1945f03"
+    },
+    "trials/lora/checkpoints/commits/index_00000049.json": {
+      "bytes": 635,
+      "sha256": "ef7ebef6f501b178832d1dfccb7e9cc02c33d760a932c78454bcab7899cbbb2f"
+    },
+    "trials/lora/checkpoints/commits/index_00000050.json": {
+      "bytes": 635,
+      "sha256": "faec4a252a8ee395fb30d8d89020222f956c4195197473ebd2bf20abab7528cd"
+    },
+    "trials/lora/checkpoints/commits/index_00000051.json": {
+      "bytes": 635,
+      "sha256": "7cd93ff92d929664917338a1802cd80ed6d307d6f3a1318bf901d064b1608724"
+    },
+    "trials/lora/checkpoints/commits/index_00000052.json": {
+      "bytes": 635,
+      "sha256": "65686c051a38a8ac1657899e048069a018f06213af1bbfeb46f73c4cc1ccc0c5"
+    },
+    "trials/lora/checkpoints/commits/index_00000053.json": {
+      "bytes": 635,
+      "sha256": "9fef8e699ba7404071df4a3fe6431db3d3ad9bad6269645d7435f0ca8908ec80"
+    },
+    "trials/lora/checkpoints/commits/index_00000054.json": {
+      "bytes": 635,
+      "sha256": "9ff38bb52c61e2009b591765492a840ae04c02914646eaea661a0e870db4f688"
+    },
+    "trials/lora/checkpoints/commits/index_00000055.json": {
+      "bytes": 635,
+      "sha256": "6948a1d5019d7fd9084d946cc75ea111d59f6d951c85931bad2962ae6c9c1e68"
+    },
+    "trials/lora/checkpoints/commits/index_00000056.json": {
+      "bytes": 635,
+      "sha256": "fa85932117a05e33988c09daa4cdda578a1d0ab38fde36173760f3e9234cf7e9"
+    },
+    "trials/lora/checkpoints/commits/index_00000057.json": {
+      "bytes": 635,
+      "sha256": "9a015526c29ef2994d75dd41745928e58744588eb27e9f79590b7c554474d158"
+    },
+    "trials/lora/checkpoints/commits/index_00000058.json": {
+      "bytes": 635,
+      "sha256": "e452f131bdaecf38fae02797ffbd0640b40f5bc05dd0744e3d0509c32cb06a4e"
+    },
+    "trials/lora/checkpoints/commits/index_00000059.json": {
+      "bytes": 635,
+      "sha256": "3b7af4a6a8ad14c89bdd86c940f5bffaaea8af7446b37e5eb46e66c731cd926a"
+    },
+    "trials/lora/checkpoints/commits/index_00000060.json": {
+      "bytes": 635,
+      "sha256": "1e2bf924c507f7f62bc4d9d6e320916391b9858f4bd9ca520d896af5ca4c7863"
+    },
+    "trials/lora/checkpoints/commits/index_00000061.json": {
+      "bytes": 477,
+      "sha256": "4d197ff643dc08783077f76d202465560293cd43d016adf5510343a9308aea4d"
+    },
+    "trials/lora/checkpoints/commits/index_00000062.json": {
+      "bytes": 468,
+      "sha256": "58882e48db3c94076db1803ad78a834bd218bfaca83f2e7154fc701ec3ad02ac"
+    },
+    "trials/lora/checkpoints/commits/index_00000063.json": {
+      "bytes": 635,
+      "sha256": "4e60aecb195da17f17248020bafa397a46f4bbc08c7ce11fd92aed83f1d66eb3"
+    },
+    "trials/lora/checkpoints/commits/index_00000064.json": {
+      "bytes": 635,
+      "sha256": "b6ca1821baefef6a680c2ca6cd656003ae03fb58b914ea66507ecdd7e8274510"
+    },
+    "trials/lora/checkpoints/commits/index_00000065.json": {
+      "bytes": 635,
+      "sha256": "c8aedc7a68da7a8581259538d67bc901a2a71781cd91fc5d27d21d8525001961"
+    },
+    "trials/lora/checkpoints/commits/index_00000066.json": {
+      "bytes": 635,
+      "sha256": "92ca8f4270a66fee74564934832f71c4e868904fe32988a7d28646b9dad052f4"
+    },
+    "trials/lora/checkpoints/commits/index_00000067.json": {
+      "bytes": 635,
+      "sha256": "a4b28ed5711fd359212ef68b2833bbe3f51021fc699134943ea882f9f587258b"
+    },
+    "trials/lora/checkpoints/commits/index_00000068.json": {
+      "bytes": 635,
+      "sha256": "877f927b8203644e82416d0b295dfb190613be818274cbd342b33df67b527a20"
+    },
+    "trials/lora/checkpoints/commits/index_00000069.json": {
+      "bytes": 635,
+      "sha256": "12cf4f7b83607280d761e109c3edc6fab8b08444a0b13668525bc6532e571ee9"
+    },
+    "trials/lora/checkpoints/commits/index_00000070.json": {
+      "bytes": 635,
+      "sha256": "535358bfd9390c4bb2be0a9cc65617c925fa29b79120c0936e1acf581a4a7e12"
+    },
+    "trials/lora/checkpoints/commits/index_00000071.json": {
+      "bytes": 635,
+      "sha256": "353b769101f388efa075c49b01364d627e60eb8978bb4cab072659a41f1296b4"
+    },
+    "trials/lora/checkpoints/commits/index_00000072.json": {
+      "bytes": 635,
+      "sha256": "bae83296c57413e8618454ada90964e0ad86db10390272208b11c304edd7bb10"
+    },
+    "trials/lora/checkpoints/commits/index_00000073.json": {
+      "bytes": 635,
+      "sha256": "ea9d166b106b98867a42d55393609dbaae5b8dfa3f56a4989e04dc7f7c46e4f0"
+    },
+    "trials/lora/checkpoints/commits/index_00000074.json": {
+      "bytes": 635,
+      "sha256": "9a428e493dfe57661ab93b72170217477205aedd6d763a0517618f5296259826"
+    },
+    "trials/lora/checkpoints/commits/index_00000075.json": {
+      "bytes": 635,
+      "sha256": "137bb4648da730b3aef1a1e1bab65a6449f58f6e8580e9e9829eea99e7b8f272"
+    },
+    "trials/lora/checkpoints/commits/index_00000076.json": {
+      "bytes": 635,
+      "sha256": "f1863f470ecf90648fae9c5907096f4d49ff34816eea5683915d9441d14dcc35"
+    },
+    "trials/lora/checkpoints/commits/index_00000077.json": {
+      "bytes": 477,
+      "sha256": "d7a65462f1e3cfd2cb1cca91edfe152d43e0baec4b0a9694f7282788e05bbd01"
+    },
+    "trials/lora/checkpoints/commits/index_00000078.json": {
+      "bytes": 622,
+      "sha256": "4930d68341ee51c3f394c252bc22392aa50c10bfb1be420b812c4ea3e2df6a15"
+    },
+    "trials/lora/metrics/epoch_01.json": {
+      "bytes": 106890,
+      "sha256": "c26393225108d1716929a2ebd56d06a578eaf5907dab589c64c1a5ed50613aea"
+    },
+    "trials/lora/metrics/epoch_01_predictions.jsonl": {
+      "bytes": 2435549,
+      "sha256": "f09cafcfaaabc3302d8606eb0f87ca524c66896b471991d4f67e250072c36b1f"
+    },
+    "trials/lora/metrics/epoch_02.json": {
+      "bytes": 107087,
+      "sha256": "1a7fe50e610607edf22e3560f2b4c4681ce51eec833ffcfe7f90f6f688ef26c3"
+    },
+    "trials/lora/metrics/epoch_02_predictions.jsonl": {
+      "bytes": 2456930,
+      "sha256": "e458062c23ce2809a319d38f06d7bde5c733cf67f267c535b035071e0e4854b0"
+    },
+    "trials/lora/metrics/epoch_03.json": {
+      "bytes": 105660,
+      "sha256": "4932b7269d6f723f8e2ea98befa91481805887459c6abb65ecbab2a3e4ffb969"
+    },
+    "trials/lora/metrics/epoch_03_predictions.jsonl": {
+      "bytes": 2427701,
+      "sha256": "f39123d444bb00b79aea9713429dc4c95f3054113355ddf2924f3194b477fc09"
+    },
+    "trials/lora/metrics/epoch_04.json": {
+      "bytes": 106104,
+      "sha256": "dd83580b7d0d955b655b0eed64890c217be1777128049c06ee0c94949d17746d"
+    },
+    "trials/lora/metrics/epoch_04_predictions.jsonl": {
+      "bytes": 2436606,
+      "sha256": "1106c0f912b9a19bc8176c10b2c8d35dd7ec3f5625c85a8998dc082f3cb8c026"
+    },
+    "trials/lora/metrics/epoch_05.json": {
+      "bytes": 106381,
+      "sha256": "044ff51aef72b0245a767d27fb6f8340023caa9b3fb29ec0aafef1f80736d76e"
+    },
+    "trials/lora/metrics/epoch_05_predictions.jsonl": {
+      "bytes": 2432505,
+      "sha256": "9b1dfe55ced87402185b2f56b1b44a806eab5715a09750eb5903d3cd45fa0b54"
+    },
+    "trials/lora/metrics/train.csv": {
+      "bytes": 345013,
+      "sha256": "e5303d9f7df845d634efb8f51c8181f96a8f3f1d841b4493e31add1e174ef336"
+    },
+    "trials/lora/metrics/train.jsonl": {
+      "bytes": 1283992,
+      "sha256": "b95da4c014b338e1faf8387adef36385b1cf8e8a5ac6edacc13a712c4ab26a5a"
+    },
+    "trials/lora/model_specification.json": {
+      "bytes": 256402,
+      "sha256": "a621abab2a0845e942c0c597b7cc93dd75fe2f91c9105a4b256bea2833a76582"
+    },
+    "trials/lora/pilot/activity.jsonl": {
+      "bytes": 51634,
+      "sha256": "eaea30de9f4134088a1a8aa04e911a20cc068909b672a31afe3a0f4fcdbb5a38"
+    },
+    "trials/lora/pilot/predictions.jsonl": {
+      "bytes": 32520,
+      "sha256": "40bb49f0d20c60825b23cd45e75ede9cae6ff2cdbb137fac84cb2bc9e0ac5b57"
+    },
+    "trials/lora/pilot/summary.json": {
+      "bytes": 12374,
+      "sha256": "724e8dedf18ebe600998b75fb8799928a2a03b257f16f47c750eb2ed9d2903c2"
+    },
+    "trials/lora/training_summary.json": {
+      "bytes": 738254,
+      "sha256": "1546685ba5fa166156993669a56580fd6604c15c852385eedbe32debe6ae256d"
+    },
+    "trials/qlora/architecture.txt": {
+      "bytes": 5649,
+      "sha256": "1459f987be6523bb98d5bcef671763d0f03c8d8d0391ae6f92cbb0c958654e2b"
+    },
+    "trials/qlora/arm_baseline.json": {
+      "bytes": 97650,
+      "sha256": "f34d90b9d6d672a89d5029b85402f06f0fd509b119b765200a7a210e8ad5bcac"
+    },
+    "trials/qlora/arm_benchmark.json": {
+      "bytes": 138522,
+      "sha256": "6c4a2d5f64a70fc7a801f38f36e2d0079d7610ed8c2c1ae51609533714343817"
+    },
+    "trials/qlora/arm_pilot.json": {
+      "bytes": 13590,
+      "sha256": "3665babc0da38895beb8057ed5ceedf5a2eca2c7cca33e13e2ac5248652ac1b6"
+    },
+    "trials/qlora/arm_test.json": {
+      "bytes": 301422,
+      "sha256": "31071f80dd756111d89a35cf2790fcc8da95b000ca5344ee645b09cecf24c695"
+    },
+    "trials/qlora/arm_training.json": {
+      "bytes": 797264,
+      "sha256": "dc539e45f30687a148870bc489f2bd47b45c965ac05f493a1d03bd80ff29bd0f"
+    },
+    "trials/qlora/checkpoints/commits/index_00000001.json": {
+      "bytes": 270,
+      "sha256": "7c5545d790404e50764cfa1ecde85033c2122984d6ac2ce60aa5d561fadd9435"
+    },
+    "trials/qlora/checkpoints/commits/index_00000002.json": {
+      "bytes": 436,
+      "sha256": "f08039eab797371be8b2dce44fcc20187018894500b8fb5aebc21f48b2d838cf"
+    },
+    "trials/qlora/checkpoints/commits/index_00000003.json": {
+      "bytes": 437,
+      "sha256": "1c2e29dd4240c519f3ce6fb436aa46a3929466ad035ec3d09bd0e76cf1a7ab5b"
+    },
+    "trials/qlora/checkpoints/commits/index_00000004.json": {
+      "bytes": 437,
+      "sha256": "66a242b28cdf6990836b4b3f81c02f64a294ca8357d80238e6120a87b7c0b7db"
+    },
+    "trials/qlora/checkpoints/commits/index_00000005.json": {
+      "bytes": 437,
+      "sha256": "f190d750c6b95ec8ab61c2b82f44b2c874c43e87076f6d835e33fe88f7dc6ed3"
+    },
+    "trials/qlora/checkpoints/commits/index_00000006.json": {
+      "bytes": 437,
+      "sha256": "4e429fcc41f322a8ea89d157525d19ba66d35714bb31f566755df6835c8e35f0"
+    },
+    "trials/qlora/checkpoints/commits/index_00000007.json": {
+      "bytes": 437,
+      "sha256": "97c20cf355acc6b84f96d8a9647080c5d41c67e382b706f322a5c67c8cf7893a"
+    },
+    "trials/qlora/checkpoints/commits/index_00000008.json": {
+      "bytes": 437,
+      "sha256": "8785f0711bfa813fdb7724d6499e03c3a854e4186347f65d1dd98cdda2d0c031"
+    },
+    "trials/qlora/checkpoints/commits/index_00000009.json": {
+      "bytes": 437,
+      "sha256": "7cf5c93a845bb9468cfe0614b81afd0d62dacdc287ae80a8ce4d8aa5d8052e0c"
+    },
+    "trials/qlora/checkpoints/commits/index_00000010.json": {
+      "bytes": 437,
+      "sha256": "521485ed27f699d903125977d956e5f19247e7c2598fa836b31f54492f53da75"
+    },
+    "trials/qlora/checkpoints/commits/index_00000011.json": {
+      "bytes": 437,
+      "sha256": "cce7ceedab3fe114e9fd0109648338472b004fb053da3ba87a817cb4ba1ce263"
+    },
+    "trials/qlora/checkpoints/commits/index_00000012.json": {
+      "bytes": 437,
+      "sha256": "2641a9c6ccb91e696ae3be5556504b15277a277fd03d9199b1ecb048f7dc7334"
+    },
+    "trials/qlora/checkpoints/commits/index_00000013.json": {
+      "bytes": 437,
+      "sha256": "f717c6b75cb6a1465b1c1f3df225ab8923e71a04360d64f0a12e7d03c34df964"
+    },
+    "trials/qlora/checkpoints/commits/index_00000014.json": {
+      "bytes": 437,
+      "sha256": "74a54a649f7f4ea6a98433f97568417f0b041cde57eafd1adcf1b07e1e5acfc4"
+    },
+    "trials/qlora/checkpoints/commits/index_00000015.json": {
+      "bytes": 475,
+      "sha256": "d4fb6c4e02944a21f1b57681195927740aaca3006a94dacfdfea53cd7b05509e"
+    },
+    "trials/qlora/checkpoints/commits/index_00000016.json": {
+      "bytes": 466,
+      "sha256": "23d9c041ac5a6ef9a8bf29754d2c6bdb39555f7bbad64cd4207328932ce08c48"
+    },
+    "trials/qlora/checkpoints/commits/index_00000017.json": {
+      "bytes": 632,
+      "sha256": "a64fbe72604a4382b4f5a74e4c2c0b117c4752dd81c20435f474501a10357da1"
+    },
+    "trials/qlora/checkpoints/commits/index_00000018.json": {
+      "bytes": 632,
+      "sha256": "5b3cb789f09fdcf38d7cc96f97e5e855053efacf87c8439ff5f8547b1b5c212b"
+    },
+    "trials/qlora/checkpoints/commits/index_00000019.json": {
+      "bytes": 632,
+      "sha256": "989cb377eb165d384b6b88985fa1191743e79efa3f6d0fd88c765ea6ccea7732"
+    },
+    "trials/qlora/checkpoints/commits/index_00000020.json": {
+      "bytes": 632,
+      "sha256": "fdb80a91f7b7a80d459c9b2ad261a85b375125b8c90e567d348c47badd7de9a7"
+    },
+    "trials/qlora/checkpoints/commits/index_00000021.json": {
+      "bytes": 633,
+      "sha256": "b2cdb8b516a1432e9dc2b541d93fd2914f19a10480d8e3eca09b878aa2f9c91b"
+    },
+    "trials/qlora/checkpoints/commits/index_00000022.json": {
+      "bytes": 634,
+      "sha256": "8c7d4ec855e178a449cd91cf9d0ee801e46a011e2e44cbe8c569f4bb82502e33"
+    },
+    "trials/qlora/checkpoints/commits/index_00000023.json": {
+      "bytes": 634,
+      "sha256": "3e9a5eb42646873fc2845da870631c83767ff29e5ebb348eeb7c1b7c659ecbef"
+    },
+    "trials/qlora/checkpoints/commits/index_00000024.json": {
+      "bytes": 634,
+      "sha256": "c5b74101e38ac83812a923904985a35eefb0312d270d5b58913b0b4c5eaabfb0"
+    },
+    "trials/qlora/checkpoints/commits/index_00000025.json": {
+      "bytes": 634,
+      "sha256": "7097aab53da71013999c5ae70cbc74fd28954c6b92318c80d9f12b34c9ca56f8"
+    },
+    "trials/qlora/checkpoints/commits/index_00000026.json": {
+      "bytes": 634,
+      "sha256": "539aa76ed696adc1a5084bf799db97235d7b594ad38882f4b189145d559dbb65"
+    },
+    "trials/qlora/checkpoints/commits/index_00000027.json": {
+      "bytes": 634,
+      "sha256": "517cd5ae4f12cd036323be2ea0b3bcaa3d3d6683f1380dd914a2329ede8d3070"
+    },
+    "trials/qlora/checkpoints/commits/index_00000028.json": {
+      "bytes": 634,
+      "sha256": "29775a14684f31e75ec78668c91cd0e041089d0cade2a01f821fe5fcc64d818b"
+    },
+    "trials/qlora/checkpoints/commits/index_00000029.json": {
+      "bytes": 634,
+      "sha256": "280cc361a9394eecc147af27851621f933ca45d508578de27c0af6c096fa5b75"
+    },
+    "trials/qlora/checkpoints/commits/index_00000030.json": {
+      "bytes": 477,
+      "sha256": "e7fec477e9907ea1c214f989d8070cc92de4eb0da291b8906df31b8f59a7dfdf"
+    },
+    "trials/qlora/checkpoints/commits/index_00000031.json": {
+      "bytes": 468,
+      "sha256": "f288c6188f99bfb234ebd0e00627f00eb260c4c1cf743ea4f9070ba6f58211ce"
+    },
+    "trials/qlora/checkpoints/commits/index_00000032.json": {
+      "bytes": 635,
+      "sha256": "c7014833f1b2a40df7be8ab51c4f0d8fdaaffd6bd3803f4cb27f6765cfbef18a"
+    },
+    "trials/qlora/checkpoints/commits/index_00000033.json": {
+      "bytes": 635,
+      "sha256": "b0d14f765c6cdf1f35e1a29dd61146a239951d2f67a091921d66c6e80d69c9d6"
+    },
+    "trials/qlora/checkpoints/commits/index_00000034.json": {
+      "bytes": 635,
+      "sha256": "9ac580bc27ed3f821fff338f2acab93c561e71f4ef18d834c1beb0257cd0e865"
+    },
+    "trials/qlora/checkpoints/commits/index_00000035.json": {
+      "bytes": 635,
+      "sha256": "0c84aa2472870a234f062bd64bb08c02a0260c474fa9bb3ac2cc596612481a2a"
+    },
+    "trials/qlora/checkpoints/commits/index_00000036.json": {
+      "bytes": 635,
+      "sha256": "88ff725291389e18959199c6c95565565dddbc52e45b8dea31e41e91b423904d"
+    },
+    "trials/qlora/checkpoints/commits/index_00000037.json": {
+      "bytes": 635,
+      "sha256": "8fdc12a7fd757c35fa64a4a4510c4333d6c96563604fe81396acfd45903fa5e7"
+    },
+    "trials/qlora/checkpoints/commits/index_00000038.json": {
+      "bytes": 635,
+      "sha256": "e6e7c304c0a27207eca3d69f0ba08248916cc43219554e9101b8282fc2cec382"
+    },
+    "trials/qlora/checkpoints/commits/index_00000039.json": {
+      "bytes": 635,
+      "sha256": "87b2c2985251ce323d444ed7af78f07927ee12f5a4c35bc7950457f904c3cb94"
+    },
+    "trials/qlora/checkpoints/commits/index_00000040.json": {
+      "bytes": 635,
+      "sha256": "b712edb6d8311bba06bb7a303e50e5b274c4138655c570e95133f221f979d308"
+    },
+    "trials/qlora/checkpoints/commits/index_00000041.json": {
+      "bytes": 635,
+      "sha256": "65c727108f6bee13fce2a7e5202c515e6ca48428f42e3907e40cce835481a553"
+    },
+    "trials/qlora/checkpoints/commits/index_00000042.json": {
+      "bytes": 635,
+      "sha256": "d6c4c3379853ed0e79ebea964018fef4da1351b250e510b1a2db1200cb585b48"
+    },
+    "trials/qlora/checkpoints/commits/index_00000043.json": {
+      "bytes": 635,
+      "sha256": "bf677e3a5390181bcf051341a0dd0eeebb6c41829d713922369b9ec4e79542a4"
+    },
+    "trials/qlora/checkpoints/commits/index_00000044.json": {
+      "bytes": 635,
+      "sha256": "d8e2b3d937bf6424d583dc84a347cc60bc68ae8ad4c6c2d76da8598a0a96b52e"
+    },
+    "trials/qlora/checkpoints/commits/index_00000045.json": {
+      "bytes": 635,
+      "sha256": "58755fc6485d7f6f17346455aac4bb003dcf601f767117307619b1a4c144b42f"
+    },
+    "trials/qlora/checkpoints/commits/index_00000046.json": {
+      "bytes": 477,
+      "sha256": "2d7a9548713dd4f3de948678eab8a0e80d0c9063a1bc136973808b5d74a3d6a0"
+    },
+    "trials/qlora/checkpoints/commits/index_00000047.json": {
+      "bytes": 468,
+      "sha256": "91fae3f01aa49a90a8e6f81b2e0524a19a903fb7b8b65a8947b6ea7822267de9"
+    },
+    "trials/qlora/checkpoints/commits/index_00000048.json": {
+      "bytes": 635,
+      "sha256": "408143cb1343c3a835269c9ea67558fa8c36a0497cbb99a8d5e76e7455c74d42"
+    },
+    "trials/qlora/checkpoints/commits/index_00000049.json": {
+      "bytes": 635,
+      "sha256": "1249306e6b9644fc989bd1a2e2bb04fca75a078c8b3b8cd3b3ff65d0f7c04ee5"
+    },
+    "trials/qlora/checkpoints/commits/index_00000050.json": {
+      "bytes": 635,
+      "sha256": "91d69ee9f75724bf79cafdc013428f82f59e305a9530e0b6fa599b21d5940149"
+    },
+    "trials/qlora/checkpoints/commits/index_00000051.json": {
+      "bytes": 635,
+      "sha256": "8e98f396afb26c3ecc27c408464bab8fc6f9fd2462e569fc6e719c2bcc0162f1"
+    },
+    "trials/qlora/checkpoints/commits/index_00000052.json": {
+      "bytes": 635,
+      "sha256": "55f5d797e5fc304e62de66b862c3ca6a20a87a38300fb5d40b7fbc3fe49b3198"
+    },
+    "trials/qlora/checkpoints/commits/index_00000053.json": {
+      "bytes": 635,
+      "sha256": "1d156e3c1ddb6968f484a92d2cac1048e3c13df4708e1efa39ecf6b924632eae"
+    },
+    "trials/qlora/checkpoints/commits/index_00000054.json": {
+      "bytes": 635,
+      "sha256": "54b60430a5fd2d601d2015bff81a4c981692e01bf61806822d7b0bd8baf5ed2a"
+    },
+    "trials/qlora/checkpoints/commits/index_00000055.json": {
+      "bytes": 635,
+      "sha256": "264278824222e21fb679054e513a17df659d964d7ad44e36d6d642feb656f396"
+    },
+    "trials/qlora/checkpoints/commits/index_00000056.json": {
+      "bytes": 635,
+      "sha256": "c0a160e43949a7ee2060dc6bf78a2ab3b3554a5d5eb028d76ee4ccdc3533d9b4"
+    },
+    "trials/qlora/checkpoints/commits/index_00000057.json": {
+      "bytes": 635,
+      "sha256": "6f2fcecde9964972d2c68900afad7501f7a7d272940ae21953c82dce21853fc1"
+    },
+    "trials/qlora/checkpoints/commits/index_00000058.json": {
+      "bytes": 635,
+      "sha256": "64b26b2442a9040a32aa8acf1ff3c0b49c225633e46e122f3823bf776dbe997b"
+    },
+    "trials/qlora/checkpoints/commits/index_00000059.json": {
+      "bytes": 635,
+      "sha256": "c32418dea0ece41e7426288845a10c56ac6b680e8da83a68995f9f3001de16c0"
+    },
+    "trials/qlora/checkpoints/commits/index_00000060.json": {
+      "bytes": 635,
+      "sha256": "3ff740205da462d8628ee543fc918cdb9d7c35dd685fd78c3eb2bfe07a0b5403"
+    },
+    "trials/qlora/checkpoints/commits/index_00000061.json": {
+      "bytes": 477,
+      "sha256": "26a9d851c1d420d942fa3c7f21ab5f25c59a46193d2171441c570f4ad580b337"
+    },
+    "trials/qlora/checkpoints/commits/index_00000062.json": {
+      "bytes": 468,
+      "sha256": "335a8fc246f65bcfecc2337638e6e37262df60877514f2b0710dbfc86de2839b"
+    },
+    "trials/qlora/checkpoints/commits/index_00000063.json": {
+      "bytes": 635,
+      "sha256": "efe4bb9dbaf69c0d527795a881b7e7b4ca376c0ab4f88f181d53310f68128a10"
+    },
+    "trials/qlora/checkpoints/commits/index_00000064.json": {
+      "bytes": 635,
+      "sha256": "bfd3f23d14df7bb4d082e2cb80a23f857a0f2fe4ed5bb243dae6505d6f4aee1d"
+    },
+    "trials/qlora/checkpoints/commits/index_00000065.json": {
+      "bytes": 635,
+      "sha256": "b9646f7216c233407ee9200c3865e36f2e9402479a949f2db733fed93d0a7aa1"
+    },
+    "trials/qlora/checkpoints/commits/index_00000066.json": {
+      "bytes": 635,
+      "sha256": "4eb825b0dbb6e8b69e2ab38d70bb44582d3558c88269114c879504259593c8df"
+    },
+    "trials/qlora/checkpoints/commits/index_00000067.json": {
+      "bytes": 635,
+      "sha256": "e29b322b746a5a4f09bf72014ff8f541e24ff4e1c20a673d37226c7d21370425"
+    },
+    "trials/qlora/checkpoints/commits/index_00000068.json": {
+      "bytes": 635,
+      "sha256": "3666e06cd8a4313ba1682f870f87f294d0aae2036f2b608adf7907a66a091360"
+    },
+    "trials/qlora/checkpoints/commits/index_00000069.json": {
+      "bytes": 635,
+      "sha256": "bd3502322fa5fcf96b703821c46094fef1e834b68a8d9c498bd09dfd7be95422"
+    },
+    "trials/qlora/checkpoints/commits/index_00000070.json": {
+      "bytes": 635,
+      "sha256": "04bdcd32f6c765ec5e6ddcca3f7d724a04a9625fd80f37ea8cbd92de0241213e"
+    },
+    "trials/qlora/checkpoints/commits/index_00000071.json": {
+      "bytes": 635,
+      "sha256": "0a770f1749846241ffffd03083b37d53b85cc9155125ad90d103c9084372cd96"
+    },
+    "trials/qlora/checkpoints/commits/index_00000072.json": {
+      "bytes": 635,
+      "sha256": "ab64c3cc61bb2de35c09f0376bba5f4e75fcdfc069b440c78bf6bbf4be2f9657"
+    },
+    "trials/qlora/checkpoints/commits/index_00000073.json": {
+      "bytes": 635,
+      "sha256": "b87a155233d7bb12bb29f62b3de6c72267b5b2a437ef8f77aaafea8241a8ea10"
+    },
+    "trials/qlora/checkpoints/commits/index_00000074.json": {
+      "bytes": 635,
+      "sha256": "5d99e4e3bb6fe4bbca2e9eb66f616a81676fb670c8f14896e12670207c12801a"
+    },
+    "trials/qlora/checkpoints/commits/index_00000075.json": {
+      "bytes": 635,
+      "sha256": "70ebd68df819fda0a02d5416ddfc83285f8f10663fdca384cdda896e6a5aa5e7"
+    },
+    "trials/qlora/checkpoints/commits/index_00000076.json": {
+      "bytes": 635,
+      "sha256": "d1f29ea67ea351d88d9e2e43831fd0f2a72b773a99c98239427b7456373380d6"
+    },
+    "trials/qlora/checkpoints/commits/index_00000077.json": {
+      "bytes": 653,
+      "sha256": "e33f18300563fdad5fb4cca146a1b356a94e7df22f3585a6cf45a6386df95919"
+    },
+    "trials/qlora/checkpoints/commits/index_00000078.json": {
+      "bytes": 622,
+      "sha256": "3506021cbb6586042656c77a36c05fce3000964f94c33a020025efe86d47f9e6"
+    },
+    "trials/qlora/metrics/epoch_01.json": {
+      "bytes": 110103,
+      "sha256": "626d7b558cfaf221af62af57a9ee0e346669b06f9ce77390fcc447bfc57ada30"
+    },
+    "trials/qlora/metrics/epoch_01_predictions.jsonl": {
+      "bytes": 2422401,
+      "sha256": "9e4382d6363f392fd207798b0e10d96416f30fb9f74260d052c77c7eb786b2af"
+    },
+    "trials/qlora/metrics/epoch_02.json": {
+      "bytes": 105301,
+      "sha256": "de22c6ef2f882fe6edf5624da20854b4e29d0da83de221163c80a0c9605f93da"
+    },
+    "trials/qlora/metrics/epoch_02_predictions.jsonl": {
+      "bytes": 2455159,
+      "sha256": "b437aa3aaae0812dd52dabc716ea9589005c59fb87845f483f0b1a46786d85d8"
+    },
+    "trials/qlora/metrics/epoch_03.json": {
+      "bytes": 104699,
+      "sha256": "860b191252244e760207201d27b2a282c8f2a1230de1006f541fe9279bc9a118"
+    },
+    "trials/qlora/metrics/epoch_03_predictions.jsonl": {
+      "bytes": 2430759,
+      "sha256": "45688a618d1dce56f2926351eb0750689f2d09a84747dcc30117fb36c0b78592"
+    },
+    "trials/qlora/metrics/epoch_04.json": {
+      "bytes": 106431,
+      "sha256": "bf884001f38248c17a186542366f5a5970c054935f1fb792de47fd4620a4289f"
+    },
+    "trials/qlora/metrics/epoch_04_predictions.jsonl": {
+      "bytes": 2435365,
+      "sha256": "10c04f35af3be9f5fc0a38309938df9b0bdfadead5ca1e6ae7847af6c97c3417"
+    },
+    "trials/qlora/metrics/epoch_05.json": {
+      "bytes": 106048,
+      "sha256": "b2d923a5c8e010d25c955a171fbd3fb13cc5e66d0f8ea1916cbdcb2aa557d094"
+    },
+    "trials/qlora/metrics/epoch_05_predictions.jsonl": {
+      "bytes": 2434796,
+      "sha256": "7b4a3d15b685e3aed70b06cc02c5ae6bcc5665b197b201923cb18037c6db2da4"
+    },
+    "trials/qlora/metrics/train.csv": {
+      "bytes": 345039,
+      "sha256": "67936682cd188505f8f35409d5fec30fe5b7c802236b6dcbe60a2ec730d56a1a"
+    },
+    "trials/qlora/metrics/train.jsonl": {
+      "bytes": 1284488,
+      "sha256": "6f21947d4a4ab615e816d2775341da18fb0bf1fbbe6df9eae7b5e7ab02f5ec5a"
+    },
+    "trials/qlora/model_specification.json": {
+      "bytes": 256267,
+      "sha256": "f2f176b04fc9f31ac002c5a043c6771581d5e05617eaea9eb3ea5ec46aa58a95"
+    },
+    "trials/qlora/pilot/activity.jsonl": {
+      "bytes": 62314,
+      "sha256": "cbd05cf29cb4bf10604ddd8913d858ba5e137cea1a0da9e344ddd1d721838e44"
+    },
+    "trials/qlora/pilot/predictions.jsonl": {
+      "bytes": 33689,
+      "sha256": "920f34a179e3e51a8b144790556e1a1fe02d25a7b1a9aef4154c14f20a3656b2"
+    },
+    "trials/qlora/pilot/summary.json": {
+      "bytes": 12379,
+      "sha256": "eb24a542bffe92fdfe06181f5b938cae6df24dd5a3a2653c727922c2bcd02c45"
+    },
+    "trials/qlora/training_summary.json": {
+      "bytes": 738880,
+      "sha256": "dc71e43007d40c64965f1eebf67a2ca41461a00469f8ffc8c7ff8b5f5cecae45"
+    }
+  },
+  "updated_at": "2026-09-30T11:32:50.681819+00:00"
+}

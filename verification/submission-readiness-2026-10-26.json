@@ -1,0 +1,282 @@
+{
+  "checked_on": "2026-10-26",
+  "repository": {
+    "url": "https://github.com/gour6380/Structured-Request-Adaptation",
+    "visibility": "public",
+    "default_branch": "main",
+    "contents_at_check": "empty",
+    "remote_modified": false
+  },
+  "scope": "Documentation and offline submission readiness; no new experimental evidence",
+  "python_for_offline_verification": "3.15.0",
+  "offline_publication_verification": {
+    "verified": true,
+    "checked_files": 94,
+    "rescored_test_examples": {
+      "base": 2974,
+      "quantized_base": 2974,
+      "lora": 2974,
+      "qlora": 2974
+    },
+    "rescored_benchmark_requests": {
+      "base": 300,
+      "quantized_base": 300,
+      "lora": 300,
+      "qlora": 300
+    },
+    "narrative_report": "report.md is separately authored and outside the export manifest"
+  },
+  "ignore_rules": {
+    "sha256": "63734ec4c83c76b8e558b9be54aaf92688bec67530f65a9fd335350261065523",
+    "functional_changes": false,
+    "checks": [
+      {
+        "path": ".venv/bin/python",
+        "expected_ignored": true,
+        "actual_ignored": true,
+        "passed": true
+      },
+      {
+        "path": "venv/lib/site-packages/a.py",
+        "expected_ignored": true,
+        "actual_ignored": true,
+        "passed": true
+      },
+      {
+        "path": ".env",
+        "expected_ignored": true,
+        "actual_ignored": true,
+        "passed": true
+      },
+      {
+        "path": ".env.local",
+        "expected_ignored": true,
+        "actual_ignored": true,
+        "passed": true
+      },
+      {
+        "path": ".env.example",
+        "expected_ignored": false,
+        "actual_ignored": false,
+        "passed": true
+      },
+      {
+        "path": "environment.json",
+        "expected_ignored": true,
+        "actual_ignored": true,
+        "passed": true
+      },
+      {
+        "path": "results/run_001/environment.json",
+        "expected_ignored": false,
+        "actual_ignored": false,
+        "passed": true
+      },
+      {
+        "path": "results/run_001/config.json",
+        "expected_ignored": false,
+        "actual_ignored": false,
+        "passed": true
+      },
+      {
+        "path": "results/run_001/evaluations/lora/test/predictions.jsonl",
+        "expected_ignored": false,
+        "actual_ignored": false,
+        "passed": true
+      },
+      {
+        "path": "results/run_001/figures/training_loss.png",
+        "expected_ignored": false,
+        "actual_ignored": false,
+        "passed": true
+      },
+      {
+        "path": "notebooks/lora_qlora.ipynb",
+        "expected_ignored": false,
+        "actual_ignored": false,
+        "passed": true
+      },
+      {
+        "path": "data/massive-1.1/en-US/archive.tar.gz",
+        "expected_ignored": true,
+        "actual_ignored": true,
+        "passed": true
+      },
+      {
+        "path": "runs/run_001/config.json",
+        "expected_ignored": true,
+        "actual_ignored": true,
+        "passed": true
+      },
+      {
+        "path": "runs/.gitkeep",
+        "expected_ignored": false,
+        "actual_ignored": false,
+        "passed": true
+      },
+      {
+        "path": "jobs/abc/worker.log",
+        "expected_ignored": true,
+        "actual_ignored": true,
+        "passed": true
+      },
+      {
+        "path": "results/run_001/adapter.safetensors",
+        "expected_ignored": true,
+        "actual_ignored": true,
+        "passed": true
+      },
+      {
+        "path": "optimizer.pt",
+        "expected_ignored": true,
+        "actual_ignored": true,
+        "passed": true
+      },
+      {
+        "path": "workspace.zip",
+        "expected_ignored": true,
+        "actual_ignored": true,
+        "passed": true
+      },
+      {
+        "path": ".cache/a",
+        "expected_ignored": true,
+        "actual_ignored": true,
+        "passed": true
+      },
+      {
+        "path": ".pytest_cache/a",
+        "expected_ignored": true,
+        "actual_ignored": true,
+        "passed": true
+      },
+      {
+        "path": ".ipynb_checkpoints/anything.ipynb",
+        "expected_ignored": true,
+        "actual_ignored": true,
+        "passed": true
+      },
+      {
+        "path": "credentials.json",
+        "expected_ignored": true,
+        "actual_ignored": true,
+        "passed": true
+      },
+      {
+        "path": "credentials-personal.json",
+        "expected_ignored": true,
+        "actual_ignored": true,
+        "passed": true
+      },
+      {
+        "path": "service-account-prod.json",
+        "expected_ignored": true,
+        "actual_ignored": true,
+        "passed": true
+      },
+      {
+        "path": "LICENSE",
+        "expected_ignored": false,
+        "actual_ignored": false,
+        "passed": true
+      },
+      {
+        "path": "NOTICE.md",
+        "expected_ignored": false,
+        "actual_ignored": false,
+        "passed": true
+      },
+      {
+        "path": "requirements.txt",
+        "expected_ignored": false,
+        "actual_ignored": false,
+        "passed": true
+      }
+    ]
+  },
+  "historical_test_result": {
+    "date": "2026-09-30",
+    "passed": 371,
+    "skipped": 2,
+    "rerun_this_check": false,
+    "receipt": "verification/publication-tests.xml"
+  },
+  "execution": {
+    "dependency_install": false,
+    "environment_created": false,
+    "notebook_executed": false,
+    "models_loaded": false,
+    "training_or_evaluation_run": false,
+    "project_test_suite_run": false,
+    "project_git_initialized": false,
+    "commit_or_push": false,
+    "zip_created": false
+  },
+  "local_cleanup_preserved": {
+    "project_venv_absent": true,
+    "dataset_directory_absent": true
+  },
+  "standalone_git": {
+    "eligible_count": 158,
+    "candidate_list": "verification/github-files.txt",
+    "candidate_list_sha256": "017e4af76104b278ade86b3223514aeab198e262b8318b9df85ce481c6a7dc25",
+    "largest_file": {
+      "path": "notebooks/lora_qlora.ipynb",
+      "bytes": 15571448
+    },
+    "files_at_least_50_mib": [],
+    "secret_scan_scope": "High-confidence token and private-key patterns in final eligible files; not a guarantee that all possible secrets are detected",
+    "secret_pattern_findings": [],
+    "unintended_payloads": []
+  },
+  "relative_link_check": {
+    "documents": [
+      "README.md",
+      "NOTICE.md",
+      "results/run_001/README.md",
+      "results/run_001/report.md",
+      "verification/checks.md"
+    ],
+    "resolved_link_count": 45,
+    "all_resolve_to_included_files": true
+  },
+  "preservation": {
+    "unchanged_hashed_notebook_source_test_result_and_parent_ignore_files": 144,
+    "unchanged_raw_run_job_sizes_and_mtimes": 506,
+    "notebook_sha256": "3bb4577e900c31d6da4d8a980342d9c096b84a13f488568ad6024471b493b08c",
+    "notebook_code_cells": 54,
+    "notebook_saved_outputs": 74,
+    "report_sha256": "098b496cebcbdb31c412f76bddc2701ee11fbe245055a880a892de4d126c3178",
+    "publication_manifest_sha256": "d63d7370b9e4b159456aa936cd4911cf6747bda9bdf982f16fd75e97f9f11ed6"
+  },
+  "syntax_check": {
+    "source_modules": 19,
+    "notebook_code_cells": 54,
+    "passed": true
+  },
+  "isolated_candidate_copy_evidence_verification": {
+    "verified": true,
+    "checked_files": 94,
+    "rescored_test_examples": {
+      "base": 2974,
+      "quantized_base": 2974,
+      "lora": 2974,
+      "qlora": 2974
+    },
+    "rescored_benchmark_requests": {
+      "base": 300,
+      "quantized_base": 300,
+      "lora": 300,
+      "qlora": 300
+    },
+    "narrative_report": "report.md is separately authored and outside the export manifest"
+  },
+  "remaining_step": "Upload/commit and push the eligible project files to the owner-created repository, then check the public rendering. No push performed.",
+  "readme_result_table_matches_verified_csv": true,
+  "current_document_sha256": {
+    "README.md": "39ae3f2e0285231f0d62d6f3487d52f9bd57ec5c66ffaf753bc5d7c544a7ec85",
+    ".gitignore": "63734ec4c83c76b8e558b9be54aaf92688bec67530f65a9fd335350261065523",
+    "verification/checks.md": "dee6afab81ca281e960812914b107f6d0154d5d4c18e512c5c862cf4c8882dea",
+    "verification/github-files.txt": "017e4af76104b278ade86b3223514aeab198e262b8318b9df85ce481c6a7dc25"
+  }
+}

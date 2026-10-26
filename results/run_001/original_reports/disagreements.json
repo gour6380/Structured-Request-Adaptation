@@ -1,0 +1,541 @@
+{
+  "examples": [
+    {
+      "id": "10023",
+      "left": "base",
+      "left_prediction": "{\n  \"intent\": \"cooking_recipe\",\n  \"slots\": [\n    {\n      \"type\": \"food_type\",\n      \"value\": \"lamb pathia\"\n    }\n  ]\n}",
+      "right": "quantized_base",
+      "right_prediction": "[ ]",
+      "target": {
+        "intent": "cooking_recipe",
+        "slots": [
+          {
+            "type": "food_type",
+            "value": "lamb pathia"
+          }
+        ]
+      },
+      "utterance": "what do i need to make lamb pathia"
+    },
+    {
+      "id": "10061",
+      "left": "base",
+      "left_prediction": "{\n  \"intent\": \"cooking_recipe\",\n  \"slots\": [\n    {\n      \"type\": \"meal_type\",\n      \"value\": \"dinner\"\n    }\n  ]\n}",
+      "right": "quantized_base",
+      "right_prediction": "[[\"cooking_recipe\", [\"dinner\"]]]",
+      "target": {
+        "intent": "cooking_recipe",
+        "slots": [
+          {
+            "type": "meal_type",
+            "value": "dinner"
+          }
+        ]
+      },
+      "utterance": "what should i make for dinner"
+    },
+    {
+      "id": "10090",
+      "left": "base",
+      "left_prediction": "{\n  \"intent\": \"cooking_recipe\",\n  \"slots\": [\n    {\n      \"type\": \"food_type\",\n      \"value\": \"tuna\"\n    }\n  ]\n}",
+      "right": "quantized_base",
+      "right_prediction": "```json\n{\n  \"intent\": \"cooking_recipe\",\n  \"slots\": [\n    {\n      \"type\": \"food_type\",\n      \"value\": \"tuna\"\n    }\n  ]\n}\n```",
+      "target": {
+        "intent": "cooking_recipe",
+        "slots": [
+          {
+            "type": "food_type",
+            "value": "tuna"
+          }
+        ]
+      },
+      "utterance": "can i get a recipe for tuna"
+    },
+    {
+      "id": "10260",
+      "left": "base",
+      "left_prediction": "{\n  \"intent\": \"play_game\",\n  \"slots\": [\n    {\n      \"type\": \"game_name\",\n      \"value\": \"scrabble\"\n    }\n  ]\n}",
+      "right": "quantized_base",
+      "right_prediction": "{\n  \"intent\": \"music_query\",\n  \"slots\": [\n    {\n      \"type\": \"game_name\",\n      \"value\": \"scrabble\"\n    }\n  ]\n}",
+      "target": {
+        "intent": "play_game",
+        "slots": [
+          {
+            "type": "game_name",
+            "value": "scrabble"
+          }
+        ]
+      },
+      "utterance": "play scrabble with me"
+    },
+    {
+      "id": "10276",
+      "left": "base",
+      "left_prediction": "{\n  \"intent\": \"play_game\",\n  \"slots\": [\n    {\n      \"type\": \"game_name\",\n      \"value\": \"battleship\"\n    }\n  ]\n}",
+      "right": "quantized_base",
+      "right_prediction": "```json\n{\n  \"intent\": \"play_game\",\n  \"slots\": [\n    {\n      \"type\": \"game_name\",\n      \"value\": \"battleship\"\n    }\n  ]\n}\n```",
+      "target": {
+        "intent": "play_game",
+        "slots": [
+          {
+            "type": "game_name",
+            "value": "battleship"
+          }
+        ]
+      },
+      "utterance": "lets play battleship"
+    },
+    {
+      "id": "0",
+      "left": "base",
+      "left_prediction": "{\n  \"intent\": \"alarm_set\",\n  \"slots\": [\n    {\n      \"type\": \"alarm_type\",\n      \"value\": \"morning\"\n    },\n    {\n      \"type\": \"time\",\n      \"value\": \"05:00\"\n    }\n  ]\n}",
+      "right": "lora",
+      "right_prediction": "{\"intent\":\"alarm_set\",\"slots\":[{\"type\":\"time\",\"value\":\"five am\"},{\"type\":\"date\",\"value\":\"this week\"}]}",
+      "target": {
+        "intent": "alarm_set",
+        "slots": [
+          {
+            "type": "time",
+            "value": "five am"
+          },
+          {
+            "type": "date",
+            "value": "this week"
+          }
+        ]
+      },
+      "utterance": "wake me up at five am this week"
+    },
+    {
+      "id": "10019",
+      "left": "base",
+      "left_prediction": "{\n  \"intent\": \"cooking_recipe\",\n  \"slots\": [\n    {\n      \"type\": \"cooking_type\",\n      \"value\": \"cookies\"\n    },\n    {\n      \"type\": \"ingredient\",\n      \"value\": \"12\"\n    },\n    {\n      \"type\": \"food_type\",\n      \"value\": \"oatmeal\"\n    }\n  ]\n}",
+      "right": "lora",
+      "right_prediction": "{\"intent\":\"cooking_recipe\",\"slots\":[{\"type\":\"food_type\",\"value\":\"oatmeal cookies\"}]}",
+      "target": {
+        "intent": "cooking_recipe",
+        "slots": [
+          {
+            "type": "food_type",
+            "value": "oatmeal cookies"
+          }
+        ]
+      },
+      "utterance": "please tell me how to i bake twelve oatmeal cookies"
+    },
+    {
+      "id": "10027",
+      "left": "base",
+      "left_prediction": "```json\n{\n  \"intent\": \"cooking_recipe\",\n  \"slots\": [\n    {\n      \"type\": \"meal_type\",\n      \"value\": \"meal\"\n    }\n  ]\n}\n```",
+      "right": "lora",
+      "right_prediction": "{\"intent\":\"cooking_recipe\",\"slots\":[]}",
+      "target": {
+        "intent": "cooking_recipe",
+        "slots": []
+      },
+      "utterance": "instructions to make a meal"
+    },
+    {
+      "id": "10038",
+      "left": "base",
+      "left_prediction": "{\n  \"intent\": \"cooking_query\",\n  \"slots\": [\n    {\n      \"type\": \"meal_type\",\n      \"value\": \"good\"\n    }\n  ]\n}",
+      "right": "lora",
+      "right_prediction": "{\"intent\":\"cooking_recipe\",\"slots\":[]}",
+      "target": {
+        "intent": "cooking_recipe",
+        "slots": []
+      },
+      "utterance": "i need good ideas for cooking"
+    },
+    {
+      "id": "10048",
+      "left": "base",
+      "left_prediction": "{\n  \"intent\": \"cooking_recipe\",\n  \"slots\": [\n    {\n      \"type\": \"meal_type\",\n      \"value\": \"turkey\"\n    }\n  ]\n}",
+      "right": "lora",
+      "right_prediction": "{\"intent\":\"cooking_recipe\",\"slots\":[{\"type\":\"food_type\",\"value\":\"turkey\"}]}",
+      "target": {
+        "intent": "cooking_recipe",
+        "slots": [
+          {
+            "type": "food_type",
+            "value": "turkey"
+          }
+        ]
+      },
+      "utterance": "how do i make a turkey"
+    },
+    {
+      "id": "0",
+      "left": "base",
+      "left_prediction": "{\n  \"intent\": \"alarm_set\",\n  \"slots\": [\n    {\n      \"type\": \"alarm_type\",\n      \"value\": \"morning\"\n    },\n    {\n      \"type\": \"time\",\n      \"value\": \"05:00\"\n    }\n  ]\n}",
+      "right": "qlora",
+      "right_prediction": "{\"intent\":\"alarm_set\",\"slots\":[{\"type\":\"time\",\"value\":\"five am\"},{\"type\":\"date\",\"value\":\"this week\"}]}",
+      "target": {
+        "intent": "alarm_set",
+        "slots": [
+          {
+            "type": "time",
+            "value": "five am"
+          },
+          {
+            "type": "date",
+            "value": "this week"
+          }
+        ]
+      },
+      "utterance": "wake me up at five am this week"
+    },
+    {
+      "id": "10016",
+      "left": "base",
+      "left_prediction": "{\n  \"intent\": \"cooking_query\",\n  \"slots\": [\n    {\n      \"type\": \"meal_type\",\n      \"value\": \"turkey\"\n    },\n    {\n      \"type\": \"cooking_type\",\n      \"value\": \"procedure\"\n    }\n  ]\n}",
+      "right": "qlora",
+      "right_prediction": "{\"intent\":\"cooking_recipe\",\"slots\":[{\"type\":\"food_type\",\"value\":\"thanksgiving turkey\"}]}",
+      "target": {
+        "intent": "cooking_recipe",
+        "slots": [
+          {
+            "type": "food_type",
+            "value": "thanksgiving turkey"
+          }
+        ]
+      },
+      "utterance": "thanksgiving turkey cooking procedure in five sentences is what"
+    },
+    {
+      "id": "10027",
+      "left": "base",
+      "left_prediction": "```json\n{\n  \"intent\": \"cooking_recipe\",\n  \"slots\": [\n    {\n      \"type\": \"meal_type\",\n      \"value\": \"meal\"\n    }\n  ]\n}\n```",
+      "right": "qlora",
+      "right_prediction": "{\"intent\":\"cooking_recipe\",\"slots\":[]}",
+      "target": {
+        "intent": "cooking_recipe",
+        "slots": []
+      },
+      "utterance": "instructions to make a meal"
+    },
+    {
+      "id": "10038",
+      "left": "base",
+      "left_prediction": "{\n  \"intent\": \"cooking_query\",\n  \"slots\": [\n    {\n      \"type\": \"meal_type\",\n      \"value\": \"good\"\n    }\n  ]\n}",
+      "right": "qlora",
+      "right_prediction": "{\"intent\":\"cooking_recipe\",\"slots\":[]}",
+      "target": {
+        "intent": "cooking_recipe",
+        "slots": []
+      },
+      "utterance": "i need good ideas for cooking"
+    },
+    {
+      "id": "10045",
+      "left": "base",
+      "left_prediction": "{\n  \"intent\": \"cooking_recipe\",\n  \"slots\": [\n    {\n      \"type\": \"meal_type\",\n      \"value\": \"chicken noodle soup\"\n    }\n  ]\n}",
+      "right": "qlora",
+      "right_prediction": "{\"intent\":\"cooking_recipe\",\"slots\":[{\"type\":\"food_type\",\"value\":\"chicken noodle soup\"}]}",
+      "target": {
+        "intent": "cooking_recipe",
+        "slots": [
+          {
+            "type": "food_type",
+            "value": "chicken noodle soup"
+          }
+        ]
+      },
+      "utterance": "can you give me a recipe for homemade chicken noodle soup"
+    },
+    {
+      "id": "0",
+      "left": "quantized_base",
+      "left_prediction": "```json\n{\n  \"intent\": \"alarm_set\",\n  \"slots\": [\n    {\n      \"type\": \"alarm_type\",\n      \"value\": \"at five am\"\n    },\n    {\n      \"type\": \"time\",\n      \"value\": \"five am\"\n    }\n  ]\n}\n```",
+      "right": "lora",
+      "right_prediction": "{\"intent\":\"alarm_set\",\"slots\":[{\"type\":\"time\",\"value\":\"five am\"},{\"type\":\"date\",\"value\":\"this week\"}]}",
+      "target": {
+        "intent": "alarm_set",
+        "slots": [
+          {
+            "type": "time",
+            "value": "five am"
+          },
+          {
+            "type": "date",
+            "value": "this week"
+          }
+        ]
+      },
+      "utterance": "wake me up at five am this week"
+    },
+    {
+      "id": "10019",
+      "left": "quantized_base",
+      "left_prediction": "```json\n{\n  \"intent\": \"cooking_recipe\",\n  \"slots\": [\n    {\n      \"type\": \"food_type\",\n      \"value\": \"cookies\"\n    },\n    {\n      \"type\": \"ingredient\",\n      \"value\": \"oatmeal\"\n    }\n  ]\n}\n```",
+      "right": "lora",
+      "right_prediction": "{\"intent\":\"cooking_recipe\",\"slots\":[{\"type\":\"food_type\",\"value\":\"oatmeal cookies\"}]}",
+      "target": {
+        "intent": "cooking_recipe",
+        "slots": [
+          {
+            "type": "food_type",
+            "value": "oatmeal cookies"
+          }
+        ]
+      },
+      "utterance": "please tell me how to i bake twelve oatmeal cookies"
+    },
+    {
+      "id": "10023",
+      "left": "quantized_base",
+      "left_prediction": "[ ]",
+      "right": "lora",
+      "right_prediction": "{\"intent\":\"cooking_recipe\",\"slots\":[{\"type\":\"food_type\",\"value\":\"lamb pathia\"}]}",
+      "target": {
+        "intent": "cooking_recipe",
+        "slots": [
+          {
+            "type": "food_type",
+            "value": "lamb pathia"
+          }
+        ]
+      },
+      "utterance": "what do i need to make lamb pathia"
+    },
+    {
+      "id": "10027",
+      "left": "quantized_base",
+      "left_prediction": "```json\n{\n  \"intent\": \"cooking_query\",\n  \"slots\": [\n    {\n      \"type\": \"meal_type\",\n      \"value\": \"dinner\"\n    },\n    {\n      \"type\": \"food_type\",\n      \"value\": \"Italian\"\n    }\n  ]\n}\n```",
+      "right": "lora",
+      "right_prediction": "{\"intent\":\"cooking_recipe\",\"slots\":[]}",
+      "target": {
+        "intent": "cooking_recipe",
+        "slots": []
+      },
+      "utterance": "instructions to make a meal"
+    },
+    {
+      "id": "10038",
+      "left": "quantized_base",
+      "left_prediction": "```json\n{\n  \"intent\": \"cooking_query\",\n  \"slots\": [\n    {\n      \"type\": \"cooking_type\",\n      \"value\": \"good\"\n    }\n  ]\n}\n```",
+      "right": "lora",
+      "right_prediction": "{\"intent\":\"cooking_recipe\",\"slots\":[]}",
+      "target": {
+        "intent": "cooking_recipe",
+        "slots": []
+      },
+      "utterance": "i need good ideas for cooking"
+    },
+    {
+      "id": "0",
+      "left": "quantized_base",
+      "left_prediction": "```json\n{\n  \"intent\": \"alarm_set\",\n  \"slots\": [\n    {\n      \"type\": \"alarm_type\",\n      \"value\": \"at five am\"\n    },\n    {\n      \"type\": \"time\",\n      \"value\": \"five am\"\n    }\n  ]\n}\n```",
+      "right": "qlora",
+      "right_prediction": "{\"intent\":\"alarm_set\",\"slots\":[{\"type\":\"time\",\"value\":\"five am\"},{\"type\":\"date\",\"value\":\"this week\"}]}",
+      "target": {
+        "intent": "alarm_set",
+        "slots": [
+          {
+            "type": "time",
+            "value": "five am"
+          },
+          {
+            "type": "date",
+            "value": "this week"
+          }
+        ]
+      },
+      "utterance": "wake me up at five am this week"
+    },
+    {
+      "id": "10016",
+      "left": "quantized_base",
+      "left_prediction": "[[\"cooking_procedure\", [\"turkey\"]]]",
+      "right": "qlora",
+      "right_prediction": "{\"intent\":\"cooking_recipe\",\"slots\":[{\"type\":\"food_type\",\"value\":\"thanksgiving turkey\"}]}",
+      "target": {
+        "intent": "cooking_recipe",
+        "slots": [
+          {
+            "type": "food_type",
+            "value": "thanksgiving turkey"
+          }
+        ]
+      },
+      "utterance": "thanksgiving turkey cooking procedure in five sentences is what"
+    },
+    {
+      "id": "10023",
+      "left": "quantized_base",
+      "left_prediction": "[ ]",
+      "right": "qlora",
+      "right_prediction": "{\"intent\":\"cooking_recipe\",\"slots\":[{\"type\":\"food_type\",\"value\":\"lamb pathia\"}]}",
+      "target": {
+        "intent": "cooking_recipe",
+        "slots": [
+          {
+            "type": "food_type",
+            "value": "lamb pathia"
+          }
+        ]
+      },
+      "utterance": "what do i need to make lamb pathia"
+    },
+    {
+      "id": "10027",
+      "left": "quantized_base",
+      "left_prediction": "```json\n{\n  \"intent\": \"cooking_query\",\n  \"slots\": [\n    {\n      \"type\": \"meal_type\",\n      \"value\": \"dinner\"\n    },\n    {\n      \"type\": \"food_type\",\n      \"value\": \"Italian\"\n    }\n  ]\n}\n```",
+      "right": "qlora",
+      "right_prediction": "{\"intent\":\"cooking_recipe\",\"slots\":[]}",
+      "target": {
+        "intent": "cooking_recipe",
+        "slots": []
+      },
+      "utterance": "instructions to make a meal"
+    },
+    {
+      "id": "10038",
+      "left": "quantized_base",
+      "left_prediction": "```json\n{\n  \"intent\": \"cooking_query\",\n  \"slots\": [\n    {\n      \"type\": \"cooking_type\",\n      \"value\": \"good\"\n    }\n  ]\n}\n```",
+      "right": "qlora",
+      "right_prediction": "{\"intent\":\"cooking_recipe\",\"slots\":[]}",
+      "target": {
+        "intent": "cooking_recipe",
+        "slots": []
+      },
+      "utterance": "i need good ideas for cooking"
+    },
+    {
+      "id": "10016",
+      "left": "lora",
+      "left_prediction": "{\"intent\":\"cooking_recipe\",\"slots\":[{\"type\":\"event_name\",\"value\":\"thanksgiving turkey\"}]}",
+      "right": "qlora",
+      "right_prediction": "{\"intent\":\"cooking_recipe\",\"slots\":[{\"type\":\"food_type\",\"value\":\"thanksgiving turkey\"}]}",
+      "target": {
+        "intent": "cooking_recipe",
+        "slots": [
+          {
+            "type": "food_type",
+            "value": "thanksgiving turkey"
+          }
+        ]
+      },
+      "utterance": "thanksgiving turkey cooking procedure in five sentences is what"
+    },
+    {
+      "id": "10019",
+      "left": "lora",
+      "left_prediction": "{\"intent\":\"cooking_recipe\",\"slots\":[{\"type\":\"food_type\",\"value\":\"oatmeal cookies\"}]}",
+      "right": "qlora",
+      "right_prediction": "{\"intent\":\"cooking_recipe\",\"slots\":[{\"type\":\"food_type\",\"value\":\"twelve oatmeal cookies\"}]}",
+      "target": {
+        "intent": "cooking_recipe",
+        "slots": [
+          {
+            "type": "food_type",
+            "value": "oatmeal cookies"
+          }
+        ]
+      },
+      "utterance": "please tell me how to i bake twelve oatmeal cookies"
+    },
+    {
+      "id": "10045",
+      "left": "lora",
+      "left_prediction": "{\"intent\":\"cooking_recipe\",\"slots\":[{\"type\":\"food_type\",\"value\":\"homemade chicken noodle soup\"}]}",
+      "right": "qlora",
+      "right_prediction": "{\"intent\":\"cooking_recipe\",\"slots\":[{\"type\":\"food_type\",\"value\":\"chicken noodle soup\"}]}",
+      "target": {
+        "intent": "cooking_recipe",
+        "slots": [
+          {
+            "type": "food_type",
+            "value": "chicken noodle soup"
+          }
+        ]
+      },
+      "utterance": "can you give me a recipe for homemade chicken noodle soup"
+    },
+    {
+      "id": "10061",
+      "left": "lora",
+      "left_prediction": "{\"intent\":\"cooking_recipe\",\"slots\":[{\"type\":\"meal_type\",\"value\":\"dinner\"}]}",
+      "right": "qlora",
+      "right_prediction": "{\"intent\":\"general_quirky\",\"slots\":[{\"type\":\"meal_type\",\"value\":\"dinner\"}]}",
+      "target": {
+        "intent": "cooking_recipe",
+        "slots": [
+          {
+            "type": "meal_type",
+            "value": "dinner"
+          }
+        ]
+      },
+      "utterance": "what should i make for dinner"
+    },
+    {
+      "id": "10105",
+      "left": "lora",
+      "left_prediction": "{\"intent\":\"cooking_recipe\",\"slots\":[{\"type\":\"food_type\",\"value\":\"steak\"},{\"type\":\"cooking_type\",\"value\":\"cook\"},{\"type\":\"music_descriptor\",\"value\":\"medium rare\"}]}",
+      "right": "qlora",
+      "right_prediction": "{\"intent\":\"cooking_recipe\",\"slots\":[{\"type\":\"food_type\",\"value\":\"steak\"}]}",
+      "target": {
+        "intent": "cooking_recipe",
+        "slots": [
+          {
+            "type": "food_type",
+            "value": "steak"
+          }
+        ]
+      },
+      "utterance": "how long should i cook a steak to achieve medium rare"
+    }
+  ],
+  "pairs": [
+    {
+      "both_correct": 7,
+      "both_wrong": 2804,
+      "left": "base",
+      "left_only": 162,
+      "right": "quantized_base",
+      "right_only": 1
+    },
+    {
+      "both_correct": 152,
+      "both_wrong": 802,
+      "left": "base",
+      "left_only": 17,
+      "right": "lora",
+      "right_only": 2003
+    },
+    {
+      "both_correct": 150,
+      "both_wrong": 812,
+      "left": "base",
+      "left_only": 19,
+      "right": "qlora",
+      "right_only": 1993
+    },
+    {
+      "both_correct": 7,
+      "both_wrong": 818,
+      "left": "quantized_base",
+      "left_only": 1,
+      "right": "lora",
+      "right_only": 2148
+    },
+    {
+      "both_correct": 7,
+      "both_wrong": 830,
+      "left": "quantized_base",
+      "left_only": 1,
+      "right": "qlora",
+      "right_only": 2136
+    },
+    {
+      "both_correct": 2028,
+      "both_wrong": 704,
+      "left": "lora",
+      "left_only": 127,
+      "right": "qlora",
+      "right_only": 115
+    }
+  ],
+  "selection": "First five correctness disagreements by sorted ID per pair; no favorable selection"
+}

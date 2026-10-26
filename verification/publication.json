@@ -1,0 +1,148 @@
+{
+  "date": "2026-09-30",
+  "scope": "Local publication preparation only; no experiment rerun or Git publication",
+  "tests": {
+    "passed": 371,
+    "skipped": 2,
+    "seconds": 36.76,
+    "receipt": "publication-tests.xml",
+    "native_mps_executed": false
+  },
+  "static_checks": {
+    "ruff": "passed",
+    "format": "passed",
+    "python_files": 45
+  },
+  "preservation": {
+    "original_run_data_jobs_and_parent_ignore_files": 512,
+    "all_unchanged": true,
+    "notebook_protected_before": "cc904495ec1a19ea728b59c051ed44e2687e6224156cd8a8a5e83e62b5a476c6",
+    "notebook_protected_after": "cc904495ec1a19ea728b59c051ed44e2687e6224156cd8a8a5e83e62b5a476c6",
+    "code_cells": 54,
+    "outputs": 74,
+    "notebook_modifications": "Markdown source only; all code and other fields unchanged"
+  },
+  "publication": {
+    "verified": true,
+    "checked_files": 94,
+    "rescored_test_examples": {
+      "base": 2974,
+      "quantized_base": 2974,
+      "lora": 2974,
+      "qlora": 2974
+    },
+    "rescored_benchmark_requests": {
+      "base": 300,
+      "quantized_base": 300,
+      "lora": 300,
+      "qlora": 300
+    },
+    "narrative_report": "report.md is separately authored and outside the export manifest"
+  },
+  "current_source_changes": [
+    "src/runtime.py",
+    "src/plots.py",
+    "src/publication.py",
+    "src/train.py"
+  ],
+  "original_source_snapshot": "results/run_001/source_snapshot/manifest.json",
+  "public_report_sha256": "098b496cebcbdb31c412f76bddc2701ee11fbe245055a880a892de4d126c3178",
+  "public_evidence_readme_sha256": "a75b3b03e3b781fd23535bf40d734c20a4b157253dcf8c446e0e2e25dfee3f19",
+  "publication_manifest_sha256": "d63d7370b9e4b159456aa936cd4911cf6747bda9bdf982f16fd75e97f9f11ed6",
+  "current_source_sha256": {
+    "src/pilot.py": "1f25a1cd0afbbaf8fe7a02e55c3b5b7ef803132670955be7fa83b0d144760ea7",
+    "src/metrics.py": "b339eb4a3f56c8ccfd2c2b9e2318d1ab08ee340a383832cea940699094243367",
+    "src/execution.py": "0347978854d6891dcfcf29e4430e774590c21b9034afd0a1393ac3f7948c2192",
+    "src/config.py": "f834e61d81a48bc89a10fa0042b87a596374fa4bb5d4e40e7128b065129bb401",
+    "src/models.py": "7f873d05ad72d71c31da0fa6cae6382b1e9e5b0ce2dbe9f0189d92700033a034",
+    "src/io.py": "c0d34fb5805e0c25f407c292a74a36e5779ce7e91089a74f9f08ee2665885472",
+    "src/__init__.py": "332efd0f8dc7213eec744c4ee33c3d121ce229636824cbc70a1eccf9c7c592c7",
+    "src/telemetry.py": "49b03b44ebdb3c7d4d47682bdf0cc4de98bf5642a9c51ae49a440d4c90faad85",
+    "src/runtime.py": "ada95d8f683e9d019c4ba5435762393a26469e9e1d0db365a4b2be927251d413",
+    "src/checkpoints.py": "a5c2032189935ddba19aac67ef5fa601581b879f0c9ed9515ee4440e6bd04c14",
+    "src/plots.py": "6f599e1d4b2d1a0335432bb02c7f8035079b053c688a13741d93ae6fd97b5255",
+    "src/publication.py": "c81d3a3d3ab489098d9d44cffd5a7767a1728154963871840f2d9a55ca05813d",
+    "src/train.py": "de168cf8bc239dc5ad7b91a69d00a587bbef9170ed4895b03eff1ad70c649b10",
+    "src/hardware.py": "e2e58b2bae5d6d1103e87bab99b81e95ece5c3cd4cb39d2ae44c87cc8395f42e",
+    "src/launcher.py": "e95b914a0ae5c547f3a9530e35787e38f78e4fdda4731dba6dee2165b80a3b27",
+    "src/evaluate.py": "9bb55ef991568fec9de53555a9e985e410b104e3c09f70033512d0bb8d09318d",
+    "src/losses.py": "55c71ed1d3e7497f86f083fadf8eb0861c526607544ad23c1e85d122227af30a",
+    "src/runs.py": "5727096112be884523618b5bd1c81306802284b8a7ac1486728773a446fdda80",
+    "src/data.py": "d8800741b93e304a9c224ed564fe0bf4807fb1909d903024b88fe670886482dc"
+  },
+  "github": {
+    "temporary_metadata_only": true,
+    "parent_ignore_unchanged": true,
+    "eligible_file_count": 158,
+    "file_list": "github-files.txt",
+    "largest_files": [
+      [
+        "notebooks/lora_qlora.ipynb",
+        15571448
+      ],
+      [
+        "results/run_001/evaluations/base/test/predictions.jsonl",
+        4379793
+      ],
+      [
+        "results/run_001/evaluations/quantized_base/test/predictions.jsonl",
+        4291021
+      ],
+      [
+        "results/run_001/evaluations/qlora/test/predictions.jsonl",
+        3531084
+      ],
+      [
+        "results/run_001/evaluations/lora/test/predictions.jsonl",
+        3526904
+      ]
+    ],
+    "excluded_cases_verified": [
+      ".env",
+      ".env.production",
+      ".venv/bin/python",
+      "data/massive-1.1/en-US/en-US.jsonl",
+      "runs/run_001/config.json",
+      "jobs/example/worker.log",
+      "secret.pem",
+      "model.safetensors",
+      "optimizer.pt",
+      "export.zip",
+      "__pycache__/example.pyc"
+    ],
+    "secret_pattern_hits": [],
+    "secret_scan_scope": "Token, private-key and credential-URL patterns; not a guarantee of absence of all sensitive data"
+  },
+  "relative_links": {
+    "checked": 41,
+    "all_resolve": true,
+    "files": [
+      "README.md",
+      "NOTICE.md",
+      "verification/checks.md",
+      "results/run_001/README.md",
+      "results/run_001/report.md",
+      "notebooks/lora_qlora.ipynb"
+    ]
+  },
+  "original_experiment": {
+    "run": "run_001",
+    "jobs_succeeded": 32,
+    "stages_complete": 33,
+    "registered_artifacts_verified_in_prior_audit": 300,
+    "python": "3.12.3",
+    "torch": "2.8.0+cu128",
+    "hardware": "2 x NVIDIA A40"
+  },
+  "limitations": [
+    "One paired seed; no superiority or equivalence claim",
+    "Legacy aggregate metadata unknown; maxima preserved",
+    "No full-model interrupted-training recovery demonstrated",
+    "Dataset/model/optimizer artifacts excluded from Git; public export cannot resume a model"
+  ],
+  "private_checklist": {
+    "updated": "Week 8 current evidence, technical gates and three claims only",
+    "publication_pending": true,
+    "concurrent_unrelated_changes": "Unrelated tracker edits made concurrently were preserved; no whole-file baseline restore was performed."
+  }
+}

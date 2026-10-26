@@ -1,0 +1,15 @@
+{
+  "checked_date": "2026-09-30",
+  "notebook_code_cells": 53,
+  "notebook_unexecuted": true,
+  "single_notebook": true,
+  "single_requirements": true,
+  "installation": "current Python: pip install -r requirements.txt",
+  "worker_interpreter": "sys.executable",
+  "default_preset": "development",
+  "custom_environment_setup": false,
+  "tests_passed": 350,
+  "tests_skipped": 2,
+  "remote_cuda_validation": "pending",
+  "dataset_manifest_sha256": "9485324593e608204eb03ae187428c0102b7f799a47a2ba8b21892e5ee627963"
+}

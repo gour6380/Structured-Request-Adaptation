@@ -1,0 +1,72 @@
+# Local Python environments and generated package files
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+/build/
+/dist/
+
+# Local caches and verification scratch files
+.pip-cache/
+.uv-cache/
+.hf-cache/
+.plot-cache/
+.cache/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+/tmp/
+/private-drafts/
+
+# Credentials and machine-local settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+credentials-*.json
+*service-account*.json
+/environment.json
+
+# Complete runtime archives stay local. Curated results/ remains publishable.
+/data/*
+!/data/.gitkeep
+/runs/*
+!/runs/.gitkeep
+/jobs/
+*.log
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+
+# Model, adapter, optimizer, and serialized object payloads
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.onnx
+*.pkl
+*.pickle
+
+# Editors and operating systems
+.DS_Store
+.AppleDouble
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*~
+
+# Intentionally retain executed .ipynb files, their outputs, JSON/JSONL/CSV
+# evidence, figures, and results/*/environment.json. Do not enable output stripping.

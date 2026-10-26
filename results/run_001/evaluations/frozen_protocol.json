@@ -1,0 +1,89 @@
+{
+  "artifacts": {
+    "preparation/architecture.json": "b744f3e065e7d149b5ebb47cec409c75937b26cd0258e1dbb765a6ccd7fa869d",
+    "preparation/architecture.txt": "5a2040c50f60a8e3f40b36e4a6edbd063e78010126ff00ed9519505d15d29471",
+    "preparation/data.json": "13d566eb9045a383ce886e553a5fbbdbd34e7e6c66e4cca668bb761084f2bfc4",
+    "preparation/duplicate_audit.json": "b13388531109aea668c148acc01af4f10dde4bc350675cb27960d0f6d24614fb",
+    "preparation/ontology.json": "fc60f3087c8d386180d31771767c79bc8b59cabe32fe407beef6b71fb2d57925",
+    "preparation/preflight.json": "f816cbfad3b790514def86f438e22ac3023d9c963b1a29a6c891f56e6bca4f32",
+    "preparation/preflight/lora/README.md": "77e0898915b6fa70a436f7a17d037ea9a7d1f936319924e7ed83148aace4ed5e",
+    "preparation/preflight/lora/adapter_config.json": "cb0416fac86309daf6b47054db8d049831176655475d710822edd26112c6a313",
+    "preparation/preflight/lora/adapter_model.safetensors": "491d9a6ed74d5c0f5a5292de1c5dc0cdf4b57c01feb9e75e9823aba1bbda4dc9",
+    "preparation/preflight/qlora/README.md": "0ee22398b79f25d6b4e3d92d3803c11932324057fc3e210e99c093a005b1ca17",
+    "preparation/preflight/qlora/adapter_config.json": "608ad512c8c0c383460aaa59d99750d9458ae1b0288f264b82dfb1aa7c638e57",
+    "preparation/preflight/qlora/adapter_model.safetensors": "db619bc6f0d75ee7318c22b678e601a1a66930b9b3f916f90046df22736215a1",
+    "preparation/preflight_lora.json": "80b0458e414696baa928ef65b48ab96f7b07b8126ed35a00296254b7694834ed",
+    "preparation/preflight_qlora.json": "7279e6f548f0479ce693ce7027bdedfbf590529147bfd4f1abfcd86ce7d246fc",
+    "preparation/system_prompt.txt": "9cfe76850ba900ad788665e4ae4fc54a1603fc8e0c2d221c0d6d94b96424ff96",
+    "preparation/test.jsonl": "fa3a7cd9fb981efcb9a60ba04437538d47d5f09c5a166f01a6911e5af282e1bb",
+    "preparation/tokenization.json": "56e0cab9a2fdefef4b109d4c501bcfe2302f6ce2f59e87b6c2561c368f4e8c50",
+    "preparation/tokenized_test.jsonl": "aa6e369ee305677968e9060fa4bacadba48fd07edae05368a8ed42b58df56b8b",
+    "preparation/tokenized_train.jsonl": "4edb21ad2b3ad9d9f28ad005805c00f6c2eb3f700db7d0fbedbc153cefde4a30",
+    "preparation/tokenized_validation.jsonl": "134225d635010c2920616e86d7a6eb9272bfcd1bc29ce111819de6ad2d2d39d0",
+    "preparation/train.jsonl": "74821443d8cb3b29c8041c62559e02e3527861c25cef52e8e007a07a45e6b1d7",
+    "preparation/validation.jsonl": "08f452c3e9ff455bf3d31761319f48ddb4b0cc485637f31b512b72284acff7c1",
+    "trials/lora/checkpoints/final/adapter/README.md": "77e0898915b6fa70a436f7a17d037ea9a7d1f936319924e7ed83148aace4ed5e",
+    "trials/lora/checkpoints/final/adapter/adapter_config.json": "6c4a03f3970c69d0c49d90ed25b207cab15fa277fed6b2cd7c822b2484953f0e",
+    "trials/lora/checkpoints/final/adapter/adapter_model.safetensors": "ff7023fd492f66fcc20e9ab03de87eca47a27ea869f7614962c3b058dd56adaa",
+    "trials/lora/checkpoints/final/hashes.json": "1eaa6ba053c8e85a8f433ec8c01b61248c158835a8a2002c639605a92c8ba523",
+    "trials/lora/checkpoints/final/progress.json": "c3788956df11f1ea964f6324326df81e1a55913e53bdd76afe91d47ea677a42a",
+    "trials/lora/checkpoints/final/training_state.pt": "a11ed9aaf4cbb708b2608bccb0193c2e8aad6b00d0fcef656b9ac86a63b71836",
+    "trials/lora/training_summary.json": "1546685ba5fa166156993669a56580fd6604c15c852385eedbe32debe6ae256d",
+    "trials/qlora/checkpoints/final/adapter/README.md": "0ee22398b79f25d6b4e3d92d3803c11932324057fc3e210e99c093a005b1ca17",
+    "trials/qlora/checkpoints/final/adapter/adapter_config.json": "1e02a09337d8bd797b2b38c0a22f2569af540603980f11de336d0e4e5e729c0d",
+    "trials/qlora/checkpoints/final/adapter/adapter_model.safetensors": "f88fddd2603f2e25279b66ec1233288c53c4d0ade475b256591f7521e099b9e1",
+    "trials/qlora/checkpoints/final/hashes.json": "27c9d454a31eb61f33716894c9564426bdda74e65ff359ad41acc4ddfbac9bb7",
+    "trials/qlora/checkpoints/final/progress.json": "e8dccb50764d2f5e12f334600d39f92614915e331c748a321196db61d2b7e5fd",
+    "trials/qlora/checkpoints/final/training_state.pt": "1689f1ef570f615a536fcdd5ed603d114c7deac3758516d61767be70fa8e0807",
+    "trials/qlora/training_summary.json": "dc71e43007d40c64965f1eebf67a2ca41461a00469f8ffc8c7ff8b5f5cecae45"
+  },
+  "generation": {
+    "decoding": "Strip terminal EOS/PAD only; retain other special tokens; no text repair",
+    "do_sample": false,
+    "evaluation_batch_size": 32,
+    "inherited_configuration": {
+      "bos_token_id": 151643,
+      "do_sample": true,
+      "eos_token_id": [
+        151645,
+        151643
+      ],
+      "pad_token_id": 151643,
+      "repetition_penalty": 1.1,
+      "temperature": 0.7,
+      "top_k": 20,
+      "top_p": 0.8,
+      "transformers_version": "4.37.0"
+    },
+    "max_new_tokens": 256,
+    "num_beams": 1,
+    "padding": "Left-padded prompts with explicit attention masks",
+    "terminal_token_policy": "Saved tokenizer eos_token_id and pad_token_id",
+    "use_cache": true
+  },
+  "model_revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "preset": "full",
+  "primary_checkpoint": "final",
+  "protocol_hash": "aefee7abfcf195419f56120d8f79387213ddd4d566cea7f638b68addf32369b8",
+  "schema_version": 1,
+  "systems": [
+    "base",
+    "quantized_base",
+    "lora",
+    "qlora"
+  ],
+  "training": {
+    "lora": {
+      "epochs_completed": 5,
+      "final_checkpoint": "trials/lora/checkpoints/final",
+      "optimizer_updates": 3600,
+      "target_tokens_seen": 1172405
+    },
+    "qlora": {
+      "epochs_completed": 5,
+      "final_checkpoint": "trials/qlora/checkpoints/final",
+      "optimizer_updates": 3600,
+      "target_tokens_seen": 1172405
+    }
+  }
+}

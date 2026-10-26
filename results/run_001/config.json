@@ -1,0 +1,49 @@
+{
+  "adam_betas": [
+    0.9,
+    0.999
+  ],
+  "adam_epsilon": 1e-08,
+  "answer_only_logits": true,
+  "benchmark_repetitions": 3,
+  "benchmark_requests": 100,
+  "benchmark_warmup": 5,
+  "checkpoint_interval": 50,
+  "dataset_url": "https://amazon-massive-nlu-dataset.s3.amazonaws.com/amazon-massive-dataset-1.1.tar.gz",
+  "epochs": 5,
+  "evaluation_batch_size": 32,
+  "expected_split_counts": [
+    11514,
+    2033,
+    2974
+  ],
+  "gradient_accumulation": 1,
+  "gradient_clip": 1.0,
+  "learning_rate": 0.0002,
+  "locale": "en-US",
+  "lora_alpha": 32,
+  "lora_dropout": 0.05,
+  "lora_rank": 16,
+  "max_new_tokens": 256,
+  "max_sequence_length": 2048,
+  "microbatch_size": 16,
+  "model_id": "Qwen/Qwen2.5-1.5B-Instruct",
+  "model_revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "preset": "full",
+  "protocol_version": "1.0",
+  "seed": 2027,
+  "target_modules": [
+    "q_proj",
+    "k_proj",
+    "v_proj",
+    "o_proj",
+    "gate_proj",
+    "up_proj",
+    "down_proj"
+  ],
+  "telemetry_interval_seconds": 0.1,
+  "train_example_limit": null,
+  "validation_example_limit": null,
+  "warmup_ratio": 0.03,
+  "weight_decay": 0.0
+}

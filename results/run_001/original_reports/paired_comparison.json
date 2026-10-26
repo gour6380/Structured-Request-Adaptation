@@ -1,0 +1,55 @@
+{
+  "memory": {
+    "training/cuda_allocated_bytes": {
+      "lora": 7560002560,
+      "qlora": 6124876288,
+      "qlora_minus_lora_bytes": -1435126272,
+      "relative_reduction": 0.18983145317876718
+    },
+    "training/cuda_reserved_bytes": {
+      "lora": 12855541760,
+      "qlora": 21632122880,
+      "qlora_minus_lora_bytes": 8776581120,
+      "relative_reduction": -0.6827079934747146
+    },
+    "training/rss_bytes": {
+      "lora": 3149119488,
+      "qlora": 3027161088,
+      "qlora_minus_lora_bytes": -121958400,
+      "relative_reduction": 0.038727777864489846
+    },
+    "warm_inference/cuda_allocated_bytes": {
+      "lora": 3710695424,
+      "qlora": 2193467904,
+      "qlora_minus_lora_bytes": -1517227520,
+      "relative_reduction": 0.40887956208609594
+    },
+    "warm_inference/cuda_reserved_bytes": {
+      "lora": 4192206848,
+      "qlora": 2680160256,
+      "qlora_minus_lora_bytes": -1512046592,
+      "relative_reduction": 0.36068034017008505
+    },
+    "warm_inference/rss_bytes": {
+      "lora": 1929588736,
+      "qlora": 1961549824,
+      "qlora_minus_lora_bytes": 31961088,
+      "relative_reduction": -0.016563678779683757
+    }
+  },
+  "quality": {
+    "answer_token_nll": 0.002171886084877603,
+    "intent_accuracy": -0.00672494956287828,
+    "intent_macro_f1": -0.0020272290435772167,
+    "joint_exact_match": -0.00403496973772699,
+    "schema_valid_rate": 0.0010087424344317197,
+    "slot_f1": 4.3016303178933235e-05
+  },
+  "runtime": {
+    "generated_tokens_per_second": -5.612456223806046,
+    "median_seconds": 0.356441140640527,
+    "p95_seconds": 0.7476169613888493,
+    "training_seconds": 2431.7920044376515,
+    "wall_seconds": 2985.7346702190116
+  }
+}

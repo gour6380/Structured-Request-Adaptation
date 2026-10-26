@@ -1,0 +1,93 @@
+{
+  "chat_template_sha256": "2e2d2512cfe46af53dc1eed45368ecaab26ac4461c480e6b69fe571cf0ceaa75",
+  "files": {
+    "system_prompt.txt": "9cfe76850ba900ad788665e4ae4fc54a1603fc8e0c2d221c0d6d94b96424ff96",
+    "tokenized_test.jsonl": "aa6e369ee305677968e9060fa4bacadba48fd07edae05368a8ed42b58df56b8b",
+    "tokenized_train.jsonl": "4edb21ad2b3ad9d9f28ad005805c00f6c2eb3f700db7d0fbedbc153cefde4a30",
+    "tokenized_validation.jsonl": "134225d635010c2920616e86d7a6eb9272bfcd1bc29ce111819de6ad2d2d39d0"
+  },
+  "loss_mask": "Assistant JSON and EOS only; prompt/padding/template whitespace ignored",
+  "max_new_tokens": 256,
+  "max_sequence_length": 2048,
+  "splits": {
+    "test": {
+      "examples": 2974,
+      "full_tokens": {
+        "max": 604,
+        "mean": 544.4102219233356,
+        "median": 543,
+        "min": 528,
+        "p95": 564
+      },
+      "prompt_tokens": {
+        "max": 577,
+        "mean": 523.3688634835239,
+        "median": 523,
+        "min": 517,
+        "p95": 530
+      },
+      "target_tokens": {
+        "max": 65,
+        "mean": 20.041358439811702,
+        "median": 20,
+        "min": 10,
+        "p95": 36
+      },
+      "total_input_tokens": 1619076,
+      "total_target_tokens": 59603
+    },
+    "train": {
+      "examples": 11514,
+      "full_tokens": {
+        "max": 639,
+        "mean": 544.8496612819176,
+        "median": 543,
+        "min": 528,
+        "p95": 567
+      },
+      "prompt_tokens": {
+        "max": 554,
+        "mean": 523.4848011116901,
+        "median": 523,
+        "min": 517,
+        "p95": 530
+      },
+      "target_tokens": {
+        "max": 84,
+        "mean": 20.364860170227548,
+        "median": 20,
+        "min": 10,
+        "p95": 38
+      },
+      "total_input_tokens": 6273399,
+      "total_target_tokens": 234481
+    },
+    "validation": {
+      "examples": 2033,
+      "full_tokens": {
+        "max": 598,
+        "mean": 544.7634038366946,
+        "median": 544,
+        "min": 528,
+        "p95": 565
+      },
+      "prompt_tokens": {
+        "max": 545,
+        "mean": 523.4048204623709,
+        "median": 523,
+        "min": 517,
+        "p95": 530
+      },
+      "target_tokens": {
+        "max": 61,
+        "mean": 20.35858337432366,
+        "median": 20,
+        "min": 10,
+        "p95": 37
+      },
+      "total_input_tokens": 1107504,
+      "total_target_tokens": 41389
+    }
+  },
+  "truncation": false
+}
