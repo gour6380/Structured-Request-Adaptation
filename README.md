@@ -2,23 +2,20 @@
 
 [GitHub repository](https://github.com/gour6380/Structured-Request-Adaptation) ·
 [Technical report](results/run_001/report.md) ·
-[Saved evidence](results/run_001/README.md) ·
-[Verification](verification/checks.md)
+[Saved results](results/run_001/README.md)
 
-A notebook-driven comparison of **LoRA and NF4 QLoRA** on
-**Qwen2.5-1.5B-Instruct**, converting English requests into structured JSON:
+I built this project to compare **LoRA and NF4 QLoRA** on
+**Qwen2.5-1.5B-Instruct** for converting English requests into structured JSON:
 
 ```json
 {"intent":"alarm_set","slots":[{"type":"time","value":"seven am"}]}
 ```
 
-Start with the [measured comparison](results/run_001/report.md). The
-[executed notebook](notebooks/lora_qlora.ipynb) retains the original code,
-outputs and execution counts from the completed run. Viewing it does not require
-installing dependencies or renting a GPU. It contains substantial text output;
-the report provides a shorter route through the results and figures.
+The [notebook](notebooks/lora_qlora.ipynb) includes the completed run's outputs.
+Start with the [report](results/run_001/report.md) for the results and figures.
+You can read both without installing anything or using a GPU.
 
-The recorded run used two NVIDIA A40 GPUs, Python **3.12.3**, PyTorch
+I ran the comparison on two NVIDIA A40 GPUs with Python **3.12.3**, PyTorch
 **2.8.0+cu128**, BF16 computation and one paired seed, **2027**. Both training arms
 completed five epochs over 11,514 examples, with microbatch **16**, accumulation
 **1**, evaluation batch **32** and **3,600 optimizer updates** each.
@@ -208,8 +205,7 @@ The saved notebook shows the **completed full protocol**: five epochs, all
 **11,514 training / 2,033 validation / 2,974 test** requests and seed **2027**.
 Each full training arm performs **3,600 optimizer updates**. Follow the quick-test
 configuration above for development; development runs cannot evaluate the
-official test set. Later saved cells have outputs with unset execution counters;
-the committed worker results and artifact audit establish their completion.
+official test set.
 
 The pilot uses disposable adapters, up to two warmup updates plus twenty measured
 updates and up to 32 validation requests. It preserves initial adapters and main
@@ -270,7 +266,7 @@ notebooks/lora_qlora.ipynb    executed notebook with preserved measured outputs
 tests/                       bounded correctness and orchestration checks
 requirements.txt             direct dependencies and platform markers
 README.md                    setup, protocol and recovery
-verification/                dated local checks and saved-run audit
+verification/                test and integrity-check records
 results/run_001/              public report, figures and compact derived evidence
 LICENSE, NOTICE.md, licenses/ project license and third-party attribution
 data/massive-1.1/en-US/       shared archive, JSONL, license and checksums
@@ -297,9 +293,8 @@ The recorded `run_001` has an immutable source snapshot from before publication
 utilities were added. Do not reopen it through the changed current source or
 rewrite its identity hashes. A genuine resume requires its original source,
 recorded dependencies and complete local artifacts. Read or export its saved
-evidence offline as described below instead. The original notebook snapshot
-contains the unsaved development template; `config.json`, final counters and the
-executed notebook establish that the measured experiment used the full settings.
+results offline as described below instead. The run's `config.json` records the
+settings used for the experiment.
 
 Checkpoints commit atomically every 50 optimizer updates, at epoch boundaries and
 at completion. They include adapter weights, optimizer/scheduler/scaler state,
@@ -369,26 +364,28 @@ the current experiment source. Verification of the published bundle does not
 require the excluded model files. See the report for source paths and the scope
 of the recorded audit.
 
-## Verification and limitations
+## Tests
 
-The [26 October submission check](verification/submission-readiness-2026-10-26.json)
-reverified saved evidence, standalone Git inclusion, and documentation links.
-The **371 passed / 2 skipped** test result is from **30 September**, not a new
-test run. See [`verification/checks.md`](verification/checks.md) for dated scope.
-After installing dependencies, run bounded tests with `python -m pytest tests`.
-Tests use fixtures
-and tiny CPU models. The completed A40 run separately provides full-model CUDA
-execution evidence for its recorded environment, not for every supported device.
-Preflight and the pilot remain necessary for a new setup. Successful checkpoint
-saves and local recovery tests do not demonstrate that this remote run actually
-recovered from a mid-training interruption.
+After installing the dependencies, run the test suite from the project directory:
 
-A single paired seed supports a measured case study, not a claim of general
-superiority or training-seed stability. Concurrent timings may include shared-host
-contention. Memory values are maximum observed samples, not guaranteed peaks.
-The quantized baseline's poor strict score largely reflects fenced output;
-the saved-prediction diagnosis is not a general assessment of NF4 or language
-understanding, and no additional model run was needed for that diagnosis.
+```sh
+python -m pytest tests
+```
+
+The tests cover data preparation, scoring, loss masking, checkpoint recovery,
+and worker scheduling.
+
+## Notes on the results
+
+I used one paired seed for this comparison. QLoRA used less observed allocated
+GPU memory, but took longer and reserved more memory during training. These
+measurements come from the two-A40 setup described above.
+
+The NF4 baseline often wrapped its JSON response in Markdown fences, which the
+strict scorer rejected. The [technical report](results/run_001/report.md)
+covers the measurements, failure examples, and limitations in more detail.
+
+## References and license
 
 This is a controlled adaptation of [LoRA](https://arxiv.org/abs/2106.09685),
 [QLoRA](https://arxiv.org/abs/2305.14314) and
